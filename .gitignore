@@ -1,0 +1,15 @@
+.ipynb_checkpoints
+*.log
+*.pyc
+outputs
+TargetChemicalModels
+.vscode
+*.sh
+analysisTools/
+results/
+*.ipynb
+results_tmp/
+results_tmp2/
+results_*/
+out/
+*.txt

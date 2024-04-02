@@ -1,0 +1,14 @@
+model_path: "./inputs/iML1515.xml"
+output_path: "./out"
+target_id: "CHEBI:58672"
+
+carbon_sources:
+  - "glc__D"
+  - "gal"
+  
+air_conditions:
+  - "aerobic"
+  - "microaerobic"
+  
+targeting_simulation:
+  - "FVSEOF"

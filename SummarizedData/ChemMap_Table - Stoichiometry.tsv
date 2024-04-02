@@ -1,0 +1,1221 @@
+RXN_ID	10512	None	None	None						
+Metabolite	CHEBI:15589	CHEBI:15379	CHEBI:16240	CHEBI:16452						
+Coefficient	-1	-1	1	1						
+RXN_ID	16846	None	None	None	None	None				
+Metabolite	CHEBI:57288	CHEBI:15377	CHEBI:16452	CHEBI:16947	CHEBI:57287	CHEBI:15378				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	11844	None	None	None						
+Metabolite	CHEBI:57288	CHEBI:15740	CHEBI:57287	CHEBI:15361						
+Coefficient	-1	-1	1	1						
+RXN_ID	45485	None	None	None						
+Metabolite	CHEBI:15378	CHEBI:15361	CHEBI:15343	CHEBI:16526						
+Coefficient	-1	-1	1	1						
+RXN_ID	25295	None	None	None	None	None				
+Metabolite	CHEBI:15343	CHEBI:15377	CHEBI:57540	CHEBI:30089	CHEBI:15378	CHEBI:57945				
+Coefficient	-1	-1	-1	1	2	1				
+RXN_ID	25299	None	None	None	None	None				
+Metabolite	CHEBI:15343	CHEBI:15377	CHEBI:58349	CHEBI:30089	CHEBI:15378	CHEBI:57783				
+Coefficient	-1	-1	-1	1	2	1				
+RXN_ID	25290	None	None	None	None					
+Metabolite	CHEBI:16236	CHEBI:57540	CHEBI:15343	CHEBI:15378	CHEBI:57945					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	19521	None	None	None						
+Metabolite	CHEBI:57288	CHEBI:43474	CHEBI:22191	CHEBI:57287						
+Coefficient	-1	-1	1	1						
+RXN_ID	11352	None	None	None						
+Metabolite	CHEBI:30089	CHEBI:30616	CHEBI:22191	CHEBI:456216						
+Coefficient	-1	-1	1	1						
+RXN_ID	21036	None	None							
+Metabolite	CHEBI:57288	CHEBI:57286	CHEBI:57287							
+Coefficient	-2	1	1							
+RXN_ID	30799	None	None	None	None					
+Metabolite	CHEBI:57316	CHEBI:57540	CHEBI:57286	CHEBI:15378	CHEBI:57945					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	45798	None	None	None	None					
+Metabolite	CHEBI:57286	CHEBI:15378	CHEBI:57783	CHEBI:57315	CHEBI:58349					
+Coefficient	-1	-1	-1	1	1					
+RXN_ID	26561	None	None							
+Metabolite	CHEBI:57316	CHEBI:57332	CHEBI:15377							
+Coefficient	-1	1	1							
+RXN_ID	24004	None	None	None	None					
+Metabolite	CHEBI:57371	CHEBI:15378	CHEBI:57692	CHEBI:57332	CHEBI:58307					
+Coefficient	-1	-1	-1	1	1					
+RXN_ID	52574	None	None	None	None					
+Metabolite	CHEBI:57332	CHEBI:15378	CHEBI:57945	CHEBI:57371	CHEBI:57540					
+Coefficient	-1	-1	-1	1	1					
+RXN_ID	10228	None	None							
+Metabolite	CHEBI:16947	CHEBI:16383	CHEBI:15377							
+Coefficient	-1	1	1							
+RXN_ID	22144	None	None							
+Metabolite	CHEBI:16383	CHEBI:15377	CHEBI:16087							
+Coefficient	-1	-1	1							
+RXN_ID	30071	None	None	None						
+Metabolite	CHEBI:57288	CHEBI:17968	CHEBI:30089	CHEBI:57371						
+Coefficient	-1	-1	1	1						
+RXN_ID	19630	None	None	None	None					
+Metabolite	CHEBI:16087	CHEBI:58349	CHEBI:16810	CHEBI:16526	CHEBI:57783					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	27786	None	None	None	None	None				
+Metabolite	CHEBI:16810	CHEBI:57287	CHEBI:57540	CHEBI:16526	CHEBI:57945	CHEBI:57292				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	R3HBS	None	None	None	None					
+Metabolite	CHEBI:57315	CHEBI:15377	CHEBI:10983	CHEBI:15378	CHEBI:57287					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	26450	None	None	None	None	None				
+Metabolite	CHEBI:57287	CHEBI:58349	CHEBI:57706	CHEBI:15378	CHEBI:57783	CHEBI:57292				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	23948	None	None	None	None					
+Metabolite	CHEBI:16724	CHEBI:57540	CHEBI:15378	CHEBI:57945	CHEBI:57706					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	21792	None	None	None	None					
+Metabolite	CHEBI:58349	CHEBI:17824	CHEBI:15347	CHEBI:15378	CHEBI:57783					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	23131	None	None	None	None	None				
+Metabolite	CHEBI:16724	CHEBI:30616	CHEBI:57287	CHEBI:58574	CHEBI:456215	CHEBI:33019				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	4HBADR									
+Metabolite	CHEBI:58574	CHEBI:15378	CHEBI:57945	CHEBI:4HBAD	CHEBI:57540	CHEBI:57287				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	BUTAD	None	None	None	None	None				
+Metabolite	CHEBI:57371	CHEBI:57945	CHEBI:15378	CHEBI:57540	CHEBI:57287	CHEBI:28885				
+Coefficient	-1	-1	1	1	1	1				
+RXN_ID	17661	None	None	None	None	None				
+Metabolite	CHEBI:30616	CHEBI:57287	CHEBI:30031	CHEBI:456216	CHEBI:43474	CHEBI:57292				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	14BDOR									
+Metabolite	CHEBI:4HBAD	CHEBI:15378	CHEBI:57945	CHEBI:14BDO	CHEBI:57540					
+Coefficient	-1	-1	-1	1	1					
+RXN_ID	29188	None	None	None						
+Metabolite	CHEBI:30031	CHEBI:61683	CHEBI:29806	CHEBI:61682						
+Coefficient	-1	-1	1	1						
+RXN_ID	18283	None	None	None	None					
+Metabolite	CHEBI:29806	CHEBI:15378	CHEBI:57945	CHEBI:57540	CHEBI:30031					
+Coefficient	-1	-1	-1	1	1					
+RXN_ID	29216	None	None	None						
+Metabolite	CHEBI:29806	CHEBI:61684	CHEBI:44027	CHEBI:30031						
+Coefficient	-1	-1	1	1						
+RXN_ID	12460	None	None							
+Metabolite	CHEBI:15589	CHEBI:29806	CHEBI:15377							
+Coefficient	-1	1	1	1						
+RXN_ID	BUTTE	None	None	None	None					
+Metabolite	CHEBI:78454	CHEBI:15377	CHEBI:17968	CHEBI:14405	CHEBI:15378					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	BCAR	None	None	None	None	None	None	None		
+Metabolite	CHEBI:17968	CHEBI:57783	CHEBI:15378	CHEBI:30616	CHEBI:58349	CHEBI:33019	CHEBI:456215	CHEBI:17769		
+Coefficient	-1	-1	-1	-1	1	1	1	1		
+RXN_ID	ADO	None	None	None	None	None	None	None		
+Metabolite	CHEBI:17769	CHEBI:57783	CHEBI:15379	CHEBI:15378	CHEBI:58349	CHEBI:15377	CHEBI:15740	CHEBI:32879		
+Coefficient	-1	-2	-1	-1	2	1	1	1		
+RXN_ID	BAAT	None	None	None						
+Metabolite	CHEBI:57371	CHEBI:16236	CHEBI:88764	CHEBI:57287						
+Coefficient	-1	-1	1	1						
+RXN_ID	12963	None	None	None						
+Metabolite	CHEBI:57286	CHEBI:17968	CHEBI:13705	CHEBI:57371						
+Coefficient	-1	-1	1	1						
+RXN_ID	27806	None	None	None						
+Metabolite	CHEBI:13705	CHEBI:57288	CHEBI:30089	CHEBI:57286						
+Coefficient	-1	-1	1	1						
+RXN_ID	19730	None	None	None						
+Metabolite	CHEBI:13705	CHEBI:15378	CHEBI:15347	CHEBI:16526						
+Coefficient	-1	-1	1	1						
+RXN_ID	GBLR									
+Metabolite	CHEBI:15379	CHEBI:58574	CHEBI:57945	CHEBI:15378	CHEBI:GBL	CHEBI:57540	CHEBI:57287	CHEBI:15377		
+Coefficient	-1	-1	-2	-2	1	2	1	2		
+RXN_ID	13245	None	None							
+Metabolite	CHEBI:16087	CHEBI:36655	CHEBI:30031							
+Coefficient	-1	1	1							
+RXN_ID	14837	None	None	None	None	None				
+Metabolite	CHEBI:36655	CHEBI:15377	CHEBI:15379	CHEBI:15378	CHEBI:16240	CHEBI:30623				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	25311	None	None	None						
+Metabolite	CHEBI:29805	CHEBI:15379	CHEBI:36655	CHEBI:16240						
+Coefficient	-1	-1	1	1						
+RXN_ID	20001	None	None	None	None	None				
+Metabolite	CHEBI:17071	CHEBI:15377	CHEBI:57540	CHEBI:29805	CHEBI:15378	CHEBI:57945				
+Coefficient	-1	-1	-1	1	2	1				
+RXN_ID	27630	None	None	None	None					
+Metabolite	CHEBI:30742	CHEBI:57540	CHEBI:17071	CHEBI:15378	CHEBI:57945					
+Coefficient	1	1	-1	-1	-1					
+RXN_ID	ADHBC	None	None	None	None	None				
+Metabolite	CHEBI:57315	CHEBI:57945	CHEBI:15378	CHEBI:57287	CHEBI:57540	CHEBI:R3HBC				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	ADHBDO	None	None	None	None	None				
+Metabolite	CHEBI:R3HBC	CHEBI:57945	CHEBI:15378	CHEBI:15378	CHEBI:57540	CHEBI:R13BDO				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	49592	None								
+Metabolite	CHEBI:131780	CHEBI:57316								
+Coefficient	-1	1								
+RXN_ID	15255	None	None	None						
+Metabolite	CHEBI:16526	CHEBI:17240	CHEBI:16383	CHEBI:15378						
+Coefficient	-1	-1	1	1						
+RXN_ID	HIBACL	None	None	None						
+Metabolite	CHEBI:131780	CHEBI:15377	CHEBI:19641	CHEBI:57287						
+Coefficient	-1	-2	1	1						
+RXN_ID	11614	None	None	None	None	None	None			
+Metabolite	CHEBI:16810	CHEBI:15378	CHEBI:57783	CHEBI:28938	CHEBI:15377	CHEBI:29985	CHEBI:58349			
+Coefficient	-1	-1	-1	-1	1	1	1			
+RXN_ID	17786	None	None	None						
+Metabolite	CHEBI:15378	CHEBI:29985	CHEBI:59888	CHEBI:16526						
+Coefficient	-1	-1	1	1						
+RXN_ID	31111	None	None	None						
+Metabolite	CHEBI:57288	CHEBI:57371	CHEBI:62418	CHEBI:57287						
+Coefficient	-1	-1	1	1						
+RXN_ID	31143	None	None	None	None					
+Metabolite	CHEBI:62075	CHEBI:57540	CHEBI:62418	CHEBI:15378	CHEBI:57945					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	30547	None	None							
+Metabolite	CHEBI:62075	CHEBI:62077	CHEBI:15377							
+Coefficient	-1	1	1							
+RXN_ID	52578	None	None	None	None					
+Metabolite	CHEBI:62077	CHEBI:15378	CHEBI:57945	CHEBI:62620	CHEBI:57540					
+Coefficient	-1	-1	-1	1	1					
+RXN_ID	HXCT	None	None	None						
+Metabolite	CHEBI:62620	CHEBI:30089	CHEBI:57288	CHEBI:17120						
+Coefficient	-1	-1	1	1						
+RXN_ID	OXCT	None	None	None						
+Metabolite	CHEBI:57386	CHEBI:30089	CHEBI:57288	CHEBI:25646						
+Coefficient	-1	-1	1	1						
+RXN_ID	31199	None	None							
+Metabolite	CHEBI:62617	CHEBI:62242	CHEBI:15377							
+Coefficient	-1	1	1							
+RXN_ID	48180	None	None	None	None					
+Metabolite	CHEBI:15378	CHEBI:57386	CHEBI:57692	CHEBI:62242	CHEBI:58307					
+Coefficient	-1	-1	-1	1	1					
+RXN_ID	31195	None	None	None	None					
+Metabolite	CHEBI:62617	CHEBI:57540	CHEBI:62619	CHEBI:15378	CHEBI:57945					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	31203	None	None	None						
+Metabolite	CHEBI:57288	CHEBI:62620	CHEBI:62619	CHEBI:57287						
+Coefficient	-1	-1	1	1						
+RXN_ID	ALDDNADP	None	None	None	None	None	None	None		
+Metabolite	CHEBI:17120	CHEBI:57783	CHEBI:15378	CHEBI:30616	CHEBI:88528	CHEBI:58349	CHEBI:33019	CHEBI:456215		
+Coefficient	-1	-1	-1	-1	1	1	1	1		
+RXN_ID	ADCN	None	None	None	None	None	None	None		
+Metabolite	CHEBI:88528	CHEBI:57783	CHEBI:15378	CHEBI:15379	CHEBI:37830	CHEBI:15740	CHEBI:58349	CHEBI:15377		
+Coefficient	-1	-2	-1	-1	1	1	2	1		
+RXN_ID	59569	None	None	None	None	None	None			
+Metabolite	CHEBI:59888	CHEBI:30616	CHEBI:57595	CHEBI:456216	CHEBI:15378	CHEBI:143075	CHEBI:43474			
+Coefficient	-1	-1	-1	1	1	1	1			
+RXN_ID	10189	None	None	None	None	None				
+Metabolite	CHEBI:57286	CHEBI:57288	CHEBI:15377	CHEBI:43074	CHEBI:57287	CHEBI:15378				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	15991	None	None	None	None	None				
+Metabolite	CHEBI:43074	CHEBI:15378	CHEBI:57783	CHEBI:36464	CHEBI:57287	CHEBI:58349				
+Coefficient	-1	-2	-2	1	1	2				
+RXN_ID	17066	None	None	None	None					
+Metabolite	CHEBI:36464	CHEBI:30616	CHEBI:58146	CHEBI:456216	CHEBI:15378					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	16342	None	None	None						
+Metabolite	CHEBI:58146	CHEBI:30616	CHEBI:57557	CHEBI:456216						
+Coefficient	-1	-1	1	1						
+RXN_ID	23733	None	None	None	None	None				
+Metabolite	CHEBI:57557	CHEBI:30616	CHEBI:456216	CHEBI:16526	CHEBI:128769	CHEBI:43474				
+Coefficient	-1	-1	1	1	1	1				
+RXN_ID	23284	None								
+Metabolite	CHEBI:128769	CHEBI:57623								
+Coefficient	-1	1								
+RXN_ID	13370	None	None							
+Metabolite	CHEBI:57623	CHEBI:33019	CHEBI:35194							
+Coefficient	-1	1	1							
+RXN_ID	19501	None	None	None						
+Metabolite	CHEBI:57486	CHEBI:15377	CHEBI:59888	CHEBI:16199						
+Coefficient	-1	-1	1	1						
+RXN_ID	ACT	None	None	None						
+Metabolite	CHEBI:59888	CHEBI:57288	CHEBI:57352	CHEBI:30089						
+Coefficient	-1	-1	1	1						
+RXN_ID	NUDF1	None	None	None	None					
+Metabolite	CHEBI:128769	CHEBI:15377	CHEBI:65078	CHEBI:15378	CHEBI:43474					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	NUDF2	None	None	None	None					
+Metabolite	CHEBI:65078	CHEBI:15377	CHEBI:62898	CHEBI:15378	CHEBI:43474					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	22409	None	None	None						
+Metabolite	CHEBI:57623	CHEBI:128769	CHEBI:58057	CHEBI:33019						
+Coefficient	-1	-1	1	1						
+RXN_ID	32680	None	None	None						
+Metabolite	CHEBI:58057	CHEBI:15377	CHEBI:33019	CHEBI:17447						
+Coefficient	-1	-1	1	1						
+RXN_ID	19362	None	None	None						
+Metabolite	CHEBI:58057	CHEBI:128769	CHEBI:175763	CHEBI:33019						
+Coefficient	-1	-1	1	1						
+RXN_ID	27527	None	None	None						
+Metabolite	CHEBI:175763	CHEBI:15377	CHEBI:16619	CHEBI:33019						
+Coefficient	-1	-1	1	1						
+RXN_ID	17654	None	None	None						
+Metabolite	CHEBI:175763	CHEBI:128769	CHEBI:58756	CHEBI:33019						
+Coefficient	-1	-1	1	1						
+RXN_ID	26237	None	None	None						
+Metabolite	CHEBI:58756	CHEBI:15377	CHEBI:46762	CHEBI:33019						
+Coefficient	-1	-1	1	1						
+RXN_ID	25489	None	None							
+Metabolite	CHEBI:58057	CHEBI:28660	CHEBI:33019							
+Coefficient	-1	1	1							
+RXN_ID	32548	None	None							
+Metabolite	CHEBI:58057	CHEBI:50029	CHEBI:33019							
+Coefficient	-1	1	1							
+RXN_ID	16966	None	None							
+Metabolite	CHEBI:58057	CHEBI:17221	CHEBI:33019							
+Coefficient	-1	1	1							
+RXN_ID	12870	None	None							
+Metabolite	CHEBI:58057	CHEBI:15383	CHEBI:33019							
+Coefficient	-1	1	1							
+RXN_ID	27426	None	None							
+Metabolite	CHEBI:175763	CHEBI:10418	CHEBI:33019							
+Coefficient	-1	1	1							
+RXN_ID	27422	None	None							
+Metabolite	CHEBI:175763	CHEBI:10280	CHEBI:33019							
+Coefficient	-1	1	1							
+RXN_ID	31436	None	None							
+Metabolite	CHEBI:175763	CHEBI:61677	CHEBI:33019							
+Coefficient	-1	1	1							
+RXN_ID	25437	None	None							
+Metabolite	CHEBI:175763	CHEBI:49243	CHEBI:33019							
+Coefficient	-1	1	1							
+RXN_ID	34476	None	None							
+Metabolite	CHEBI:58756	CHEBI:27787	CHEBI:33019							
+Coefficient	-2	1	2							
+RXN_ID	PHYDS	None	None	None						
+Metabolite	CHEBI:27787	CHEBI:58349	CHEBI:15948	CHEBI:57783						
+Coefficient	-1	-4	1	4						
+RXN_ID	32219	None								
+Metabolite	CHEBI:15948	CHEBI:27740								
+Coefficient	-1	1								
+RXN_ID	32239	None								
+Metabolite	CHEBI:27740	CHEBI:17579								
+Coefficient	-1	1								
+RXN_ID	BCAROX1	None	None	None	None	None				
+Metabolite	CHEBI:17579	CHEBI:57783	CHEBI:15379	CHEBI:10362	CHEBI:58349	CHEBI:15377				
+Coefficient	-1	-2	-1	1	2	1				
+RXN_ID	BCAROX2	None	None	None	None	None				
+Metabolite	CHEBI:10362	CHEBI:57783	CHEBI:15379	CHEBI:27547	CHEBI:58349	CHEBI:15377				
+Coefficient	-1	-2	-1	1	2	1				
+RXN_ID	BCAROKT1	None	None	None	None	None				
+Metabolite	CHEBI:17579	CHEBI:57783	CHEBI:15379	CHEBI:4746	CHEBI:58349	CHEBI:15377				
+Coefficient	-1	-2	-2	1	2	3				
+RXN_ID	BCAROKT2	None	None	None	None	None				
+Metabolite	CHEBI:4746	CHEBI:57783	CHEBI:15379	CHEBI:3362	CHEBI:58349	CHEBI:15377				
+Coefficient	-1	-2	-1	1	2	3				
+RXN_ID	ZX4KT1	None	None	None	None	None				
+Metabolite	CHEBI:27547	CHEBI:57783	CHEBI:15379	CHEBI:80217	CHEBI:58349	CHEBI:15377				
+Coefficient	-1	-2	-2	1	2	3				
+RXN_ID	ZX4KT2	None	None	None	None	None				
+Metabolite	CHEBI:80217	CHEBI:57783	CHEBI:15379	CHEBI:40968	CHEBI:58349	CHEBI:15377				
+Coefficient	-1	-2	-1	1	2	3				
+RXN_ID	18326	None	None							
+Metabolite	CHEBI:175763	CHEBI:52026	CHEBI:33019							
+Coefficient	-1	1	1							
+RXN_ID	33000	None	None	None	None	None	None			
+Metabolite	CHEBI:52026	CHEBI:15379	CHEBI:57618	CHEBI:64782	CHEBI:15378	CHEBI:15377	CHEBI:58210			
+Coefficient	-1	-3	-3	1	4	4	3			
+RXN_ID	OHACT4	None	None	None						
+Metabolite	CHEBI:57288	CHEBI:46645	CHEBI:50569	CHEBI:57287						
+Coefficient	-1	-1	1	1						
+RXN_ID	OHACT2	None	None	None						
+Metabolite	CHEBI:57288	CHEBI:15837	CHEBI:31725	CHEBI:57287						
+Coefficient	-1	-1	1	1						
+RXN_ID	11309	None	None	None	None	None	None			
+Metabolite	CHEBI:57288	CHEBI:30616	CHEBI:17544	CHEBI:456216	CHEBI:15378	CHEBI:57384	CHEBI:43474			
+Coefficient	-1	-1	-1	1	1	1	1			
+RXN_ID	10242	None	None	None	None					
+Metabolite	CHEBI:78784	CHEBI:15378	CHEBI:57945	CHEBI:78785	CHEBI:57540					
+Coefficient	-1	-1	-1	1	1					
+RXN_ID	31523	None	None	None	None	None				
+Metabolite	CHEBI:16810	CHEBI:15378	CHEBI:15379	CHEBI:16526	CHEBI:18153	CHEBI:15377				
+Coefficient	-1	-2	-1	3	1	1				
+RXN_ID	13398	None	None	None	None	None				
+Metabolite	CHEBI:18322	CHEBI:15377	CHEBI:58349	CHEBI:15378	CHEBI:17128	CHEBI:57783				
+Coefficient	-1	-1	-1	2	1	1				
+RXN_ID	14226	None	None	None	None					
+Metabolite	CHEBI:32383	CHEBI:57540	CHEBI:18322	CHEBI:15378	CHEBI:57945					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	ALKBGT	None	None	None	None	None	None			
+Metabolite	CHEBI:17120	CHEBI:57945	CHEBI:15378	CHEBI:15379	CHEBI:32383	CHEBI:15377	CHEBI:57540			
+Coefficient	-1	-1	-1	-1	1	1	1			
+RXN_ID	40116	None	None	None	None					
+Metabolite	CHEBI:15377	CHEBI:62620	CHEBI:57287	CHEBI:15378	CHEBI:17120					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	18181	None	None	None	None	None				
+Metabolite	CHEBI:57288	CHEBI:36655	CHEBI:15377	CHEBI:15589	CHEBI:57287	CHEBI:15378				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	26193	None	None	None	None	None				
+Metabolite	CHEBI:15589	CHEBI:30616	CHEBI:57287	CHEBI:57317	CHEBI:456216	CHEBI:43474				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	MalSAR	None	None	None	None	None				
+Metabolite	CHEBI:57317	CHEBI:57945	CHEBI:15378	CHEBI:MalSA	CHEBI:57287	CHEBI:57540				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	DHBR	None	None	None	None					
+Metabolite	CHEBI:MalSA	CHEBI:57945	CHEBI:15378	CHEBI:DHB	CHEBI:57540					
+Coefficient	-1	-1	-1	1	1					
+RXN_ID	DHBCoR	None	None	None	None	None				
+Metabolite	CHEBI:DHB	CHEBI:30616	CHEBI:57287	CHEBI:DHBCoA	CHEBI:456215	CHEBI:33019				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	DHBAR	None	None	None	None					
+Metabolite	CHEBI:DHBCoA	CHEBI:57945	CHEBI:15378	CHEBI:DHBA	CHEBI:57287	CHEBI:57540				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	BTER	None	None	None	None					
+Metabolite	CHEBI:DHBA	CHEBI:57945	CHEBI:15378	CHEBI:88063	CHEBI:57540					
+Coefficient	-1	-1	-1	1	1					
+RXN_ID	LEVR	None	None	None	None	None				
+Metabolite	CHEBI:57288	CHEBI:57292	CHEBI:15377	CHEBI:39150	CHEBI:57287	CHEBI:16526				
+Coefficient	-1	-1	-1	1	2	1				
+RXN_ID	HHAR	None	None	None	None	None	None	None	None	
+Metabolite	CHEBI:57288	CHEBI:57292	CHEBI:57540	CHEBI:15377	CHEBI:57945	CHEBI:57287	CHEBI:16526	CHEBI:15378	CHEBI:32383	
+Coefficient	-1	-1	-1	-2	1	2	1	1	1	
+RXN_ID	ADPR	None	None	None	None	None	None			
+Metabolite	CHEBI:57288	CHEBI:57292	CHEBI:57945	CHEBI:17128	CHEBI:57540	CHEBI:57287	CHEBI:15378			
+Coefficient	-1	-1	-2	1	2	2	-1			
+RXN_ID	HBAR	None	None	None	None	None	None	None		
+Metabolite	CHEBI:57288	CHEBI:29805	CHEBI:57945	CHEBI:15378	CHEBI:HBA	CHEBI:57540	CHEBI:57287	CHEBI:15377		
+Coefficient	-1	-1	-1	-2	1	1	1	1		
+RXN_ID	SD3OPN	None	None	None						
+Metabolite	CHEBI:20177	CHEBI:15378	CHEBI:28398	CHEBI:16526						
+Coefficient	-1	-1	1	1						
+RXN_ID	41788	None	None	None						
+Metabolite	CHEBI:57288	CHEBI:64479	CHEBI:78446	CHEBI:57287						
+Coefficient	-1	-1	1	1						
+RXN_ID	PKS3OPN	None	None	None	None	None				
+Metabolite	CHEBI:57392	CHEBI:57384	CHEBI:15377	CHEBI:20177	CHEBI:57287	CHEBI:16526				
+Coefficient	-1	-1	-1	1	2	1				
+RXN_ID	23720	None	None	None	None	None	None			
+Metabolite	CHEBI:30616	CHEBI:17544	CHEBI:57392	CHEBI:57327	CHEBI:456216	CHEBI:15378	CHEBI:43474			
+Coefficient	-1	-1	-1	1	1	1	1			
+RXN_ID	PKS3MOPN	None	None	None	None	None	None			
+Metabolite	CHEBI:57392	CHEBI:57327	CHEBI:15377	CHEBI:15378	CHEBI:87755	CHEBI:57287	CHEBI:16526			
+Coefficient	-1	-1	-1	-1	1	2	2			
+RXN_ID	26438	None	None	None	None					
+Metabolite	CHEBI:16510	CHEBI:58349	CHEBI:33190	CHEBI:15378	CHEBI:57783					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	26440	None	None	None	None	None				
+Metabolite	CHEBI:33190	CHEBI:15378	CHEBI:57783	CHEBI:16510	CHEBI:58349	CHEBI:57783				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	35602	None	None	None	None					
+Metabolite	CHEBI:58349	CHEBI:16109	CHEBI:17871	CHEBI:15378	CHEBI:57783					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	19766	None	None							
+Metabolite	CHEBI:17754	CHEBI:17871	CHEBI:15377							
+Coefficient	-1	1	1							
+RXN_ID	21824	None	None	None						
+Metabolite	CHEBI:16810	CHEBI:29991	CHEBI:29985	CHEBI:16452						
+Coefficient	-1	-1	1	1						
+RXN_ID	19498	None	None	None						
+Metabolite	CHEBI:15378	CHEBI:29991	CHEBI:57966	CHEBI:16526						
+Coefficient	-1	-1	1	1						
+RXN_ID	14077	None	None	None						
+Metabolite	CHEBI:33190	CHEBI:57972	CHEBI:57966	CHEBI:15361						
+Coefficient	-1	-1	1	1						
+RXN_ID	20045	None	None	None	None	None				
+Metabolite	CHEBI:33190	CHEBI:15377	CHEBI:57540	CHEBI:15378	CHEBI:15792	CHEBI:57945				
+Coefficient	-1	-1	-1	2	1	1				
+RXN_ID	26438	None	None	None	None					
+Metabolite	CHEBI:16510	CHEBI:58349	CHEBI:33190	CHEBI:15378	CHEBI:57783					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	24284	None	None	None	None	None				
+Metabolite	CHEBI:537519	CHEBI:58349	CHEBI:43474	CHEBI:57535	CHEBI:15378	CHEBI:57783				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	23776	None	None	None						
+Metabolite	CHEBI:30616	CHEBI:29991	CHEBI:57535	CHEBI:456216						
+Coefficient	-1	-1	1	1						
+RXN_ID	15761	None	None	None	None					
+Metabolite	CHEBI:57476	CHEBI:58349	CHEBI:15378	CHEBI:537519	CHEBI:57783					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	11160	None	None	None						
+Metabolite	CHEBI:16810	CHEBI:58761	CHEBI:537519	CHEBI:29985						
+Coefficient	-1	-1	1	1						
+RXN_ID	15690	None	None	None						
+Metabolite	CHEBI:15378	CHEBI:58761	CHEBI:16526	CHEBI:57484						
+Coefficient	-1	-1	1	1						
+RXN_ID	13986	None	None	None	None					
+Metabolite	CHEBI:30616	CHEBI:57476	CHEBI:456216	CHEBI:15378	CHEBI:57590					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	10841	None	None	None						
+Metabolite	CHEBI:15377	CHEBI:57590	CHEBI:57926	CHEBI:43474						
+Coefficient	-1	-1	1	1						
+RXN_ID	22109	None	None							
+Metabolite	CHEBI:57926	CHEBI:16763	CHEBI:28938							
+Coefficient	-1	1	1							
+RXN_ID	EGDH	None	None	None	None	None	None			
+Metabolite	CHEBI:16763	CHEBI:15378	CHEBI:57783	CHEBI:28938	CHEBI:15377	CHEBI:LHMA	CHEBI:58349			
+Coefficient	-1	-1	-1	-1	1	1	1			
+RXN_ID	28054	None	None	None						
+Metabolite	CHEBI:16763	CHEBI:57287	CHEBI:15740	CHEBI:57392						
+Coefficient	-1	-1	1	1						
+RXN_ID	27655	None	None	None	None					
+Metabolite	CHEBI:16763	CHEBI:15378	CHEBI:15361	CHEBI:49256	CHEBI:16526					
+Coefficient	-1	-1	-1	1	1					
+RXN_ID	13493	None	None	None	None					
+Metabolite	CHEBI:49258	CHEBI:58349	CHEBI:49256	CHEBI:15378	CHEBI:57783					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	27695	None	None							
+Metabolite	CHEBI:49258	CHEBI:35146	CHEBI:15377							
+Coefficient	-1	1	1							
+RXN_ID	24801	None	None	None						
+Metabolite	CHEBI:16810	CHEBI:58045	CHEBI:35146	CHEBI:29985						
+Coefficient	-1	-1	1	1						
+RXN_ID	50706	None	None	None	None					
+Metabolite	CHEBI:17153	CHEBI:15378	CHEBI:57945	CHEBI:28831	CHEBI:57540					
+Coefficient	-1	-1	-1	1	1					
+RXN_ID	55073	None	None	None						
+Metabolite	CHEBI:16763	CHEBI:15378	CHEBI:17153	CHEBI:16526						
+Coefficient	-1	-1	1	1						
+RXN_ID	R00993	None	None	None	None	None	None			
+Metabolite	CHEBI:16763	CHEBI:43474	CHEBI:15378	CHEBI:15379	CHEBI:58933	CHEBI:16240	CHEBI:16526			
+Coefficient	-1	-1	-1	-1	1	1	1			
+RXN_ID	23148	None	None	None						
+Metabolite	CHEBI:30616	CHEBI:17272	CHEBI:456216	CHEBI:58933						
+Coefficient	-1	-1	1	1						
+RXN_ID	PROCOAS	None	None	None						
+Metabolite	CHEBI:17272	CHEBI:57288	CHEBI:57392	CHEBI:30089						
+Coefficient	-1	-1	1	1						
+RXN_ID	36029	None	None	None	None	None				
+Metabolite	CHEBI:15378	CHEBI:57945	CHEBI:57392	CHEBI:17153	CHEBI:57287	CHEBI:57540				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	LEUABCD1	None	None	None	None	None	None	None	None	
+Metabolite	CHEBI:16763	CHEBI:57288	CHEBI:15377	CHEBI:57540	CHEBI:19753	CHEBI:57287	CHEBI:15378	CHEBI:16526	CHEBI:57945	
+Coefficient	-1	-1	-1	-1	1	1	1	1	1	
+RXN_ID	KIVD1	None	None	None						
+Metabolite	CHEBI:19753	CHEBI:15378	CHEBI:15743	CHEBI:16526						
+Coefficient	-1	-1	1	1						
+RXN_ID	ADH61	None	None	None	None					
+Metabolite	CHEBI:15743	CHEBI:15378	CHEBI:57783	CHEBI:28885	CHEBI:58349					
+Coefficient	-1	-1	-1	1	1					
+RXN_ID	LEUKIVDADH2	None	None	None	None	None	None	None	None	None
+Metabolite	CHEBI:35146	CHEBI:57288	CHEBI:15377	CHEBI:57540	CHEBI:57783	CHEBI:87381	CHEBI:57287	CHEBI:57945	CHEBI:16526	CHEBI:58349
+Coefficient	-1	-1	-1	-1	-1	1	1	1	2	1
+RXN_ID	KIVDADH62	None	None	None	None	None				
+Metabolite	CHEBI:35146	CHEBI:57945	CHEBI:15378	CHEBI:48945	CHEBI:57540	CHEBI:16526				
+Coefficient	-1	-1	-2	1	1	1				
+RXN_ID	21081	None	None	None	None	None				
+Metabolite	CHEBI:30616	CHEBI:15377	CHEBI:57844	CHEBI:33019	CHEBI:43474	CHEBI:59789				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	21745	None	None	None						
+Metabolite	CHEBI:59789	CHEBI:58360	CHEBI:15378	CHEBI:17509						
+Coefficient	-1	1	1	1						
+RXN_ID	23641	None	None	None	None	None	None	None		
+Metabolite	CHEBI:58360	CHEBI:38290	CHEBI:15379	CHEBI:16526	CHEBI:18153	CHEBI:15377	CHEBI:18407	CHEBI:58539		
+Coefficient	-1	-1	-1	1	1	2	1	1		
+RXN_ID	13605	None	None	None						
+Metabolite	CHEBI:38290	CHEBI:15379	CHEBI:15377	CHEBI:58539						
+Coefficient	-2	-1	2	2						
+RXN_ID	22353	None	None	None						
+Metabolite	CHEBI:15378	CHEBI:32551	CHEBI:58384	CHEBI:16526						
+Coefficient	-1	-1	1	1						
+RXN_ID	14602	None	None	None	None					
+Metabolite	CHEBI:32551	CHEBI:15379	CHEBI:58382	CHEBI:16526	CHEBI:15377					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	15680	None	None	None						
+Metabolite	CHEBI:58382	CHEBI:15377	CHEBI:356010	CHEBI:28938						
+Coefficient	-1	-1	1	1						
+RXN_ID	25178	None	None	None	None	None				
+Metabolite	CHEBI:17865	CHEBI:57287	CHEBI:57540	CHEBI:57345	CHEBI:16526	CHEBI:57945				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	PKS5M3HN	None	None	None	None	None	None			
+Metabolite	CHEBI:57345	CHEBI:57327	CHEBI:15377	CHEBI:15378	CHEBI:89209	CHEBI:57287	CHEBI:16526			
+Coefficient	-1	-1	-1	-1	1	2	2			
+RXN_ID	30719	None	None	None						
+Metabolite	CHEBI:57288	CHEBI:57392	CHEBI:57335	CHEBI:57287						
+Coefficient	-1	-1	1	1						
+RXN_ID	13281	None	None	None	None					
+Metabolite	CHEBI:57312	CHEBI:57540	CHEBI:57335	CHEBI:15378	CHEBI:57945					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	31119	None	None							
+Metabolite	CHEBI:57312	CHEBI:57337	CHEBI:15377							
+Coefficient	-1	1	1							
+RXN_ID	CCE1	None	None	None	None	None	None	None		
+Metabolite	CHEBI:57392	CHEBI:57288	CHEBI:57945	CHEBI:15378	CHEBI:57389	CHEBI:57287	CHEBI:57540	CHEBI:15377		
+Coefficient	-1	-1	-2	-2	1	1	2	1		
+RXN_ID	55053	None	None	None	None					
+Metabolite	CHEBI:15377	CHEBI:57389	CHEBI:57287	CHEBI:15378	CHEBI:31011					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	CCE2	None	None	None	None	None	None	None		
+Metabolite	CHEBI:57389	CHEBI:57288	CHEBI:57945	CHEBI:15378	CHEBI:78811	CHEBI:57287	CHEBI:57540	CHEBI:15377		
+Coefficient	-1	-1	-2	-2	1	1	2	1		
+RXN_ID	FACOAE70	None	None	None	None					
+Metabolite	CHEBI:15377	CHEBI:78811	CHEBI:57287	CHEBI:15378	CHEBI:32362					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	PCTFADBI1	None	None	None	None	None	None	None		
+Metabolite	CHEBI:57288	CHEBI:57392	CHEBI:57945	CHEBI:15378	CHEBI:57336	CHEBI:57540	CHEBI:57287	CHEBI:15377		
+Coefficient	-1	-1	-2	-2	1	2	1	1		
+RXN_ID	ACT2MB	None	None	None	None					
+Metabolite	CHEBI:57336	CHEBI:15377	CHEBI:48946	CHEBI:57287	CHEBI:15378					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	TASP	None	None	None	None	None				
+Metabolite	CHEBI:57288	CHEBI:57392	CHEBI:57945	CHEBI:TIGLATE	CHEBI:57540	CHEBI:57287				
+Coefficient	-1	-1	-1	1	1	2				
+RXN_ID	MP2TNP	None	None	None	None	None				
+Metabolite	CHEBI:57392	CHEBI:57945	CHEBI:15378	CHEBI:MP2TN	CHEBI:57540	CHEBI:57287				
+Coefficient	-2	-2	-1	1	2	2				
+RXN_ID	M2P2TENP	None	None	None	None					
+Metabolite	CHEBI:57392	CHEBI:57945	CHEBI:M2P2TEN	CHEBI:57540	CHEBI:57287					
+Coefficient	-2	-1	1	1	2					
+RXN_ID	ICSP	None	None	None	None	None	None			
+Metabolite	CHEBI:57288	CHEBI:57338	CHEBI:57945	CHEBI:15378	CHEBI:74904	CHEBI:57540	CHEBI:57287			
+Coefficient	-1	-1	-2	-1	1	2	2			
+RXN_ID	25250	None	None	None						
+Metabolite	CHEBI:15378	CHEBI:15361	CHEBI:58476	CHEBI:16526						
+Coefficient	-1	-2	1	1						
+RXN_ID	22070	None	None	None	None					
+Metabolite	CHEBI:58476	CHEBI:15378	CHEBI:57783	CHEBI:49072	CHEBI:58349					
+Coefficient	-1	-1	-1	1	1					
+RXN_ID	24810	None	None							
+Metabolite	CHEBI:49072	CHEBI:11851	CHEBI:15377							
+Coefficient	-1	1	1							
+RXN_ID	13998	None	None	None	None	None				
+Metabolite	CHEBI:11851	CHEBI:57287	CHEBI:57540	CHEBI:57338	CHEBI:16526	CHEBI:57945				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	ALDDNADP5	None	None	None	None	None	None	None		
+Metabolite	CHEBI:31011	CHEBI:57783	CHEBI:15378	CHEBI:30616	CHEBI:84069	CHEBI:58349	CHEBI:33019	CHEBI:456215		
+Coefficient	-1	-1	-1	-1	1	1	1	1		
+RXN_ID	ADCN5	None	None	None	None	None	None	None		
+Metabolite	CHEBI:84069	CHEBI:57783	CHEBI:15378	CHEBI:15379	CHEBI:37808	CHEBI:15740	CHEBI:58349	CHEBI:15377		
+Coefficient	-1	-2	-1	-1	1	1	2	1		
+RXN_ID	19177	None								
+Metabolite	CHEBI:32551	CHEBI:57434								
+Coefficient	-1	1								
+RXN_ID	21388	None	None							
+Metabolite	CHEBI:15377	CHEBI:58113	CHEBI:32551							
+Coefficient	-1	-1	1							
+RXN_ID	22864	None								
+Metabolite	CHEBI:32551	CHEBI:32557								
+Coefficient	-1	1								
+RXN_ID	37584	None	None	None	None	None				
+Metabolite	CHEBI:32557	CHEBI:15377	CHEBI:15379	CHEBI:58183	CHEBI:16240	CHEBI:28938				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	31067	None	None							
+Metabolite	CHEBI:58183	CHEBI:77631	CHEBI:15377							
+Coefficient	-1	1	1							
+RXN_ID	12526	None	None	None	None					
+Metabolite	CHEBI:77631	CHEBI:15378	CHEBI:57783	CHEBI:61185	CHEBI:58349					
+Coefficient	-1	-1	-1	1	1					
+RXN_ID	11993	None	None	None	None					
+Metabolite	CHEBI:61185	CHEBI:15379	CHEBI:15378	CHEBI:16240	CHEBI:58769					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	25121	None	None	None						
+Metabolite	CHEBI:58321	CHEBI:15378	CHEBI:15377	CHEBI:58769						
+Coefficient	-1	1	1	1						
+RXN_ID	12309	None	None	None	None	None				
+Metabolite	CHEBI:58321	CHEBI:15377	CHEBI:57540	CHEBI:15378	CHEBI:58672	CHEBI:57945				
+Coefficient	-1	-1	-1	2	1	1				
+RXN_ID	10212	None	None	None						
+Metabolite	CHEBI:16810	CHEBI:356010	CHEBI:16120	CHEBI:29985						
+Coefficient	-1	-1	1	1						
+RXN_ID	12065	None	None	None	None	None				
+Metabolite	CHEBI:16120	CHEBI:15377	CHEBI:57540	CHEBI:30921	CHEBI:15378	CHEBI:57945				
+Coefficient	-1	-1	-1	1	2	1				
+RXN_ID	22888	None								
+Metabolite	CHEBI:57326	CHEBI:57292								
+Coefficient	-1	1								
+RXN_ID	27666	None	None	None						
+Metabolite	CHEBI:57326	CHEBI:15378	CHEBI:16526	CHEBI:57392						
+Coefficient	-1	-1	1	1						
+RXN_ID	ACT5	None	None	None						
+Metabolite	CHEBI:356010	CHEBI:57288	CHEBI:30089	CHEBI:APENTCOA						
+Coefficient	-1	-1	1	1						
+RXN_ID	C5CYC	None	None	None						
+Metabolite	CHEBI:APENTCOA	CHEBI:57287	CHEBI:77761	CHEBI:15378						
+Coefficient	-1	1	1	1						
+RXN_ID	CAT1	None	None	None						
+Metabolite	CHEBI:30921	CHEBI:57288	CHEBI:57378	CHEBI:30089						
+Coefficient	-1	-1	1	1						
+RXN_ID	SUBSP	None	None	None	None	None	None	None		
+Metabolite	CHEBI:57288	CHEBI:57292	CHEBI:57287	CHEBI:57945	CHEBI:15378	CHEBI:57540	CHEBI:15377	CHEBI:76282		
+Coefficient	-2	-1	3	-4	-3	4	1	1		
+RXN_ID	SEBSP	None	None	None	None	None	None	None		
+Metabolite	CHEBI:57288	CHEBI:57292	CHEBI:57287	CHEBI:57945	CHEBI:15378	CHEBI:57540	CHEBI:15377	CHEBI:76283		
+Coefficient	-3	-1	4	-6	-5	6	2	1		
+RXN_ID	PMSP	None	None	None	None	None	None			
+Metabolite	CHEBI:57288	CHEBI:57378	CHEBI:57945	CHEBI:15378	CHEBI:57540	CHEBI:36165	CHEBI:57287			
+Coefficient	-1	-1	-2	-1	2	1	2			
+RXN_ID	HHPTSP	None	None	None	None	None	None	None		
+Metabolite	CHEBI:57288	CHEBI:57378	CHEBI:57945	CHEBI:15378	CHEBI:57540	CHEBI:15377	CHEBI:79112	CHEBI:57287		
+Coefficient	-1	-1	-4	-5	4	1	1	2		
+RXN_ID	DHB23R									
+Metabolite	CHEBI:57288	CHEBI:29805	CHEBI:57945	CHEBI:15378	CHEBI:DHB23	CHEBI:57540	CHEBI:57287			
+Coefficient	-1	-1	-1	-1	1	1	1			
+RXN_ID	HB4R									
+Metabolite	CHEBI:57288	CHEBI:29805	CHEBI:57945	CHEBI:15378	CHEBI:16724	CHEBI:57540	CHEBI:57287	CHEBI:15377		
+Coefficient	-1	-1	-2	-2	1	2	1	1		
+RXN_ID	21525	None	None	None	None	None				
+Metabolite	CHEBI:11851	CHEBI:57288	CHEBI:15377	CHEBI:1178	CHEBI:57287	CHEBI:15378				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	16293	None	None							
+Metabolite	CHEBI:58085	CHEBI:15377	CHEBI:1178							
+Coefficient	-1	-1	1							
+RXN_ID	10676	None	None							
+Metabolite	CHEBI:35121	CHEBI:58085	CHEBI:15377							
+Coefficient	-1	1	1							
+RXN_ID	10893	None	None	None	None					
+Metabolite	CHEBI:35121	CHEBI:57540	CHEBI:17214	CHEBI:15378	CHEBI:57945					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	25079	None	None	None						
+Metabolite	CHEBI:17214	CHEBI:15378	CHEBI:17865	CHEBI:16526						
+Coefficient	-1	-1	1	1						
+RXN_ID	18321	None	None	None						
+Metabolite	CHEBI:16810	CHEBI:57427	CHEBI:17865	CHEBI:29985						
+Coefficient	-1	-1	1	1						
+RXN_ID	24813	None	None	None						
+Metabolite	CHEBI:16810	CHEBI:57762	CHEBI:11851	CHEBI:29985						
+Coefficient	-1	-1	1	1						
+RXN_ID	RE1266C_1	None	None	None						
+Metabolite	CHEBI:17865	CHEBI:15379	CHEBI:82957	CHEBI:16526						
+Coefficient	-1	-1	1	1						
+RXN_ID	54357	None	None	None						
+Metabolite	CHEBI:11851	CHEBI:15378	CHEBI:48943	CHEBI:16526						
+Coefficient	-1	-1	1	1						
+RXN_ID	ADHIBO	None	None	None	None					
+Metabolite	CHEBI:48943	CHEBI:57945	CHEBI:15378	CHEBI:46645	CHEBI:57540					
+Coefficient	-1	-1	-1	1	1					
+RXN_ID	18531	None	None	None	None					
+Metabolite	CHEBI:16638	CHEBI:15378	CHEBI:57945	CHEBI:15837	CHEBI:57540					
+Coefficient	-1	-1	-1	1	1					
+RXN_ID	ADHIVL	None	None	None	None	None				
+Metabolite	CHEBI:16638	CHEBI:15377	CHEBI:57540	CHEBI:48942	CHEBI:57945	CHEBI:15378				
+Coefficient	-1	-1	-1	1	1	2				
+RXN_ID	54361	None	None	None						
+Metabolite	CHEBI:17865	CHEBI:15378	CHEBI:16638	CHEBI:16526						
+Coefficient	-1	-1	1	1						
+RXN_ID	LEUKIVD3	None	None	None	None	None	None	None		
+Metabolite	CHEBI:17865	CHEBI:57288	CHEBI:57540	CHEBI:15377	CHEBI:17998	CHEBI:57287	CHEBI:57945	CHEBI:16526		
+Coefficient	-1	-1	-1	-1	1	1	1	2		
+RXN_ID	58438	None	None	None	None					
+Metabolite	CHEBI:17998	CHEBI:15378	CHEBI:57783	CHEBI:63910	CHEBI:58349					
+Coefficient	-1	-1	-1	1	1					
+RXN_ID	LEU2KIHPT	None	None	None	None	None	None	None	None	
+Metabolite	CHEBI:17865	CHEBI:57288	CHEBI:57540	CHEBI:15377	CHEBI:5M2OPT	CHEBI:57287	CHEBI:57945	CHEBI:15378	CHEBI:16526	
+Coefficient	-1	-1	-1	-1	1	1	1	1	1	
+RXN_ID	ICPRS2	None	None	None	None	None	None	None		
+Metabolite	CHEBI:5M2OPT	CHEBI:15378	CHEBI:57540	CHEBI:15377	CHEBI:74904	CHEBI:57945	CHEBI:15378	CHEBI:16526		
+Coefficient	-1	-1	-1	-1	1	1	2	1		
+RXN_ID	21581	None	None	None						
+Metabolite	CHEBI:58476	CHEBI:15378	CHEBI:15686	CHEBI:16526						
+Coefficient	-1	-1	1	1						
+RXN_ID	12092	None								
+Metabolite	CHEBI:15687	CHEBI:15686								
+Coefficient	-1	1								
+RXN_ID	26446	None	None	None	None	None				
+Metabolite	CHEBI:33190	CHEBI:57287	CHEBI:58349	CHEBI:15378	CHEBI:57384	CHEBI:57783				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	28055	None	None	None						
+Metabolite	CHEBI:16763	CHEBI:57287	CHEBI:15740	CHEBI:57392						
+Coefficient	-1	-1	1	1						
+RXN_ID	R00298	None	None	None						
+Metabolite	CHEBI:17272	CHEBI:57288	CHEBI:57392	CHEBI:30089						
+Coefficient	-1	-1	1	1						
+RXN_ID	38290	None	None	None						
+Metabolite	CHEBI:30936	CHEBI:57292	CHEBI:58668	CHEBI:30031						
+Coefficient	-1	-1	1	1						
+RXN_ID	20373	None	None	None	None	None				
+Metabolite	CHEBI:30616	CHEBI:57287	CHEBI:17272	CHEBI:456215	CHEBI:33019	CHEBI:57392				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	10524	None	None	None						
+Metabolite	CHEBI:16810	CHEBI:15378	CHEBI:16526	CHEBI:57706						
+Coefficient	-1	-1	1	1						
+RXN_ID	23128	None	None	None	None	None				
+Metabolite	CHEBI:16724	CHEBI:30616	CHEBI:57287	CHEBI:58574	CHEBI:456215	CHEBI:33019				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	12184	None	None	None	None					
+Metabolite	CHEBI:16812	CHEBI:57540	CHEBI:15687	CHEBI:15378	CHEBI:57945					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	24340	None	None	None	None					
+Metabolite	CHEBI:16982	CHEBI:57540	CHEBI:15686	CHEBI:15378	CHEBI:57945					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	MSBDDH1	None	None	None	None					
+Metabolite	CHEBI:75460	CHEBI:57540	CHEBI:15686	CHEBI:15378	CHEBI:57945					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	MSBDDH2	None	None	None	None					
+Metabolite	CHEBI:75460	CHEBI:57540	CHEBI:15687	CHEBI:15378	CHEBI:57945					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	BGDH	None	None							
+Metabolite	CHEBI:75460	CHEBI:15377	CHEBI:28398							
+Coefficient	-1	1	1							
+RXN_ID	ADH2BO	None	None	None	None					
+Metabolite	CHEBI:28398	CHEBI:15378	CHEBI:57945	CHEBI:35687	CHEBI:57540					
+Coefficient	-1	-1	-1	1	1					
+RXN_ID	23444	None	None	None	None					
+Metabolite	CHEBI:16651	CHEBI:57540	CHEBI:15378	CHEBI:57945	CHEBI:15361					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	PPCOATF	None	None	None						
+Metabolite	CHEBI:57288	CHEBI:16651	CHEBI:30089	CHEBI:57382						
+Coefficient	-1	-1	1	1						
+RXN_ID	21057	None	None							
+Metabolite	CHEBI:57382	CHEBI:57367	CHEBI:15377							
+Coefficient	-1	1	1							
+RXN_ID	26456	None	None	None	None					
+Metabolite	CHEBI:57367	CHEBI:15378	CHEBI:57783	CHEBI:58349	CHEBI:57392					
+Coefficient	-1	-1	-1	1	1					
+RXN_ID	23520	None	None	None						
+Metabolite	CHEBI:57288	CHEBI:17272	CHEBI:30089	CHEBI:57392						
+Coefficient	-1	-1	1	1						
+RXN_ID	40800	None	None	None	None					
+Metabolite	CHEBI:57338	CHEBI:15377	CHEBI:48944	CHEBI:57287	CHEBI:15378					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	ICCCRD	None	None	None	None	None	None	None		
+Metabolite	CHEBI:74904	CHEBI:57783	CHEBI:15378	CHEBI:30616	CHEBI:17998	CHEBI:58349	CHEBI:456215	CHEBI:33019		
+Coefficient	-1	-1	-1	-1	1	1	1	1		
+RXN_ID	ADCNIPT	None	None	None	None	None	None	None		
+Metabolite	CHEBI:17998	CHEBI:57783	CHEBI:15378	CHEBI:15379	CHEBI:30362	CHEBI:58349	CHEBI:15377	CHEBI:15740		
+Coefficient	-1	-2	-1	-1	1	2	1	1		
+RXN_ID	ACYDG	None	None	None	None					
+Metabolite	CHEBI:57367	CHEBI:15377	CHEBI:37080	CHEBI:57287	CHEBI:15378					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	17937	None	None							
+Metabolite	CHEBI:57642	CHEBI:17158	CHEBI:43474							
+Coefficient	-1	1	1							
+RXN_ID	18585	None								
+Metabolite	CHEBI:59776	CHEBI:57642								
+Coefficient	-1	1								
+RXN_ID	24531	None	None	None	None					
+Metabolite	CHEBI:17167	CHEBI:57540	CHEBI:15378	CHEBI:17158	CHEBI:57945					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	21748	None	None	None	None					
+Metabolite	CHEBI:18041	CHEBI:58349	CHEBI:15378	CHEBI:17158	CHEBI:57783					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	23872	None	None	None	None					
+Metabolite	CHEBI:28972	CHEBI:57540	CHEBI:17167	CHEBI:15378	CHEBI:57945					
+Coefficient	1	1	-1	-1	-1					
+RXN_ID	15933	None	None	None	None					
+Metabolite	CHEBI:29002	CHEBI:57540	CHEBI:18041	CHEBI:15378	CHEBI:57945					
+Coefficient	1	1	-1	-1	-1					
+RXN_ID	18381	None	None	None						
+Metabolite	CHEBI:16016	CHEBI:58702	CHEBI:57642	CHEBI:15361						
+Coefficient	-1	-1	1	1						
+RXN_ID	28751	None	None	None						
+Metabolite	CHEBI:57597	CHEBI:61683	CHEBI:57642	CHEBI:61682						
+Coefficient	-1	-1	1	1						
+RXN_ID	16170	None	None	None	None	None	None			
+Metabolite	CHEBI:30616	CHEBI:29985	CHEBI:28938	CHEBI:456216	CHEBI:15378	CHEBI:58359	CHEBI:43474			
+Coefficient	-1	-1	-1	1	1	1	1			
+RXN_ID	GLMS	None	None	None						
+Metabolite	CHEBI:57634	CHEBI:58359	CHEBI:75989	CHEBI:29985						
+Coefficient	-1	-1	1	1						
+RXN_ID	13769	None	None	None	None					
+Metabolite	CHEBI:17754	CHEBI:57540	CHEBI:16016	CHEBI:15378	CHEBI:57945					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	21647	None	None	None	None					
+Metabolite	CHEBI:30616	CHEBI:17754	CHEBI:456216	CHEBI:15378	CHEBI:57597					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	23519	None	None	None	None					
+Metabolite	CHEBI:16659	CHEBI:30616	CHEBI:58272	CHEBI:456216	CHEBI:15378					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	30786	None	None	None	None	None				
+Metabolite	CHEBI:17378	CHEBI:15377	CHEBI:57540	CHEBI:16659	CHEBI:15378	CHEBI:57945				
+Coefficient	-1	-1	-1	1	2	1				
+RXN_ID	23595	None	None	None	None					
+Metabolite	CHEBI:17754	CHEBI:58349	CHEBI:17378	CHEBI:15378	CHEBI:57783					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	30030	None	None	None	None					
+Metabolite	CHEBI:17378	CHEBI:15378	CHEBI:57945	CHEBI:17754	CHEBI:57540					
+Coefficient	-1	-1	-1	1	1					
+RXN_ID	12644	None	None	None	None					
+Metabolite	CHEBI:58272	CHEBI:57540	CHEBI:18110	CHEBI:15378	CHEBI:57945					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	14332	None	None	None						
+Metabolite	CHEBI:16810	CHEBI:57524	CHEBI:18110	CHEBI:29985						
+Coefficient	-1	-1	1	1						
+RXN_ID	21211	None	None	None						
+Metabolite	CHEBI:15377	CHEBI:57524	CHEBI:33384	CHEBI:43474						
+Coefficient	-1	-1	1	1						
+RXN_ID	45827	None	None	None						
+Metabolite	CHEBI:15378	CHEBI:33384	CHEBI:16526	CHEBI:57603						
+Coefficient	-1	-1	1	1						
+RXN_ID	15484	None	None	None	None					
+Metabolite	CHEBI:15636	CHEBI:57305	CHEBI:15377	CHEBI:57453	CHEBI:33384					
+Coefficient	-1	-1	-1	1	1					
+RXN_ID	12924	None	None	None	None	None				
+Metabolite	CHEBI:57305	CHEBI:15378	CHEBI:57292	CHEBI:356416	CHEBI:16526	CHEBI:57287				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	12483	None	None	None						
+Metabolite	CHEBI:356416	CHEBI:15361	CHEBI:58055	CHEBI:57972						
+Coefficient	-1	-1	1	1						
+RXN_ID	19768	None	None							
+Metabolite	CHEBI:17754	CHEBI:17871	CHEBI:15377							
+Coefficient	-1	1	1							
+RXN_ID	23191	None	None	None	None					
+Metabolite	CHEBI:57540	CHEBI:16109	CHEBI:17871	CHEBI:15378	CHEBI:57945					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	HPP3									
+Metabolite	CHEBI:17871	CHEBI:57540	CHEBI:15377	CHEBI:16510	CHEBI:57945	CHEBI:15378				
+Coefficient	-1	-1	-1	1	1	2				
+RXN_ID	27989	None	None	None	None					
+Metabolite	CHEBI:27957	CHEBI:58349	CHEBI:15378	CHEBI:17158	CHEBI:57783					
+Coefficient	1	1	-1	-1	-1					
+RXN_ID	35618	None	None	None	None					
+Metabolite	CHEBI:27957	CHEBI:57540	CHEBI:15378	CHEBI:17158	CHEBI:57945					
+Coefficient	1	1	-1	-1	-1					
+RXN_ID	PPDAC	None	None	None	None					
+Metabolite	CHEBI:15378	CHEBI:27957	CHEBI:57945	CHEBI:16997	CHEBI:57540					
+Coefficient	-1	-1	-1	1	1					
+RXN_ID	14572	None	None							
+Metabolite	CHEBI:16997	CHEBI:17153	CHEBI:15377							
+Coefficient	-1	1	1							
+RXN_ID	11103	None								
+Metabolite	CHEBI:18351	CHEBI:17153								
+Coefficient	-1	2								
+RXN_ID	36006	None	None							
+Metabolite	CHEBI:73142	CHEBI:17153	CHEBI:15361							
+Coefficient	-1	1	1							
+RXN_ID	50707	None	None	None	None					
+Metabolite	CHEBI:28831	CHEBI:57540	CHEBI:17153	CHEBI:15378	CHEBI:57945					
+Coefficient	1	1	-1	-1	-1					
+RXN_ID	18049	None	None	None						
+Metabolite	CHEBI:16810	CHEBI:57805	CHEBI:29985	CHEBI:29123						
+Coefficient	-1	-1	1	1						
+RXN_ID	15941	None	None	None						
+Metabolite	CHEBI:15377	CHEBI:57805	CHEBI:30089	CHEBI:46911						
+Coefficient	-1	-1	1	1						
+RXN_ID	22965	None	None	None						
+Metabolite	CHEBI:15378	CHEBI:46911	CHEBI:16526	CHEBI:326268						
+Coefficient	-1	-1	1	1						
+RXN_ID	18274	None	None	None	None	None				
+Metabolite	CHEBI:15377	CHEBI:15379	CHEBI:326268	CHEBI:58264	CHEBI:16240	CHEBI:28938				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	19106	None	None	None	None	None				
+Metabolite	CHEBI:58264	CHEBI:15377	CHEBI:57540	CHEBI:59888	CHEBI:15378	CHEBI:57945				
+Coefficient	-1	-1	-1	1	2	1				
+RXN_ID	19513	None	None	None	None					
+Metabolite	CHEBI:58228	CHEBI:46911	CHEBI:15378	CHEBI:57743	CHEBI:43474					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	10933	None	None	None	None	None	None			
+Metabolite	CHEBI:30616	CHEBI:29991	CHEBI:57743	CHEBI:57472	CHEBI:456215	CHEBI:33019	CHEBI:15378			
+Coefficient	-1	-1	-1	1	1	1	1			
+RXN_ID	11819	None								
+Metabolite	CHEBI:57584	CHEBI:57579								
+Coefficient	-1	1								
+RXN_ID	16110	None	None	None	None					
+Metabolite	CHEBI:30616	CHEBI:57634	CHEBI:456216	CHEBI:32966	CHEBI:15378					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	14732	None	None							
+Metabolite	CHEBI:32966	CHEBI:59776	CHEBI:57642							
+Coefficient	-1	1	1							
+RXN_ID	42763	None	None	None	None	None				
+Metabolite	CHEBI:59776	CHEBI:15377	CHEBI:57540	CHEBI:58272	CHEBI:15378	CHEBI:57945				
+Coefficient	-1	-1	-1	1	2	1				
+RXN_ID	15904	None								
+Metabolite	CHEBI:58289	CHEBI:58272								
+Coefficient	-1	1								
+RXN_ID	10167	None	None							
+Metabolite	CHEBI:58289	CHEBI:15377	CHEBI:58702							
+Coefficient	-1	1	1							
+RXN_ID	18159	None	None	None	None					
+Metabolite	CHEBI:456216	CHEBI:15378	CHEBI:58702	CHEBI:30616	CHEBI:15361					
+Coefficient	-1	-1	-1	1	1					
+RXN_ID	28045	None	None	None	None	None				
+Metabolite	CHEBI:57287	CHEBI:57540	CHEBI:15361	CHEBI:57288	CHEBI:16526	CHEBI:57945				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	13237	None	None	None						
+Metabolite	CHEBI:57579	CHEBI:58359	CHEBI:58725	CHEBI:29985						
+Coefficient	-1	-1	1	1						
+RXN_ID	19639	None	None	None	None	None	None			
+Metabolite	CHEBI:16810	CHEBI:15378	CHEBI:32682	CHEBI:57783	CHEBI:58074	CHEBI:15377	CHEBI:58349			
+Coefficient	-1	-1	-1	-1	1	1	1			
+RXN_ID	24020	None	None							
+Metabolite	CHEBI:57472	CHEBI:29806	CHEBI:32682							
+Coefficient	-1	1	1							
+RXN_ID	13833	None	None	None						
+Metabolite	CHEBI:32682	CHEBI:15361	CHEBI:58489	CHEBI:57972						
+Coefficient	-1	-1	1	1						
+RXN_ID	16287	None	None	None	None	None	None			
+Metabolite	CHEBI:15378	CHEBI:32682	CHEBI:57945	CHEBI:15361	CHEBI:57520	CHEBI:15377	CHEBI:57540			
+Coefficient	-1	-1	-1	-1	1	1	1			
+RXN_ID	17642	None	None	None						
+Metabolite	CHEBI:15378	CHEBI:32682	CHEBI:58145	CHEBI:16526						
+Coefficient	-1	-1	1	1						
+RXN_ID	13406	None	None	None	None					
+Metabolite	CHEBI:57355	CHEBI:58145	CHEBI:57287	CHEBI:15378	CHEBI:58644					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	18037	None	None	None						
+Metabolite	CHEBI:58145	CHEBI:15377	CHEBI:58318	CHEBI:28938						
+Coefficient	-1	-1	1	1						
+RXN_ID	22285	None	None	None	None	None				
+Metabolite	CHEBI:15378	CHEBI:15377	CHEBI:58318	CHEBI:16526	CHEBI:28938	CHEBI:326268				
+Coefficient	-2	-1	-1	1	1	1				
+RXN_ID	14878	None	None	None						
+Metabolite	CHEBI:30616	CHEBI:29985	CHEBI:456216	CHEBI:58274						
+Coefficient	-1	-1	1	1						
+RXN_ID	19543	None	None	None	None	None				
+Metabolite	CHEBI:15378	CHEBI:58274	CHEBI:57783	CHEBI:58066	CHEBI:58349	CHEBI:43474				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	G5SADs	None	None	None						
+Metabolite	CHEBI:58066	CHEBI:15893	CHEBI:15378	CHEBI:15377						
+Coefficient	-1	1	1	1						
+RXN_ID	16846	None	None	None	None	None				
+Metabolite	CHEBI:57288	CHEBI:15377	CHEBI:16452	CHEBI:16947	CHEBI:57287	CHEBI:15378				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	14717	None	None	None	None					
+Metabolite	CHEBI:16897	CHEBI:15377	CHEBI:58702	CHEBI:58394	CHEBI:43474					
+Coefficient	-1	-1	-1	1	1					
+RXN_ID	21969	None	None							
+Metabolite	CHEBI:58394	CHEBI:32364	CHEBI:43474							
+Coefficient	-1	1	1							
+RXN_ID	21096	None	None							
+Metabolite	CHEBI:32364	CHEBI:16630	CHEBI:15377							
+Coefficient	-1	1	1							
+RXN_ID	24849	None	None							
+Metabolite	CHEBI:16630	CHEBI:36241	CHEBI:15377							
+Coefficient	-1	1	1							
+RXN_ID	17739	None	None	None	None					
+Metabolite	CHEBI:16630	CHEBI:15378	CHEBI:57783	CHEBI:58349	CHEBI:36208					
+Coefficient	-1	-1	-1	1	1					
+RXN_ID	13121	None	None	None	None					
+Metabolite	CHEBI:30616	CHEBI:36208	CHEBI:145989	CHEBI:456216	CHEBI:15378					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	21256	None	None	None						
+Metabolite	CHEBI:145989	CHEBI:58702	CHEBI:57701	CHEBI:43474						
+Coefficient	-1	-1	1	1						
+RXN_ID	21021	None	None							
+Metabolite	CHEBI:57701	CHEBI:29748	CHEBI:43474							
+Coefficient	-1	1	1							
+RXN_ID	13897	None								
+Metabolite	CHEBI:29748	CHEBI:29934								
+Coefficient	-1	1								
+RXN_ID	16506	None	None							
+Metabolite	CHEBI:29748	CHEBI:17879	CHEBI:15361							
+Coefficient	-1	1	1							
+RXN_ID	21733	None	None	None	None	None				
+Metabolite	CHEBI:29748	CHEBI:58359	CHEBI:16567	CHEBI:15378	CHEBI:29985	CHEBI:15361				
+Coefficient	-1	-1	1	1	1	1				
+RXN_ID	24730	None	None	None						
+Metabolite	CHEBI:16567	CHEBI:15378	CHEBI:17296	CHEBI:16526						
+Coefficient	-1	-1	1	1						
+RXN_ID	23117	None	None	None	None	None				
+Metabolite	CHEBI:17879	CHEBI:30616	CHEBI:57287	CHEBI:57356	CHEBI:456215	CHEBI:33019				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	11672	None	None	None						
+Metabolite	CHEBI:29748	CHEBI:58359	CHEBI:58406	CHEBI:29985						
+Coefficient	-1	-1	1	1						
+RXN_ID	16202	None	None	None						
+Metabolite	CHEBI:58406	CHEBI:17836	CHEBI:15378	CHEBI:15361						
+Coefficient	-1	1	1	1						
+RXN_ID	59379	None								
+Metabolite	CHEBI:58406	CHEBI:143070								
+Coefficient	-1	1								
+RXN_ID	59381	None	None	None	None	None				
+Metabolite	CHEBI:143070	CHEBI:57540	CHEBI:143071	CHEBI:16526	CHEBI:15378	CHEBI:57945				
+Coefficient	-1	-1	1	1	1	1				
+RXN_ID	59384	None	None	None						
+Metabolite	CHEBI:16810	CHEBI:143072	CHEBI:143071	CHEBI:29985						
+Coefficient	-1	-1	1	1						
+RXN_ID	PDC4APADH	None	None	None						
+Metabolite	CHEBI:143071	CHEBI:15378	CHEBI:4APAADH	CHEBI:16526						
+Coefficient	-1	-1	1	1						
+RXN_ID	ADHDH4APAA	None	None	None	None	None				
+Metabolite	CHEBI:4APAADH	CHEBI:57540	CHEBI:15377	CHEBI:4APAA	CHEBI:57945	CHEBI:15378				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	ADH4AETH	None	None	None	None					
+Metabolite	CHEBI:4APAADH	CHEBI:57945	CHEBI:15378	CHEBI:4APETH	CHEBI:57540					
+Coefficient	-1	-1	-1	1	1					
+RXN_ID	AAADC4AEA	None	None							
+Metabolite	CHEBI:143072	CHEBI:4APEAM	CHEBI:16526							
+Coefficient	-1	1	1							
+RXN_ID	PAAL4AC	None	None							
+Metabolite	CHEBI:143072	CHEBI:4ACAA	CHEBI:28938							
+Coefficient	-1	1	1							
+RXN_ID	18985	None								
+Metabolite	CHEBI:29748	CHEBI:29780								
+Coefficient	-1	1								
+RXN_ID	16710	None	None	None	None					
+Metabolite	CHEBI:59560	CHEBI:57912	CHEBI:15379	CHEBI:15642	CHEBI:58266					
+Coefficient	-1	-1	-1	1	1					
+RXN_ID	18534	None	None	None						
+Metabolite	CHEBI:58266	CHEBI:15378	CHEBI:16526	CHEBI:350546						
+Coefficient	-1	-1	1	1						
+RXN_ID	25218	None	None	None	None					
+Metabolite	CHEBI:57288	CHEBI:350546	CHEBI:57287	CHEBI:15378	CHEBI:17697					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	15574	None	None	None	None					
+Metabolite	CHEBI:17697	CHEBI:59789	CHEBI:15378	CHEBI:16796	CHEBI:57856					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	SOMTTF	None	None	None	None					
+Metabolite	CHEBI:18608	CHEBI:350546	CHEBI:5MTOTPAM	CHEBI:57453	CHEBI:15378					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	17418	None	None	None	None					
+Metabolite	CHEBI:30616	CHEBI:506227	CHEBI:456216	CHEBI:15378	CHEBI:57513					
+Coefficient	1	1	-1	-1	-1					
+RXN_ID	10293	None	None	None	None					
+Metabolite	CHEBI:57288	CHEBI:58725	CHEBI:57287	CHEBI:15378	CHEBI:57513					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	13238	None	None	None						
+Metabolite	CHEBI:57579	CHEBI:58359	CHEBI:58725	CHEBI:29985						
+Coefficient	-1	-1	1	1						
+RXN_ID	23427	None								
+Metabolite	CHEBI:58516	CHEBI:58725								
+Coefficient	-1	1								
+RXN_ID	13726	None	None	None	None					
+Metabolite	CHEBI:57288	CHEBI:58516	CHEBI:57287	CHEBI:15378	CHEBI:57776					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	13510	None	None	None	None					
+Metabolite	CHEBI:15378	CHEBI:57776	CHEBI:46398	CHEBI:33019	CHEBI:57705					
+Coefficient	-1	-1	-1	1	1					
+RXN_ID	13870	None	None	None	None					
+Metabolite	CHEBI:57540	CHEBI:29934	CHEBI:36242	CHEBI:16526	CHEBI:57945					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	18698	None	None	None						
+Metabolite	CHEBI:36242	CHEBI:15378	CHEBI:15621	CHEBI:16526						
+Coefficient	-1	-1	1	1						
+RXN_ID	17273	None	None	None	None	None				
+Metabolite	CHEBI:15621	CHEBI:15377	CHEBI:57540	CHEBI:48999	CHEBI:15378	CHEBI:57945				
+Coefficient	-1	-1	-1	1	2	1				
+RXN_ID	TYRO	None	None	None	None	None				
+Metabolite	CHEBI:1879	CHEBI:57540	CHEBI:15621	CHEBI:57945	CHEBI:15378					
+Coefficient	1	1	-1	-1	-1					
+RXN_ID	23366	None	None	None	None					
+Metabolite	CHEBI:36242	CHEBI:15378	CHEBI:57945	CHEBI:36659	CHEBI:57540					
+Coefficient	-1	-1	-1	1	1					
+RXN_ID	21651	None	None	None	None					
+Metabolite	CHEBI:15378	CHEBI:29934	CHEBI:18005	CHEBI:16526	CHEBI:15377					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	38353	None	None	None	None					
+Metabolite	CHEBI:18005	CHEBI:15378	CHEBI:57945	CHEBI:11009	CHEBI:57540					
+Coefficient	-1	-1	-1	1	1					
+RXN_ID	21411	None	None	None	None	None	None			
+Metabolite	CHEBI:15377	CHEBI:58095	CHEBI:57540	CHEBI:18005	CHEBI:15378	CHEBI:57945	CHEBI:28938			
+Coefficient	-1	-1	-1	1	1	1	1			
+RXN_ID	21385	None	None							
+Metabolite	CHEBI:58095	CHEBI:28938	CHEBI:15669							
+Coefficient	-1	1	1							
+RXN_ID	46923	None	None	None						
+Metabolite	CHEBI:15378	CHEBI:15669	CHEBI:16526	CHEBI:27452						
+Coefficient	-1	-1	1	1						
+RXN_ID	15096	None	None	None						
+Metabolite	CHEBI:16810	CHEBI:58315	CHEBI:36242	CHEBI:29985						
+Coefficient	-1	-1	1	1						
+RXN_ID	MDDH	None	None	None	None					
+Metabolite	CHEBI:17756	CHEBI:57540	CHEBI:15378	CHEBI:57945	CHEBI:36656					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	SMDS									
+Metabolite	CHEBI:18005	CHEBI:15379	CHEBI:17756	CHEBI:16526						
+Coefficient	-1	-1	1	1						
+RXN_ID	24045	None	None	None						
+Metabolite	CHEBI:36241	CHEBI:15379	CHEBI:58358	CHEBI:15378						
+Coefficient	-1	-1	1	1						
+RXN_ID	29588	None	None	None	None					
+Metabolite	CHEBI:61985	CHEBI:58349	CHEBI:58304	CHEBI:15378	CHEBI:57783					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	CHMST									
+Metabolite	CHEBI:58358	CHEBI:61985								
+Coefficient	-1	1								
+RXN_ID	14348	None	None	None						
+Metabolite	CHEBI:15378	CHEBI:58315	CHEBI:16526	CHEBI:327995						
+Coefficient	-1	-1	1	1						
+RXN_ID	HPAB	None	None	None	None	None	None			
+Metabolite	CHEBI:58315	CHEBI:58307	CHEBI:15379	CHEBI:57504	CHEBI:57692	CHEBI:15377	CHEBI:15378			
+Coefficient	-1	-1	-1	1	1	1	1			
+RXN_ID	12273	None	None	None						
+Metabolite	CHEBI:15378	CHEBI:57504	CHEBI:16526	CHEBI:59905						
+Coefficient	-1	-1	1	1						
+RXN_ID	27947	None	None	None	None	None				
+Metabolite	CHEBI:59905	CHEBI:15377	CHEBI:15379	CHEBI:27978	CHEBI:16240	CHEBI:28938				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	ADHDPM	None	None	None	None					
+Metabolite	CHEBI:27978	CHEBI:57945	CHEBI:15378	CHEBI:57540	CHEBI:3HXTYR					
+Coefficient	-1	-1	-1	1	1					
+RXN_ID	21705	None	None	None	None					
+Metabolite	CHEBI:15377	CHEBI:58315	CHEBI:28938	CHEBI:15882	CHEBI:15361					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	17062	None	None	None	None	None	None			
+Metabolite	CHEBI:15378	CHEBI:57783	CHEBI:15379	CHEBI:15882	CHEBI:18135	CHEBI:15377	CHEBI:58349			
+Coefficient	-1	-1	-1	-1	1	1	1			
+RXN_ID	23853	None	None	None						
+Metabolite	CHEBI:18135	CHEBI:15379	CHEBI:32379	CHEBI:15378						
+Coefficient	-1	-1	1	2						
+RXN_ID	24907	None	None							
+Metabolite	CHEBI:58315	CHEBI:28938	CHEBI:12876							
+Coefficient	-1	1	1							
+RXN_ID	4CMCOAS	None	None	None	None	None				
+Metabolite	CHEBI:12876	CHEBI:30616	CHEBI:57287	CHEBI:57355	CHEBI:456215	CHEBI:33019				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	11937	None	None	None	None	None				
+Metabolite	CHEBI:57355	CHEBI:15378	CHEBI:57384	CHEBI:16526	CHEBI:57287	CHEBI:45713				
+Coefficient	-1	-3	-3	4	4	1				
+RXN_ID	33228	None	None	None						
+Metabolite	CHEBI:15378	CHEBI:12876	CHEBI:1883	CHEBI:16526						
+Coefficient	-1	-1	1	1						
+RXN_ID	12521	None	None							
+Metabolite	CHEBI:57504	CHEBI:57770	CHEBI:28938							
+Coefficient	-1	1	1							
+RXN_ID	C3MOGN	None	None	None	None	None	None			
+Metabolite	CHEBI:12876	CHEBI:58307	CHEBI:15379	CHEBI:57770	CHEBI:57692	CHEBI:15377	CHEBI:15378			
+Coefficient	-1	-1	-1	1	1	1	1			
+RXN_ID	20226	None	None	None	None					
+Metabolite	CHEBI:57770	CHEBI:59789	CHEBI:15378	CHEBI:57856	CHEBI:29749					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	14186	None	None	None						
+Metabolite	CHEBI:18005	CHEBI:15378	CHEBI:16424	CHEBI:16526						
+Coefficient	-1	-1	1	1						
+RXN_ID	ALCD25yi	None	None	None	None					
+Metabolite	CHEBI:16424	CHEBI:57783	CHEBI:15378	CHEBI:2PETO	CHEBI:58349					
+Coefficient	-1	-1	-1	1	1					
+RXN_ID	21393	None	None	None	None	None				
+Metabolite	CHEBI:16424	CHEBI:15377	CHEBI:57540	CHEBI:18401	CHEBI:15378	CHEBI:57945				
+Coefficient	-1	-1	-1	1	2	1				
+RXN_ID	20957	None	None	None	None	None				
+Metabolite	CHEBI:18401	CHEBI:30616	CHEBI:57287	CHEBI:456215	CHEBI:33019	CHEBI:57390				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	PHAE4PB	None	None	None	None	None	None			
+Metabolite	CHEBI:57390	CHEBI:57288	CHEBI:57945	CHEBI:15378	CHEBI:57287	CHEBI:57540	CHEBI:75317			
+Coefficient	-1	-1	-2	-1	2	2	1			
+RXN_ID	PHAE6HX	None	None	None	None	None	None	None		
+Metabolite	CHEBI:57390	CHEBI:57288	CHEBI:57945	CHEBI:15378	CHEBI:57287	CHEBI:57540	CHEBI:15377	CHEBI:6PHX		
+Coefficient	-1	-2	-4	-3	3	4	1	1		
+RXN_ID	C4CYC	None	None	None						
+Metabolite	CHEBI:57352	CHEBI:57287	CHEBI:36592	CHEBI:15378						
+Coefficient	-1	1	1	1						
+RXN_ID	14111	None	None	None	None					
+Metabolite	CHEBI:15893	CHEBI:15378	CHEBI:57783	CHEBI:60039	CHEBI:58349					
+Coefficient	-1	-2	-1	1	1					
+RXN_ID	20317	None	None	None	None					
+Metabolite	CHEBI:60039	CHEBI:58349	CHEBI:39785	CHEBI:15378	CHEBI:57783					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	25161	None	None	None						
+Metabolite	CHEBI:16810	CHEBI:46911	CHEBI:29985	CHEBI:58066						
+Coefficient	-1	-1	1	1						
+RXN_ID	10557	None	None	None	None					
+Metabolite	CHEBI:59776	CHEBI:32682	CHEBI:15378	CHEBI:57304	CHEBI:43474					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	23621	None	None	None	None	None				
+Metabolite	CHEBI:30616	CHEBI:57304	CHEBI:456215	CHEBI:57303	CHEBI:33019	CHEBI:15378				
+Coefficient	-1	-1	1	1	1	1				
+RXN_ID	20022	None	None	None	None	None				
+Metabolite	CHEBI:16810	CHEBI:57303	CHEBI:15379	CHEBI:58647	CHEBI:16526	CHEBI:30031				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	17002	None	None	None						
+Metabolite	CHEBI:58647	CHEBI:15377	CHEBI:57302	CHEBI:16199						
+Coefficient	-1	-1	1	1						
+RXN_ID	11901	None	None	None	None					
+Metabolite	CHEBI:15404	CHEBI:57540	CHEBI:57499	CHEBI:16526	CHEBI:57945					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	12929	None	None	None	None	None				
+Metabolite	CHEBI:16810	CHEBI:57288	CHEBI:15377	CHEBI:58884	CHEBI:57287	CHEBI:15378				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	15487	None	None							
+Metabolite	CHEBI:58174	CHEBI:15377	CHEBI:15404							
+Coefficient	-1	-1	1							
+RXN_ID	26102	None	None							
+Metabolite	CHEBI:58884	CHEBI:58174	CHEBI:15377							
+Coefficient	-1	1	1							
+RXN_ID	OXPSP	None	None	None	None	None	None	None	None	
+Metabolite	CHEBI:57499	CHEBI:57288	CHEBI:15377	CHEBI:57540	CHEBI:72701	CHEBI:57287	CHEBI:16526	CHEBI:57945	CHEBI:15378	
+Coefficient	-1	-1	-1	-1	1	1	1	1	1	
+RXN_ID	ACTC6	None	None	None						
+Metabolite	CHEBI:57826	CHEBI:57288	CHEBI:6ACACoA	CHEBI:30089						
+Coefficient	-1	-1	1	1						
+RXN_ID	C6CYC	None	None	None						
+Metabolite	CHEBI:6ACACoA	CHEBI:57287	CHEBI:28579	CHEBI:15378						
+Coefficient	-1	1	1	1						
+RXN_ID	ACSP2OP	None	None	None	None	None				
+Metabolite	CHEBI:72701	CHEBI:15378	CHEBI:57972	CHEBI:57826	CHEBI:15361	CHEBI:16526				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	19642	None	None	None	None	None				
+Metabolite	CHEBI:32373	CHEBI:30616	CHEBI:57287	CHEBI:57355	CHEBI:456215	CHEBI:33019				
+Coefficient	-1	-1	-1	1	1	1				
+RXN_ID	11770	None	None	None						
+Metabolite	CHEBI:58017	CHEBI:16567	CHEBI:33019	CHEBI:18277						
+Coefficient	-1	-1	1	1						
+RXN_ID	21541	None								
+Metabolite	CHEBI:18277	CHEBI:58613								
+Coefficient	-1	1								
+RXN_ID	23477	None	None	None	None					
+Metabolite	CHEBI:58613	CHEBI:15378	CHEBI:58866	CHEBI:16526	CHEBI:15377					
+Coefficient	-1	-1	1	1	1					
+RXN_ID	10533	None	None	None	None					
+Metabolite	CHEBI:58866	CHEBI:33384	CHEBI:59776	CHEBI:15377	CHEBI:57912					
+Coefficient	-1	-1	1	1	1					

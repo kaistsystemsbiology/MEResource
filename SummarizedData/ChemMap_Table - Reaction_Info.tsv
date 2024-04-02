@@ -1,0 +1,400 @@
+Rhea	Enzyme	Direction	BiGG_ID	EC_number	section	ref	note	Writer					
+17825	Hexokinase (D-glucose:ATP)	>	HEX1	2.7.1.1/2.7.1.2	0								
+10512	malate dehydrogenase	<=>	MDH	1.1.1.37	TCA			Yeji					
+16846	citrate (Si)-synthase	>	CS	2.3.3.1	TCA			Yeji					
+11844	formate C-acetyltransferase	<=>	PFL	2.3.1.54	D			Gibae					
+45485	pyruvate decarboxylase	>	PYRDC	4.1.1.1	D			Gibae					
+25295	aldehyde dehydrogenase (NAD+)	>	BETALDHx	1.2.1.3	D			Gibae					
+25299	aldehyde dehydrogenase (NADP+)	>	BETALDHy	1.2.1.4	D			Gibae					
+25290	alcohol dehydrogenase	<=>	ALCD2y	1.1.1.1	D			Gibae					
+19521	phosphate acetyltransferase	<=>	PTAr	2.3.1.8	D			Gibae					
+11352	acetate kinase	<=>	ACKr	2.7.2.1	D			Gibae					
+21036	acetyl-CoA C-acetyltransferase	<=>	ACACT1r	2.3.1.9	D			Gibae					
+30799	3-hydroxyacyl-CoA dehydrogenase	<=>	HACD1	1.1.1.35	D			Gibae					
+45798	3-hydroxybutyrul-CoA dehydrogenase	>	AACOAR_syn	1.1.1.157	D			Gibae					
+26561	Enoyl-CoA hydrtase	<=>	ECOAH1	4.2.1.17	D		favored direction: <; check MetaCyc	Gibae					
+24004	short-chain acyl-CoA dehydrogenase	<=>	ACOAD1f	1.3.8.1	D			Gibae					
+52574	trans-2-enoyl-CoA reductase (NAD+)	>	T2ECRD	1.3.1.44	D		ABSENT BIGG	Gibae					
+10228	aconitate hydratase	<=>	ACONTa	4.2.1.3	TCA			Yeji					
+22144	aconitate hydratase	<=>	ACONTb	4.2.1.3	TCA			Yeji					
+19630	isocitrate dehydrogenase	<=>	ICDHyr	1.1.1.42	TCA			Yeji					
+30071	acetate CoA-transferase	<=>	BUTCT	2.8.3.8	D			Gibae					
+27786	2-oxoglutarate dehydrogenase complex	>	AKGDH	1.2.1.M9	TCA			Yeji					
+R3HBS	acyl-CoA thioesterase	>	R3HBS	-	D	12788745	ABSENT RHEA/BIGG	Gibae					
+26450	succinate-semialdehyde dehydrogenase	<=>	SSCOARy	1.2.1.76	H			Yeji					
+23948	4-hydroxybutyrate dehydrogenase	<=>	GHBDHx	1.1.1.61	H			Yeji					
+21792	Isopropanol dehydrogenase (NADP+)	<=>	ALCD20y	1.1.1.80	D			Gibae					
+23131	4-hydroxybutyrate-CoA ligase (AMP-forming)	<=>	4HBTNCOAL	6.2.1.40	H		ABSENT BIGG	Yeji	BiGG에 있는 4HPTNCOAL과 다름				
+4HBADR	aldehyde dehydrogenase	<=>	4HBADR	1.2.1.10	H	21602812	ABSENT RHEA/BIGG	Yeji					
+BUTAD	aldehyde dehydrogenase/alcohol dehydrogenase	<=>	BUTAD	1.2.1.10/1.1.1.1	D	23093384	ABSENT RHEA/BIGG	Gibae					
+17661	succinyl-CoA reductase (ADP-forming)	<=>	SUCOAS	6.2.1.5	TCA			Gibae					
+14BDOR	alcohol dehydrogenase	<=>	14BDOR	1.1.1.1	H	21602812	ABSENT RHEA/BIGG	Yeji					
+29188	succinate dehydrogenase	>	SUCDi	1.3.5.1	TCA			Gibae					
+18283	fumarate reductase (NADH)	>	FRDx	1.3.1.6	TCA			Gibae					
+29216	fumarate reductase (quinol)	>	FRD2	1.3.5.4	TCA			Gibae					
+12460	fumarate hydratase	<=>	FUM	4.2.1.2	TCA			Gibae					
+BUTTE	thioesterase	<=>	BUTTE	3.1.2.14	D	25181600	ABSENT RHEA/BIGG	Gibae					
+BCAR	carboxylic acid reductase	<=>	BCAR	1.2.1.30	D	25181600	ABSENT RHEA/BIGG	Gibae					
+ADO	aldehyde oxygenase (deformylating)	<=>	ADO	4.1.99.5	D	25181600	ABSENT RHEA/BIGG	Gibae					
+BAAT	alcohol acyltransferase	<=>	BAAT	2.3.1.75	D	26853081	ABSENT RHEA/BIGG	Gibae					
+12963	acetoacetate CoA-transferase	>	BUTCT2	2.8.3.9	D	22906955	ABSENT BIGG	Gibae					
+27806	acetoacetate CoA-transferase	<=>	ACACCT	2.8.3.9	D	22906955		Gibae					
+19730	acetoacetate decarboxylase	>	ACACDC	4.1.1.4	D	22906955	ABSENT BIGG	Gibae					
+GBLR	spontaneous	>	GBLR	-	H		ABSENT RHEA/BIGG	Yeji					
+13245	isocitrate lyase	<=>	ICL	4.1.3.1	H			Yeji					
+14837	glyoxylate oxidase	<=>	GLXO1	1.2.3.5	H			Yeji					
+25311	(S)-2-hydroxy-acid oxidase	<=>	GLYCTO1	1.1.3.15	H	patent US20120315682A1		Yeji					
+20001	glycolaldehyde dehydrogenase	<=>	GCALDD	1.2.1.21 	H			Yeji					
+27630	lactaldehyde reductase	<=>	ETGC	1.1.1.77	H			Yeji	ethylene glycol로 이어지는 reaction이 없음. 				
+10524	2-oxoglutarate decarboxylase	>	OXGDC	4.1.1.71	H			Yeji 					
+ADHBC	alcohol/aldehyde dehydrogenase	<=>	ADHBC	1.2.1.10	D	23290993	ABSENT RHEA/BIGG	Gibae					
+ADHBDO	alcohol/aldehyde dehydrogenase	<=>	ADHBDO	1.2.1.57	D	23290993	ABSENT RHEA/BIGG	Gibae					
+49592	2-hydroxyisobutanoyl-CoA mutase	<=>	HIBTCM	5.4.99.64	D	20625719	ABSENT BIGG	Gibae					
+HIBACL	HIBACL	>	HIBACL	-	D	20625719	ABSENT RHEA/BIGG/MetaCyc	Gibae					
+15255	cis-aconitate decarboxylase	>	CAD	4.1.1.6	G	22752264	ABSENT BIGG	Woodae					
+11614	glutamate synthase	>	GLUDy	1.4.1.4	G	20144730		Woodae					
+17786	glutamate decarboxylase	>	GLUDC	4.1.1.15	G			Woodae					
+31111	3-ketoacyl-CoA thiolase	<=>	ACACT11	2.3.1.16	D	27340431		Gibae					
+31143	3-hydroxyacyl-CoA dehydrogenase	<=>	HACD2	1.1.1.35	D	27340431		Gibae					
+30547	3-hydroxyacyl-CoA dehydratase	<=>	ECOAH2	4.2.1.17	D	27340431		Gibae					
+52578	trans-2-enoyl-CoA reductase (NAD+)	>	ACOAD2f	1.3.1.44	D	27340431		Gibae					
+HXCT	hexanoate-CoA transferase	>	HXCT	2.8.3.8	D	27340431	ABSENT RHEA	Gibae					
+OXCT	Fatty-acid-CoA thoiseterase (octanoate)	>	FACOAE80	-	D	27340431	ABSENT RHEA	Gibae					
+48180	acyl-CoA dehydrogenase (octanoyl-CoA)	<=>	ACOAD3f	1.3.1.44	D	27340431	ABSENT RHEA	Gibae					
+31199	enoyl-CoA hydrtase	<=>	ECOAH3	4.2.1.17	D	27340431		Gibae					
+31195	3-hydroxyacyl-CoA dehydrogenase	<=>	HACD3	1.1.1.35	D	27340431		Gibae					
+31203	acetyl-CoA C-acetyltransferase	<=>	ACACT3r	2.3.1.9	D	27340431		Gibae					
+ALDDNADP	carboxylate reductase (NADP+)	>	ALDDNADP	1.2.1.30	D	26556131	ABSENT RHEA/BIGG	Gibae					
+ADCN	aldehyde decarbonylase	>	ADCN	4.1.99.5	D	26556131	ABSENT RHEA/BIGG	Gibae					
+59569	 carnosine synthase	>	CARNS1	6.3.2.11	G			Woodae					
+10189	hydroxymethylglutaryl-CoA synthase	>	HMGCOAS	2.3.3.10	D			Gibae					
+15991	3-hydroxy-3-methylglutaryl-CoA reductase	>	HMGCOAR	1.1.1.34	D			Gibae					
+17066	mevalonate kinase	>	MEVK1	2.7.1.36	D			Gibae					
+16342	phosphomevalonate kinase	>	PMEVK	2.7.4.2	D			Gibae					
+23733	diphosphomevalonate decarboxylase	>	DPMVD	4.1.1.33	D			Gibae					
+23284	isopentenyl-diphosphate delta-isomerase	<=>	IPDDI	5.3.3.2	D			Gibae					
+13370	isoprene synthase	>	ISPS	4.2.3.27	D		ABSENT BIGG	Gibae					
+19501	guanidinobutyrase	<=>	GUDBUTNAH	3.5.3.7	G			Woodae					
+ACT	Beta-alanine CoA-transferase	>	ACT	2.8.3.-	G		ABSENT RHEA/BIGG	Woodae					
+NUDF1	ADP-sugar pyrophosphatase	>	NUDF1	-	D	23618128	ABSENT RHEA/BIGG	Gibae					
+NUDF2	ADP-sugar pyrophosphatase	>	NUDF2	-	D	23618128	ABSENT RHEA/BIGG	Gibae					
+22409	dimethylallyltransferase	>	DMATT	2.5.1.1	D			Gibae					
+32680	geraniol synthase	>	GROS	3.1.7.11	D	24269531	ABSENT BIGG	Gibae					
+19362	farnesyl diphosphate synthase	>	GRTT	2.5.1.10	D			Gibae					
+27527	farnesyl diphosphatase	>	FNDPP	3.1.7.6	D	20552672	ABSENT BIGG	Gibae					
+17654	farnesyltransferase	>	FRTT	2.5.1.29	D	15236249		Gibae					
+26237	geranylgeranyl diphosphate diphosphatase	<=>	GGDPDP	3.1.7.5	D	20393702	ABSENT BIGG	Gibae					
+25489	(-)-alpha-pinene synthase	>	APINS	4.2.3.119	D	24679043	ABSENT BIGG	Gibae					
+32548	(+)-sabinene synthase	>	SABST	4.2.3.110	D	28537253	ABSENT BIGG	Gibae					
+16966	myrcene synthase	>	MYRCST	4.2.3.15	D	25909988	ABSENT BIGG	Gibae					
+12870	(4S)-limonene synthase	>	LMNST	4.2.3.16	D	23727191;28537253	ABSENT BIGG	Gibae					
+27426	beta-farnesene synthase	>	BFSST	4.2.3.47	D	26108688	ABSENT BIGG	Gibae					
+27422	alpha-farnesene synthase	>	AFSST	4.2.3.46	D	26108688	ABSENT BIGG	Gibae					
+31436	alpha-santalene synthase	>	ASTST	4.2.3.82	D	26108688	ABSENT BIGG	Gibae					
+25437	alpha-bisabolene synthase	>	ABAST	4.2.3.38	D	21952217	ABSENT BIGG	Gibae					
+34476	15-cis-phytoene synthase	>	PHYST	2.5.1.32	D	17500531	ABSENT BIGG	Gibae					
+PHYDS	phytoene desaturase (lycopene-forming)	>	PHYDS	1.3.99.31	D	17500531	ABSENT RHEA/BIGG; unknown cofactor	Gibae					
+32219	lycopene beta-cyclase	<=>	LYCOPC	5.5.1.19	D	17500531		Gibae					
+32239	gamma-carotene beta-cyclase	<=>	GCATENEC	5.5.1.19	D	17500531		Gibae					
+BCAROX1	beta-carotene hydroxylase 1	>	BCAROX1	1.14.15.24	D	30096424	ABSENT RHEA/BIGG; unknown cofactor	Gibae					
+BCAROX2	beta-carotene hydroxylase 2	<=>	BCAROX2	1.14.15.24	D	30096424	ABSENT RHEA/BIGG; unknown cofactor	Gibae					
+BCAROKT1	beta-carotene 4-ketolase 1	>	BCAROKT1	1.14.99.63	D	30096424	ABSENT RHEA/BIGG; unknown cofactor	Gibae					
+BCAROKT2	beta-carotene 4-ketolase 2	>	BCAROKT2	1.14.99.63	D	30096424	ABSENT RHEA/BIGG; unknown cofactor	Gibae					
+ZX4KT1	zeaxanthin 4-ketolase 1	>	ZX4KT1	1.14.99.64	D	30096424	ABSENT RHEA/BIGG; unknown cofactor	Gibae					
+ZX4KT2	zeaxanthin 4-ketolase 2	>	ZX4KT2	1.14.99.64	D	30096424	ABSENT RHEA/BIGG; unknown cofactor	Gibae					
+18326	amorpha-4,11-diene synthase	>	AMDST	4.2.3.24	D	16612385	ABSENT BIGG	Gibae					
+33000	amorpha-4,11-diene 12-monooxygenase	>	AMDMO	4.2.3.24	D	16612385	ABSENT BIGG	Gibae					
+OHACT4	alcohol acetyltransferase	>	OHACT4	2.3.1.84	E	25447641	ABSENT RHEA	Gibae					
+OHACT2	alcohol acetyltransferase	>	OHACT2	2.3.1.84	E	25447641	ABSENT RHEA	Gibae					
+11309	acetyl-CoA carboxylase	>	ACCOAC	6.4.1.2	E			Gibae					
+31523	2-oxoglutarate dioxygenase (ethene-forming)	>	EFG	1.13.12.19	H	18640286	ABSENT BIGG	Yeji					
+13398	6-oxohexanoate dehydrogenase	>	CHNE	1.2.1.63	E	25638687	ABSENT BIGG	Gibae					
+14226	6-hydroxyhexanoate dehydrogenase	>	CHND	1.1.1.258	E	25638687	ABSENT BIGG	Gibae					
+ALKBGT	alkane 1-monooxygenase	>	ALKBGT	1.14.15.3	E	25638687	ABSENT RHEA/BIGG	Gibae					
+40116	acyl-CoA thioesterase	>	FACOAE60	3.1.2.2	E	25638687		Gibae					
+18181	malate synthase	>	MALS	2.3.3.9	H			Yeji					
+26193	malate-CoA ligase	<=>	MalCoA	6.2.1.9	H	25008973	ABSENT BIGG	Yeji					
+MalSAR	succinate-semialdehyde dehydrogenase	<=>	MalSAR	-	H	25008973	ABSENT RHEA/BIGG	Yeji					
+DHBR	4-hydroxybutyrate dehydrogenase	<=>	DHBR	-	H	25008973	ABSENT RHEA/BIGG	Yeji					
+DHBCoR	4-hydroxybutyrate CoA-transferase, cinnamoyl-CoA:phenyllactate CoA-transferase	<=>	DHBCoR	-	H	25008973	ABSENT RHEA/BIGG	Yeji					
+DHBAR	coenzyme A acylating aldehyde dehydrogenase, methylmalonate-semialdehyde dehydrogenase	<=>	DHBAR	-	H	25008973	ABSENT RHEA/BIGG	Yeji	STOICHIOMETRY				
+BTER	alcohol dehydrogenase	<=>	BTER	-	H	25008973	ABSENT RHEA/BIGG	Yeji					
+LEVR	4-oxopentanoate synthesis pathway	>	LEVR	-	H	27088721	ABSENT RHEA/BIGG	Yeji	various enzymes are involved but pathway is not specified				
+HHAR	6-hydroxyhexanoate synthesis pathway	>	HHAR	-	H	27088721	ABSENT RHEA/BIGG	Yeji	various enzymes are involved but pathway is not specified				STOICHIOMETRY
+HBAR	beta-Hydroxy-gamma-butyrolactone synthesis pathway	>	HBAR	-	H	27088721	ABSENT RHEA/BIGG	Yeji	various enzymes are involved but pathway is not specified				
+ADPR	adipate synthesis pathway	>	ADPR	-	H	27088721	ABSENT RHEA/BIGG	Yeji	various enzymes are involved but pathway is not specified				
+SD3OPN	spontaneous decompose of ketocarboxylate	>	SD3OPN	4.1.1.4	E	27548700	ABSENT RHEA/BIGG	Gibae					
+PKS3OPN	PKS 3-oxopentanoate synthase	>	PKS3OPN	-	E	27548700	ABSENT RHEA/BIGG	Gibae					
+41788	acetyl-CoA ACP transacylase	<=>	ACOATA	2.3.1.38	E			Gibae					
+23720	propionyl-CoA carboxylase	<=>	PPCOAC	6.4.1.3	E			Gibae					
+PKS3MOPN	PKS pentan-3-one synthase	>	PKS3MOPN	-	E	27548700	ABSENT RHEA/BIGG	Gibae					
+26446	malonyl CoA reductase 1	<=>	MCR1	1.2.1.75	E	21723339		Gibae					
+26440	malonyl CoA reductase 2	>	MCR2	1.1.1.298	E	21723339		Gibae					
+35602	NADP-dependent reductase	<=>	13PPDH2	1.1.1.-	E	16960737		Gibae					
+19766	glycerol dehydratase	<=>	GLYCDH	4.2.1.30	E	16960737		Gibae					
+21824	aspartate transaminase	<=>	ASPTA	2.6.1.1	I	26057003		Gibae					
+19498	aspartate 1-decarboxylase	>	ASP1DC	4.1.1.11	I	26057003		Gibae					
+14077	beta-alanine-pyruvate transaminase	<=>	BAPTM	2.6.1.18	I	26925526	ABSENT BIGG	Gibae					
+20045	malonate semialdehyde dehydrogenase	<=>	MSADH	1.2.1.15	I	26925526	ABSENT BIGG	Gibae					
+26438	malonic semialdehyde reductase	<=>	MSAR	1.1.1.298	I	26925526		Gibae					
+23776	aspartate kinase	<=>	ASPK	2.7.2.4	I			Gibae					
+24284	aspartate semialdehyde dehydrogenase	<=>	ASAD	1.2.1.11	I			Gibae					
+15761	homoserine dehydrogenase (NADPH)	<=>	HSDy	1.1.1.3	I			Gibae					
+11160	diaminobutyrate aminotransferase	<=>	DABAAT2	2.6.1.76	I	26260768		Gibae					
+15690	diaminobutyrate decarboxylase	>	DABDC	4.1.1.86	I	26260768	ABSENT BIGG	Gibae					
+13986	homoserine kinase	>	HSK	2.7.1.39	I			Gibae					
+10841	threonine synthase	>	THRS	4.2.3.1	I			Gibae					
+22109	threonine deaminase	>	THRD_L	4.2.1.16	I			Gibae					
+EGDH	evolved glutamate dehydrogenase	<=>	EGDH	1.4.1.4	I	20332210	ABSENT RHEA/BIGG	Gibae					
+28055	formate C-acetyltransferase	>	OBTFL	2.3.1.54	I			Gibae					
+27655	2-aceto-2-hydroxybutanoate synthase	>	ACHBS	2.2.1.6	I			Gibae					
+13493	ketol-acid reductoisomerase	<=>	KARA2	1.1.1.86	I			Gibae					
+27695	dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylpentanoate)	>	DHAD2	4.2.1.9	I			Gibae					
+24801	isoleucine transaminase	<=>	ILETA	2.6.1.42	I			Gibae					
+50706	alcohol dehydrogenase II (propanal)	>	ALCD3ir	1.1.1.1	I	23376654		Gibae					
+55073	branched-chain-2-oxoacid decarboxylase	>	KIVD	4.1.1.72	I	23376654	ABSENT BIGG	Gibae					
+R00993	2-oxobutanoate: oxygen 2-oxidoreductase	<=>	SPT2OBRD	1.2.3.-	I	22871504	ABSENT RHEA/BIGG	Gibae					
+23148	propionate kinase	<=>	PPAKr	2.7.2.1	I	22871504		Gibae					
+R00298	acetoacetyl-CoA transferase	>	PROCOAS	2.8.3.9	I	22871504	ABSENT RHEA/BIGG	Gibae					
+36029	propanal dehydrogenase	<=>	MMSAD2	1.2.1.87	I	22871504		Gibae					
+LEUABCD1	isopropylmalate path (leuABCD) 1	>	LEUABCD1	-	I	19064911	ABSENT RHEA/BIGG	Gibae					
+KIVD1	2-ketoacid decarboxylase (2-ketobutyrate)	>	KIVD1	4.1.1.72	I	19064911	ABSENT RHEA/BIGG	Gibae					
+ADH61	alcohol dehydrogenase VI	>	ADH61	1.1.5.11	I	19064911	ABSENT RHEA/BIGG	Gibae					
+LEUKIVDADH2	isopropylmalate path (leuABCD) and 2-ketoacid decarboxylase and alcohol dehydrogenase VI	>	LEUKIVDADH2	-	I	19064911	ABSENT RHEA/BIGG	Gibae					
+KIVDADH62	2-ketoacid decarboxylase and alcohol dehydrogenase VI	>	KIVDADH62	-	I	18758769	ABSENT RHEA/BIGG	Gibae					
+21081	methionine adenosyltransferase	>	METAT	2.5.1.6	I			Gibae					
+21745	1-aminocyclopropane-1-carboxylase synthase	>	ACPCS	4.4.1.14	I			Gibae					
+23641	1-aminocyclopropane-1-carboxylate oxidase	>	ACCOX_c	1.14.17.4	I			Gibae					
+22353	L-lysine decarboxylase	>	LYSDC	4.1.1.18	I			Gibae					
+14602	L-lysine monooxygenase	>	LYSMO	1.13.12.2	I		ABSENT RHEA	Gibae					
+15680	delta-aminovaleramidase	>	APENTAMAH2	3.5.1.30	I	28579174	ABSENT RHEA	Gibae					
+25178	branched chain alpha-keto acid dehydrogeanse complex	>	OIVD1r	1.2.1.25	I	27548700		Gibae	This reaction is not present in the original paper. I added it to produce isovaleryl-CoA in silico cells which do not produce natively.				
+PKS5M3HN	PKS 5-methyl-3-hexanone synthase	>	PKS5M3HN	-	I	27548700	ABSENT RHEA/BIGG	Gibae					
+30719	3-oxoacyl CoA thiolase	<=>	MACCOAT	2.3.1.16	I	27340431		Gibae					
+13281	3-hydroxy-2-methylbutyryl-CoA dehydrogenase	<=>	HACD9	1.1.1.178	I	27340431		Gibae					
+31119	enoyl-CoA hydratase	<=>	ECOAH9ir	4.2.1.17	I	27340431		Gibae					
+CCE1	carbon-chain elongation 1	>	CCE1	-	I	27340431	ABSENT RHEA/BIGG	Gibae					
+55053	acyl-CoA thioesterase	>	FACOAE50	3.1.2.18	I	27340431		Gibae					
+CCE2	carbon-chain elongation 2	>	CCE2	-	I	27340431	ABSENT RHEA/BIGG	Gibae					
+FACOAE70	acyl-CoA thioesterase	>	FACOAE70	3.1.2.18	I	27340431	ABSENT RHEA	Gibae					
+PCTFADBI1	Pct FadAx FadB12 FabI ACT 1	>	PCTFADBI1	-	I	27088721	ABSENT RHEA/BIGG	Gibae					
+ACT2MB	acyl-CoA thioesterase	>	ACT2MB	3.1.2.18	I	27088721	ABSENT RHEA/BIGG	Gibae					
+TASP	tiglic acid synthesis pathway	>	TASP	-	I	27088721	ABSENT RHEA/BIGG	Gibae					
+MP2TNP	2-methylbutyrate synthesis pathway	>	MP2TNP	-	I	27088721	ABSENT RHEA/BIGG	Gibae					
+M2P2TENP	(E)-2-mehtyl-2-pentenoate synthesis pathway	>	M2P2TENP	-	I	27088721	ABSENT RHEA/BIGG	Gibae					
+ICSP	isocaproate synthesis pathway	>	ICSP	-	C	27088721	ABSENT RHEA/BIGG	Gibae					
+25250	acetohydroxyacid synthase	>	ACLS	2.2.1.6	C			Gibae					
+22070	ketol-acid reductoisomerase (NADP)	>	KARA1	1.1.1.383	C			Gibae					
+24810	dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylpentanoate)	>	DHAD1	4.2.1.9	C			Gibae					
+13998	branched-chain alpha-keto acid dehydrogenase complex	>	OIVD2	1.2.1.25	C			Gibae					
+ALDDNADP5	carboxylate reductase (NADP+)	>	ALDDNADP5	1.2.1.30	I	26556131	ABSENT RHEA/BIGG	Gibae					
+ADCN5	aldehyde decarbonylase	>	ADCN5	4.1.99.5	I	26556131	ABSENT RHEA/BIGG	Gibae					
+19177	lysine 2,3-aminomutase	<=>	LYSAM	5.4.3.2	I			Gibae					
+21388	L-lysine-lactamase	<=>	LLLM	3.5.2.11	I		ABSENT BIGG	Gibae					
+22864	lysine recemase	<=>	LYSRC	5.1.1.5	I			Gibae					
+37584	D-lysine oxidase	>	DLOD	1.4.3.3	I		ABSENT BIGG	Gibae					
+31067	6-amino-2-oxohexanoate degrade	<=>	AOXHEXCYCL	-	I			Gibae					
+12526	1-piperideine-2-carboxylate (NADPH)	>	1PPDCRc	1.5.1.21	I			Gibae					
+11993	pipecolate oxidase	>	LPCOXc	1.5.3.7	I			Gibae					
+25121	AAPSAS	<=>	AADSACYCL	1.2.1.31	I			Gibae					
+12309	L-aminoadipate-semialdehyde dehydrogenase (NADH)	>	AASAD3	1.2.1.31	I			Gibae					
+10212	4-aminobutyrate aminotransferase	<=>	APTNAT	2.6.1.48	I			Gibae					
+12065	glutarate-semialdehyde dehydrogenase	>	OXPTNDH	1.2.1.20	I			Gibae					
+22888	methylmalonyl-CoA mutase	<=>	MMM	5.4.99.2	H			Yeji					
+27666	(R)-methylmalonyl-CoA decarboxylase	<=>	MMCD	4.1.1.M5	H			Yeji					
+20373	propionate-CoA ligase	<=>	PPCOL	6.2.1.17	H		ABSENT BIGG	Yeji					
+ACT5	Beta-alanine CoA-transferase (C5)	>	ACT5	2.8.3.-	I	28390749		Gibae					
+C5CYC	cyclization of omega-amino acid (C5)	>	C5CYC	-	I	28390749		Gibae					
+CAT1	succinyl-CoA:CoA transferase (glutaryl-CoA)	>	CAT1	2.8.3.18	I	27088721		Gibae					
+SUBSP	suberate synthesis pathway	>	SUBSP	-	I	27088721		Gibae					
+SEBSP	sebacate synthesis pathway	>	SEBSP	-	I	27088721		Gibae					
+PMSP	pimelate synthesis pathway	>	PMSP	-	I	27088721		Gibae					
+HHPTSP	7-hydroxyheptanoate synthesis pathway	>	HHPTSP	-	I	27088721		Gibae					
+DHB23R	2,3-Dihydroxybutanoate synthesis pathway	>	DHB23R	-	H	27088721		Yeji 					
+HB4R	4-hydroxybutyrate synthesis from glycolate 	>	HB4R	-	H	27088721		Yeji					
+21525	2-isopropylmalate synthase	>	IPPS	2.3.3.13	C			Gibae					
+16293	3-isopropylmalate dehydratase	<=>	IPPMIb	-	C			Gibae					
+10676	3-isopropylmalate dehydratase 2	<=>	IPPMIa	-	C			Gibae					
+10893	3-isopropylmalate dehydrogenase	>	IPMD	-	C			Gibae					
+25079	spontaneous decarboxylation of (2S)-2-isopropyl-3-oxosuccinate	>	OMCDC	-	C			Gibae					
+18321	branched-chain-amino-acid aminotransferase	<=>	LEUTAi	2.6.1.42	C			Gibae					
+24813	branched-chain-amino-acid aminotransferase	<=>	VALTA	2.6.1.42	C			Gibae					
+RE1266C_1	4-hydroxyphenylpyruvate dioxygenase	>	RE1266C_1	1.13.11.-	C		ABSENT RHEA	Gibae					
+54357	branched chain-2-oxoacid decarboxylase	>	KIVDIBA	4.1.1.72	C		ABSENT BIGG	Gibae					
+ADHIBO	alcohol dehydrogenase	<=>	ADHIBO	1.1.1.1	C		ABSENT RHEA/BIGG	Gibae					
+54361	branched-chain-2-oxoacid decarboxylase (3-mehtylbutanal)	>	4MOPDC	4.1.1.72	C			Gibae					
+ADHIVL	aldehyde dehydrogenase (isovalerate)	>	ADHIVL	-	C		ABSENT RHEA/BIGG	Gibae					
+18531	alcohol dehydrogenase (isoamylol)	>	ALCD24xi	1.1.1.1	C			Gibae					
+LEUKIVD3	isopropylmalate path (leuABCD) and 2-ketoacid decarboxylase and alcohol dehydrogenase VI (2-ketoisocaproate)	>	LEUKIVD3	-	C		ABSENT RHEA/BIGG	Gibae					
+58438	aldehyde dehydrogenase (4-mehtyl-1-pentanol)	>	ADH64M1PTO	1.1.1.1	C			Gibae					
+LEU2KIHPT	isopropylmalate path (leuABCD) (2-ketoisoheptanoate)	>	LEU2KIHPT	-	C		ABSENT RHEA/BIGG	Gibae					
+ICPRS2	isocaproate synthesis (decarboxylase and aldehyde dehydrogenase)	>	ICPRS2	-	C		ABSENT RHEA/BIGG	Gibae					
+21581	alpha-acetolactate decarboxylase	>	ACLDC	4.1.1.5	C			Gibae					
+12092	acetoin racemase	<=>	ARSR	5.1.2.4	C			Gibae					
+12184	(S)-acetoin reductase	<=>	SACRD	1.1.1.76	C		ABSENT BIGG	Gibae					
+24340	(R, R)-butanediol dehydrogenase	<=>	BTDD_RR	1.1.1.4	C			Gibae					
+MSBDDH1	meso-butanediol dehydrogenase 1	<=>	MSBDDH1	1.1.1.-	C		ABSENT RHEA/BIGG	Gibae					
+MSBDDH2	meso-butanediol dehydrogenase 2	<=>	MSBDDH2	1.1.1.-	C		ABSENT RHEA/BIGG	Gibae					
+BGDH	B12-dependent glycerol dehydratase	>	BGDH	4.2.3.-	C	24193695	ABSENT RHEA/BIGG	Gibae					
+ADH2BO	alcohol dehydrogenase (2-butanone)	>	ADH2BO	1.1.1.1	C	WO2009134276	ABSENT RHEA/BIGG	Gibae					
+23444	L-lactate dehydrogenase	<=>	LDH_L	1.1.1.27	C			Gibae					
+PPCOATF	propanoyl-CoA transferase	<=>	PPCOATF	2.8.3.1	C		ABSENT RHEA/BIGG	Gibae					
+21057	lactoyl-CoA dehydratase	>	LCCOADH	4.2.1.54	C		ABSENT BIGG	Gibae					
+26456	acrylyl-CoA reductase	>	PCNO	1.3.1.84	C			Gibae					
+23520	propionate CoA-transferase	<=>	PPCOATF2	2.8.3.1	C		ABSENT BIGG	Gibae					
+40800	acyl-CoA thioesterase	>	IBTCOAT	3.1.2.20	C		ABSENT BIGG	Gibae					
+ICCCRD	carboxylic acid reductase (isocaproate)	>	ICCCRD	1.2.1.30	C	25248664	ABSENT RHEA/BIGG	Gibae					
+ADCNIPT	aldehyde decarbonylase (isopentane)	>	ADCNIPT	4.1.99.5	C	26556131	ABSENT RHEA/BIGG	Gibae					
+ACYDG	acylate degradation	<=>	ACYDG	2.3.1.-	C	3996603	ABSENT RHEA/BIGG	Gibae					
+18585	triose-phosphate isomerase	<=>	TPI	5.3.1.1	B			Yeji					
+17937	methylglyoxal synthase	>	MGSA	4.2.3.3	B			Yeji					
+24531	methylglyoxal reductase (NADH)	<=>	MTGRR	1.1.1.78	B		ABSENT BIGG	Yeji					
+21748	methylglyoxal reductase (NADPH)	<=>	MTGRS	1.1.1.283	B		ABSENT BIGG	Yeji					
+23872	lactaldehyde reductase	>	LCARR	1.1.1.77	B			Yeji					
+15933	lactaldehyde reductase	>	LCARS	1.1.1.77	B			Yeji					
+18381	phosphoenolpyruvate—glycerone phosphotransferase	<=>	PPPGP	2.7.1.121	B		ABSENT BIGG	Yeji	원래방향은 반대로만있음 <(metacyc)				
+28751	glycerol-3-phosphate dehydrogenase	<=>	G3PD5	1.1.5.3	B			Yeji	원래방향은 반대로만있음 <(metacyc)				
+16170	glutamine synthetase	>	GLNS	6.3.1.2	G	18040683		Woodae					
+GLMS	L-glutamine—D-fructose-6-phosphate aminotransferase	<=>	GF6PTA	2.6.1.16	G			Woodae					
+13769	glycerol dehydrogenase	<=>	GLYCDx	1.1.1.6	B			Yeji					
+21647	glycerol kinase	<=>	GLYK	2.7.1.30	B			Yeji					
+23519	glycerate 3-kinase	<=>	GLYCK	2.7.1.31	B			Yeji	원래방향은 반대로만있음 <(metacyc) 				
+30786	glyceraldehyde oxidoreductase	<=>	r0393	1.2.99.8	B			Yeji	원래방향은 반대로만있음 <(metacyc) 				
+23595	glycerol dehydrogenase (NADP)	<=>	ALCD19y	1.1.1.72	B			Yeji					
+30030	glycerol dehydrogenase	>	GLYCDx	1.1.1.-	B			Yeji					
+12644	phosphoglycerate dehydrogenase	<=>	PGCD	1.1.1.95	B			Yeji					
+14332	phosphoserine transaminase	<=>	PSERT	2.6.1.52	B			Yeji					
+21211	phosphoserine phosphatase	>	PSP_L	3.1.3.3	B	27908688		Yeji					
+45827	serine decarboxylase	>	SERDC	4.1.1.-	B			Yeji					
+15484	glycine hydroxymethyltransferase	<=>	GHMT2r	2.1.2.1	B			Yeji					
+12924	5-aminolevulinate synthase	>	5aop	2.3.1.37	B			Yeji					
+12483	aminolevulinate transaminase	<=>	ALVT	2.6.1.43	B			Yeji					
+19768	glycerol dehydratase	>	GLYCDH	4.2.1.30	B			Yeji					
+23191	1,3-propanediol dehydrogenase	<=>	13PPDH	1.1.1.202	B			Yeji					
+HPP3	4-(γ-glutamylamino)butanal dehydrogenase	>	HPP3	1.2.1.99	B			Yeji					
+27989	1.1.1 -- With NAD(+) or NADP(+) as acceptor	>	DHAMG	1.1.1.-	B		ABSENT BIGG	Yeji					
+35618	1.1.1 -- With NAD(+) or NADP(+) as acceptor	>	DHAMG2	1.1.1.-	B		ABSENT BIGG	Yeji					
+PPDAC	glycerol dehydrogenase	<=>	PPDAC	-	B		ABSENT BIGG	Yeji					
+14572	propanediol dehydratase	>	PPDD	4.2.1.28	B			Yeji					
+11103	propioin synthase	<=>	HHO34	4.1.2.35	B		ABSENT BIGG	Yeji					
+36006	4-hydroxy-2-oxohexanoate aldolase	<=>	HOPNTAL2	4.1.3.43	B			Yeji					
+50707	alcohol dehydrogenase	>	ALCD3ir	1.1.1.1	B			Yeji					
+18049	N-acetylornithine aminotransferase	<=>	ACOTA	2.6.1.11	G			Woodae					
+15941	acetylornithine deacetylase	<=>	ACODA	3.5.1.16	G			Woodae					
+22965	ornithine decarboxylase	>	ORNDC	4.1.1.17	G	28964700		Woodae					
+18274	putrescine oxidase	>	PTRCTA	1.4.3.10	G			Woodae	PTRCTA: diff with PTRCTA in BiGG				
+19106	γ-glutamyl-γ-aminobutyraldehyde dehydrogenase	>	ABUTD	1.2.1.19	G			Woodae					
+19513	ornithine carbamoyltransferase	<=>	OCT	2.1.3.3	G			Woodae					
+10933	argininosuccinate synthetase	>	ARGSS	6.3.4.5	G			Woodae					
+11819	phosphoglucose isomerase	<=>	PGI	5.3.1.9	central			Yeji					
+16110	phosphofructokinase	>	PFK 	2.7.1.11	central			Yeji					
+14732	fructose-bisphosphate aldolase	<=>	FBA	4.1.2.13	central			Yeji					
+42763	glyceraldehyde-3-phosphate dehydrogenase	<=>	GAPD	1.2.1.90	central			Yeji					
+15904	phosphoglycerate mutase	<=>	PGM 	5.4.2.12	central			Yeji					
+10167	phosphopyruvate hydratase	<=>	ENO	4.2.1.11	central			Yeji					
+18159	phosphoenolpyruvate kinase	>	PYK	2.7.1.40	central			Yeji					
+28045	pyruvate dehydrogenase system	<=>	PDH	1.2.1.M10	central			Yeji					
+13237	L-glutamine—D-fructose-6-phosphate aminotransferase	<=>	GF6PTA	2.6.1.16	G			Woodae					
+19639	D-nopaline dehydrogenase	>	NOPD	1.5.1.19	G			Woodae					
+24020	argininosuccinate lyase	<=>	ARGSL	4.3.2.1	G			Woodae					
+13833	L-arginine:pyruvate transaminase	<=>	ARUH	2.6.1.84	G			Woodae					
+16287	octopine dehydrogenase	>	OCTD	1.5.1.11	G			Woodae					
+17642	arginine decarboxylase	>	ARGDC	4.1.1.19	G			Woodae					
+13406	agmatine coumaroyltransferase	>	AGCT	2.3.1.64	G		ABSENT BIGG	Woodae					
+18037	Agmatine deiminase	<=>	AGMDA	3.5.3.12 	G			Woodae					
+22285	N-carbamolyputrescine amidohydrolase	>	CBPAH	3.5.1.53	G			Woodae					
+14878	glutamate 5-kinase	>	GLU5K	2.7.2.11	G	11418582		Woodae					
+19543	glutamate-5-semialdehyde dehydrogenase	>	G5SD	1.2.1.41	G	11418582		Woodae					
+G5SADs	L-glutamate 5-semialdehyde dehydratase	>	G5SADs	-	G	11418582		Woodae					
+14111	pyrroline-5-carboxylate reductase	>	P5CR	1.5.1.2	G			Woodae					
+14717	3-deoxy-7-phosphoheptulonate synthase	<=>	DDPA	2.5.1.54	F			Gibae					
+21969	3-dehydroquinate synthase	>	DHQS	4.6.1.3	F			Gibae					
+21096	3-dehydroquinate dehydratase	<=>	DHQTi	4.2.1.10	F			Gibae					
+24849	3-dehydroshikimate dehyratase	>	DHSKDH	4.2.1.118	F			Gibae					
+17739	shikimate dehydrogenase	>	SHK3Dr	1.1.1.25	F			Gibae					
+13121	shikimate kinase	>	SHKK	2.7.1.71	F			Gibae					
+21256	3-phosphoshikimate 1-carboxyvinyltransferase	<=>	PSCVT	2.5.1.19	F			Gibae					
+21021	5-O-(1-carboxyvinyl)-3-phosphoshikimate phosphate-lyase	>	CHORS	4.2.3.5	F			Gibae					
+13897	chorismate mutase	<=>	CHORM	5.4.99.5	F			Gibae					
+16506	chorismate lyase	>	CHRPL	4.1.3.40	F			Gibae					
+21733	anthranilate synthase	>	ANS	4.1.3.27	F			Gibae					
+24730	aminobenzoate decarboxylase	<=>	ADCBAN	4.1.1.24	F		ABSENT BIGG	Gibae					
+23117	4-hydroxybenzoate CoA ligase	>	BCOALIG2	6.2.1.27	F			Gibae					
+11672	aminodeoxychorismate synthase	<=>	ADCS	2.6.1.85	F	27167511		Gibae					
+16202	aminodeoxychorismate lyase	>	ADCL	4.1.3.38	F	27167511		Gibae					
+59379	4-amino-4-deoxychorismate mutase	<=>	PAPB	5.4.99.67	F	27167511	ABSENT BIGG	Gibae					
+59381	4-amino-4-deoxyprephenate dehydrogenase	>	PAPC	1.3.1.-	F	27167511	ABSENT BIGG	Gibae					
+59384	aminotransferase (4-aminophenylalanine)	<=>	ATFAPAL	2.6.1.-	F	27167511	ABSENT BIGG	Gibae					
+PDC4APADH	phenylpyruvate decarboxylase (4-aminophenylacetaldehyde)	>	PDC4APADH	4.1.1.43	F	27167511	ABSENT RHEA/BIGG	Gibae					
+ADHDH4APAA	aldehyde dehydrogenase (4-aminophenylacetic acid)	>	ADHDH4APAA	1.2.1.3	F	27167511	ABSENT RHEA/BIGG	Gibae					
+ADH4AETH	alcohol dehydrogenase (4-aminophenylehtanol)	<=>	ADH4AETH	1.1.1.1	F	27167511	ABSENT RHEA/BIGG	Gibae					
+AAADC4AEA	aromatic amino acid decarboxylase (4-aminophenylehtylamine)	>	AAADC4AEA	4.1.1.53	F	27167511	ABSENT RHEA/BIGG	Gibae					
+PAAL4AC	phenylalanine ammonia lyase (4-aminocinnamic acid)	>	PAAL4AC	4.3.1.24	F	27167511	ABSENT RHEA/BIGG	Gibae					
+18985	isochorismate synthase	<=>	ICHORS	5.4.4.2	F			Gibae					
+16710	tryptophan 5-monooxygenase	>	r0403	1.14.16.4	F		SUBSTRATE ABSENT	Gibae					
+18534	aromatic-L-amino-acid decarboxylase	>	5HLRDL	4.1.1.28	F			Gibae					
+25218	aralkylamine N-acetyltransferase	>	SRTNACT	2.3.1.87	F			Gibae					
+15574	acetylserotonin O-methyltransferase	>	ACSRTNMT	2.1.1.4	F			Gibae					
+SOMTTF	serotonin O-methyltransferase	<=>	SOMTTF	-	F		ABSENT RHEA/BIGG	Gibae					
+17418	N-acetylglucosamine kinase	<=>	ACGAMK	2.7.1.59	B			Yeji	원래방향은 반대로만있음 <(metacyc)				
+10293	glucosamine-phosphate N-acetyltransferase	>	AGDC	2.3.1.4	B			Yeji					
+13238	glutamine—fructose-6-phosphate transaminase	>	GF6PTA	2.6.1.16	B			Yeji					
+23427	phosphoglucosamine mutase	<=>	PGAMT	5.4.2.10	B			Yeji					
+13726	glucosamine-1-phosphate N-acetyltransferase	>	G1PACT	2.3.1.157	B			Yeji					
+13510	UDP-N-acetylglucosamine diphosphorylase	>	UDPACGLP	2.7.7.23	B			Yeji					
+13870	fused chorismate mutase/prephenate dehydrogenase	>	PPND	1.3.1.12	F	22752168		Yeji					
+18698	4-hydroxyphenylpyruvate decarboxylase	>	4HPPD	4.1.1.80	F	22752168	ABSENT BIGG	Yeji					
+17273	4-hydroxyphenylacetaldehyde dehydrogenase	>	4HALDD	1.2.1.53	F	22752168		Yeji					
+TYRO	alcohol dehydrogenase	>	TYRO	1.1.1.1	F	22752168	ABSENT RHEA/BIGG	Yeji					
+23366	aromatic 2-oxoacid reductase	>	4HPLAR	1.1.1.110	F	22752168	ABSENT BIGG	Yeji					
+21651	prephenate dehydratase	<=>	PPNDH	4.2.1.51	F	22752168		Yeji					
+38353	aromatic 2-oxoacid reductase	>	PLAR	1.1.1.110	F	22752168	ABSENT BIGG	Yeji					
+21411	phenylalanine dehydrogenase	<=>	PHEAD	1.4.1.20	F		ABSENT BIGG	Yeji					
+21385	phenylalanine ammonia-lyase	>	PHEAAL	4.3.1.24	F		ABSENT BIGG	Yeji					
+46923	phenacrylate decarboxylase	<=>	PHACD	4.1.1.102	F		ABSENT BIGG	Yeji					
+15096	tyrosine transaminase	<=>	TYRTA	2.6.1.5	F		ABSENT BIGG	Yeji					
+MDDH	(S)-mandelate dehydrogenase	<=>	MDDH	1.1.1.345	F	21910908	ABSENT RHEA/BIGG	Yeji					
+SMDS	4-hydroxymandelate synthase	>	SMDS	1.13.11.46	F	21910908	ABSENT RHEA/BIGG	Yeji					
+24045	protocatechuate 4,5-dioxygenase	>	PTCTDO	1.13.11.8	F	30096230	ABSENT BIGG	Yeji					
+29588	2-hydroxy-4-carboxymuconate semialdehyde hemiacetal dehydrogenase	>	CHMSDH	1.1.1.312	F	30096230	ABSENT BIGG	Yeji					
+CHMST	2-hydroxy-4-carboxymuconate semialdehyde transfer reaction	<=>	CHMST	-	F	30096230	ABSENT RHEA/BIGG	Yeji					
+14348	tyrosine decarboxylase	<=>	TYRCBOX	4.1.1.25	F	22127754		Gibae					
+HPAB	4-coumarate 3-monooxygenase	>	HPAB	1.14.14.-	F	21512819	ABSENT RHEA/BIGG	Gibae					
+12273	DOPA decarboxylase	>	3HLYTCL	4.1.1.28	F			Gibae					
+27947	tyramine oxidase	>	42A12BOOX	1.4.3.4	F	22948011		Gibae					
+ADHDPM	alcohol dehydrogenase: dopamine	>	ADHDPM	1.1.1.1	F	22948011	ABSENT RHEA/BIGG	Gibae					
+21705	tyrosine phenol-lyase	>	TYRPLA	4.1.99.2	F		ABSENT BIGG	Gibae					
+17062	phenol 2-monooxygenase	>	P2MOOX	1.14.13.7	F		ABSENT BIGG	Gibae					
+23853	catechol 1,2-dioxygenase	>	CATDOX	1.13.11.1	F	19286778		Gibae					
+24907	tyrosine ammonia-lyase	>	TRYAL	4.3.1.23	F		ABSENT BIGG	Gibae					
+4CMCOAS	4-coumaroyl-CoA synthetase	>	4CMCOAS	6.2.1.12	F			Gibae					
+11937	trihydroxystilbene synthase	>	TRIHSBST	2.3.1.95	F	26344106	ABSENT BIGG	Gibae					
+33228	phenacrylate decarboxylase	>	PADCB	4.1.1.102	F	19060171	ABSENT BIGG	Gibae					
+C3MOGN	4-coumarate 3-monooxygenase	>	C3MOGN	1.14.99.15	F	22475509	ABSENT RHEA/BIGG	Gibae					
+12521	tyrosine ammonia-lyase: caffeate	>	TALCF	4.3.1.23	F	22475509	ABSENT BIGG	Gibae					
+20226	caffeate O-methyltransferase	>	CFOMTT	2.1.1.68	F	21424580	ABSENT BIGG	Gibae					
+14186	phenylpyruvate decarboxylase (phenylacetaldehyde)	>	PPYRDC	4.1.1.43	F			Gibae					
+ALCD25yi	aldehyde dehydrogenase (2-phenylethanol, NADP)	>	ALCD25yi	1.1.1.-	F	22242720	ABSENT RHEA	Gibae					
+21393	aldehyde dehydrogenase (phenylacetaldehyde, NAD)	>	ALCD19xr	1.2.1.39	F			Gibae					
+20957	phenylacetate-CoA ligase	>	PACCOAL	6.2.1.30	F	27088721		Gibae					
+PHAE4PB	Phenylalkanoate acid elongation (4-phenylbutyrate)	>	PHAE4PB	-	F	27088721	ABSENT RHEA/BIGG	Gibae					
+PHAE6HX	Phenylalkanoate acid elongation (6-phenylhexanoate)	>	PHAE6HX	-	F	27088721	ABSENT RHEA/BIGG	Gibae					
+C4CYC	cyclization of omega-amino acid (C4)	>	C4CYC	-	G	28390749	ABSENT RHEA/BIGG	Gibae					
+20317	pyrroline-2-carboxylate reductase	<=>	1P2CBXLR	1.5.1.1	G			Gibae	Metacyc: opposite direction only				
+25161	ornithine transaminiase	>	ORNTA	2.6.1.13	G			Gibae					
+10557	N2-(2-carboxyethyl) arginine synthase	>	N2CARGST	2.5.1.66	G		ABSENT BIGG	Gibae					
+23621	beta-lactam synthetase	>	BLSTT	6.3.3.4	G		ABSENT BIGG	Gibae					
+20022	deoxyamidinoproclavaminate,2-oxoglutarte: oxygen oxidorecutase (3-hydroxylating)	>	DAPCV2O	1.14.11.21	G		ABSENT BIGG	Gibae					
+17002	proclavaminate amidino hydrolase	>	PCVAH	3.5.3.22	G		ABSENT BIGG	Gibae					
+11901	NAD-dependent threo-isocitrate dehydrogenase	>	ISOCDH	1.1.1.87	G	28390749	ABSENT BIGG	Gibae					
+12929	homocitrate synthase	<=>	HCITS	2.3.3.14	G	28390749		Gibae					
+15487	homoaconitase	>	HMACT	4.2.1.36	G	28390749	ABSENT BIGG	Gibae					
+26102	homoaconitase alpha subunit	>	HMACTAS	-	G	28390749	ABSENT BIGG	Gibae					
+ACTC6	Beta-alanine CoA-transferase (C6)	>	ACTC6	-	G	28390749	ABSENT RHEA/BIGG	Gibae					
+C6CYC	cyclization of omega-amino acid (C6)	>	C6CYC	-	G	28390749	ABSENT RHEA/BIGG	Gibae					
+OXPSP	2-oxopimelate synthesis pathway (2-oxoadipate)	>	OXPSP	-	G	28390749	ABSENT RHEA/BIGG	Gibae					
+ACSP2OP	6-aminocaproic acid synthesis pathway (2-oxopimleate)	>	ACSP2OP	-	G	28390749	ABSENT RHEA/BIGG	Gibae					
+11770	Anthranilate phosphoribosyltransferase	>	ANPRT		F			Gibae					
+21541	Phosphoribosylanthranilate isomerase (irreversible)	>	PRAIi		F			Gibae					
+23477	Indole-3-glycerol-phosphate synthase	>	IGPS		F			Gibae					
+10533	Tryptophan synthase (indoleglycerol phosphate)	>	TRPS1		F			Gibae					

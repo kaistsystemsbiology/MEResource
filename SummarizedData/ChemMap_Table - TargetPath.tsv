@@ -1,0 +1,292 @@
+CHEBI_ID	Metabolite_name	Starting metabolite	Path																		
+CHEBI:32879	propane	acetyl-CoA	21036	30799	26561	52574	30071	BCAR	ADO												
+CHEBI:57286	acetoacetyl-CoA(4-)	acetyl-CoA	21036																		
+CHEBI:57316	(S)-3-hydroxybutanoyl-CoA(4-)	acetyl-CoA	21036	30799																	
+CHEBI:57315	(R)-3-hydroxybutanoyl-CoA(4-)	acetyl-CoA	21036	45798																	
+CHEBI:57332	crotonoyl-CoA(4-)	acetyl-CoA	21036	30799	26561																
+CHEBI:57371	butyryl-CoA(4-)	acetyl-CoA	21036	30799	26561	52574															
+CHEBI:17968	butyrate	acetyl-CoA	21036	30799	26561	52574	30071														
+CHEBI:28885	butan-1-ol	acetyl-CoA	21036	30799	26561	52574	BUTAD														
+CHEBI:15740	formate	pyruvate	11844																		
+CHEBI:15343	acetaldehyde	pyruvate	45485																		
+CHEBI:30089	acetate	acetyl-CoA	19521	11352																	
+CHEBI:16236	ethanol	pyruvate	45485	25290																	
+CHEBI:88764	ethyl butyrate	acetyl-CoA	21036	30799	26561	52574	BAAT														
+CHEBI:15347	acetone	acetyl-CoA	21036	12963	19730																
+CHEBI:15347	acetone	acetyl-CoA	21036	27806	19730																
+CHEBI:17824	propan-2-ol	acetyl-CoA	21036	27806	19730	21792															
+CHEBI:R13BDO	butane-1,3-diol	acetyl-CoA	21036	45798	ADHBC	ADHBDO															
+CHEBI:10983	(R)-3-hydroxybutyrate	acetyl-CoA	21036	45798	R3HBS																
+CHEBI:19641	2-hydroxyisobutyrate	acetyl-CoA	21036	30799	49592	HIBACL															
+CHEBI:17240	itaconate(2-)	cis-aconitate(3-)	15255																		
+CHEBI:29985	L-glutamate(1-)	2-oxoglutarate(2-)	11614																		
+CHEBI:59888	gamma-aminobutyric acid zwitterion	2-oxoglutarate(2-)	11614	17786																	
+CHEBI:17120	hexanoate	acetyl-CoA	21036	30799	26561	52574	31111	31143	30547	52578	HXCT										
+CHEBI:25646	octanoate	acetyl-CoA	21036	30799	26561	52574	31111	31143	30547	52578	31203	31195	31199	48180	OXCT						
+CHEBI:37830	pentane	acetyl-CoA	21036	30799	26561	52574	31111	31143	30547	52578	HXCT	ALDDNADP	ADCN								
+CHEBI:143075	L-homocarnosine zwitterion	2-oxoglutarate(2-)	11614	17786	59569																
+CHEBI:36464	(R)-mevalonate	acetyl-CoA	21036	10189	15991																
+CHEBI:128769	isopentenyl diphosphate(3-)	acetyl-CoA	21036	10189	15991	17066	16342	23733													
+CHEBI:35194	isoprene	acetyl-CoA	21036	10189	15991	17066	16342	23733	23284	13370											
+CHEBI:57352	4-aminobutanoyl-CoA(3-)	2-oxoglutarate(2-)	11614	17786	ACT																
+CHEBI:62898	isopentenyl alcohol	acetyl-CoA	21036	10189	15991	17066	16342	23733	NUDF1	NUDF2											
+CHEBI:58057	geranyl diphosphate(3-)	acetyl-CoA	21036	10189	15991	17066	16342	23733	22409												
+CHEBI:17447	geraniol	acetyl-CoA	21036	10189	15991	17066	16342	23733	22409	32680											
+CHEBI:175763	2-trans,6-trans-farnesyl diphosphate(3-)	acetyl-CoA	21036	10189	15991	17066	16342	23733	22409	19362											
+CHEBI:16619	(2-trans,6-trans)-farnesol	acetyl-CoA	21036	10189	15991	17066	16342	23733	22409	19362	27527										
+CHEBI:58756	2-trans,6-trans,10-trans-geranylgeranyl diphosphate(3-)	acetyl-CoA	21036	10189	15991	17066	16342	23733	22409	19362	17654										
+CHEBI:46762	(E,E,E)-geranylgeraniol	acetyl-CoA	21036	10189	15991	17066	16342	23733	22409	19362	17654	26237									
+CHEBI:28660	(-)-alpha-pinene	acetyl-CoA	21036	10189	15991	17066	16342	23733	22409	25489											
+CHEBI:50029	(+)-sabinene	acetyl-CoA	21036	10189	15991	17066	16342	23733	22409	32548											
+CHEBI:17221	beta-myrcene	acetyl-CoA	21036	10189	15991	17066	16342	23733	22409	16966											
+CHEBI:15383	(4S)-limonene	acetyl-CoA	21036	10189	15991	17066	16342	23733	22409	12870											
+CHEBI:10280	(E,E)-alpha-farnesene	acetyl-CoA	21036	10189	15991	17066	16342	23733	22409	19362	27422										
+CHEBI:10418	trans-beta-farnesene	acetyl-CoA	21036	10189	15991	17066	16342	23733	22409	19362	27426										
+CHEBI:61677	(+)-alpha-santalene	acetyl-CoA	21036	10189	15991	17066	16342	23733	22409	19362	31436										
+CHEBI:49243	(E,R)-alpha-bisabolene	acetyl-CoA	21036	10189	15991	17066	16342	23733	22409	19362	25437										
+CHEBI:17579	beta-carotene	acetyl-CoA	21036	10189	15991	17066	16342	23733	22409	19362	17654	34476	PHYDS	32219	32239						
+CHEBI:40968	astaxanthin	acetyl-CoA	21036	10189	15991	17066	16342	23733	22409	19362	17654	34476	PHYDS	32219	32239	BCAROX1	BCAROX2	ZX4KT1	ZX4KT2		
+CHEBI:64782	(+)-artemisinate	acetyl-CoA	21036	10189	15991	17066	16342	23733	22409	19362	18326	33000									
+CHEBI:50569	isobutyl acetate	acetyl-CoA	OHACT4	25250	22070	24810	54357	ADHIBO													
+CHEBI:31725	isoamyl acetate	acetyl-CoA	OHACT2	25250	22070	24810	21525	16293	10676	10893	25079	54361	18531								
+CHEBI:57384	malonyl-CoA(5-)	acetyl-CoA	11309																		
+CHEBI:17128	adipate(2-)	hexanoyl-CoA	40116	ALKBGT	14226	13398															
+CHEBI:28398	butan-2-one	oxaloacetate	21824	23776	24284	15761	13986	10841	22109	28055	SD3OPN	PKS3OPN									
+CHEBI:87755	pentan-3-one	oxaloacetate	21824	23776	24284	15761	13986	10841	22109	28055	23720	PKS3MOPN									
+CHEBI:16510	3-hydroxypropionate	malonyl-CoA	26446	26440																	
+CHEBI:16109	propane-1,3-diol	glycerol	35602	19766																	
+CHEBI:29991	L-aspartate(1-)	oxaloacetate	21824																		
+CHEBI:57966	beta-alanine zwitterion	oxaloacetate	21824	19498																	
+CHEBI:15792	malonate(2-)	oxaloacetate	21824	19498	14077	20045															
+CHEBI:16510	3-hydroxypropionate	oxaloacetate	21824	19498	14077	26438															
+CHEBI:537519	L-aspartic acid 4-semialdehyde betaine	oxaloacetate	21824	23776	24284																
+CHEBI:57476	L-homoserine zwitterion	oxaloacetate	21824	23776	24284	15761															
+CHEBI:57484	trimethylenediaminium	oxaloacetate	21824	23776	24284	11160	15690														
+CHEBI:57926	L-threonine zwitterion	oxaloacetate	21824	23776	24284	15761	13986	10841													
+CHEBI:16763	2-oxobutanoate	oxaloacetate	21824	23776	24284	15761	13986	10841	22109												
+CHEBI:LHMA	L-homoalanine	oxaloacetate	21824	23776	24284	15761	13986	10841	22109	EGDH											
+CHEBI:57392	propionyl-CoA(4-)	oxaloacetate	21824	23776	24284	15761	13986	10841	22109	28055											
+CHEBI:57327	(S)-methylmalonyl-CoA(5-)	oxaloacetate	21824	23776	24284	15761	13986	10841	22109	28055	23720										
+CHEBI:58045	L-isoleucine zwitterion	oxaloacetate	21824	23776	24284	15761	13986	10841	22109	27655	13493	27695	24801								
+CHEBI:17272	propionate	oxaloacetate	21824	23776	24284	15761	13986	10841	22109	R00993	23148										
+CHEBI:28831	propan-1-ol	oxaloacetate	21824	23776	24284	15761	13986	10841	22109	55073	50706										
+CHEBI:28831	propan-1-ol	oxaloacetate	21824	23776	24284	15761	13986	10841	22109	R00993	23148	R00298	36029	50706							
+CHEBI:28885	butan-1-ol	oxaloacetate	21824	23776	24284	15761	13986	10841	22109	LEUABCD1	KIVD1	ADH61									
+CHEBI:87381	3-methylpentanol	oxaloacetate	21824	23776	24284	15761	13986	10841	22109	27655	13493	27695	LEUKIVDADH2								
+CHEBI:48945	2-methylbutan-1-ol	oxaloacetate	21824	23776	24284	15761	13986	10841	22109	27655	13493	27695	KIVDADH62								
+CHEBI:57844	L-methionine zwitterion	L-methionine zwitterion																			
+CHEBI:58360	1-aminocyclopropanecarboxylic acid zwitterion	L-methionine zwitterion	21081	21745																	
+CHEBI:18153	ethene	L-methionine zwitterion	21081	21745	23641																
+CHEBI:32551	L-lysinium(1+)	L-lysinium(1+)																			
+CHEBI:58384	cadaverine(2+)	L-lysinium(1+)	22353																		
+CHEBI:58382	5-ammoniopentanamide	L-lysinium(1+)	14602																		
+CHEBI:356010	5-aminopentanoic acid zwitterion	L-lysinium(1+)	14602	15680																	
+CHEBI:89209	Ethyl isobutyl ketone	oxaloacetate	21824	23776	24284	15761	13986	10841	22109	28055	25250	22070	24810	21525	16293	10676	10893	25079	23720	25178	PKS5M3HN
+CHEBI:31011	valerate	oxaloacetate	21824	23776	24284	15761	13986	10841	22109	28055	CCE1	55053									
+CHEBI:32362	heptanoate	oxaloacetate	21824	23776	24284	15761	13986	10841	22109	28055	CCE1	CCE2	FACOAE70								
+CHEBI:48946	2-methylbutyrate	oxaloacetate	21824	23776	24284	15761	13986	10841	22109	28055	PCTFADBI1	ACT2MB									
+CHEBI:TIGLATE	tiglate	oxaloacetate	21824	23776	24284	15761	13986	10841	22109	28055	TASP										
+CHEBI:MP2TN	2-methylpentanoate	oxaloacetate	21824	23776	24284	15761	13986	10841	22109	28055	MP2TNP										
+CHEBI:M2P2TEN	(E)-2-methyl-2-pentenoate	oxaloacetate	21824	23776	24284	15761	13986	10841	22109	28055	M2P2TENP										
+CHEBI:74904	isocaproate	pyruvate	25250	22070	24810	13998	ICSP														
+CHEBI:58476	(2S)-2-hydroxy-2-methyl-3-oxobutanoate	pyruvate	25250																		
+CHEBI:11851	3-methyl-2-oxobutanoate	pyruvate	25250	22070	24810																
+CHEBI:57338	isobutyryl-CoA(4-)	pyruvate	25250	22070	24810	13998															
+CHEBI:37808	butane	oxaloacetate	21824	23776	24284	15761	13986	10841	22109	28055	CCE1	55053	ALDDNADP5	ADCN5							
+CHEBI:57434	(3S)-3,6-diammoniohexanoate	L-lysinium(1+)	19177																		
+CHEBI:58113	L-2-ammoniohexano-6-lactam	L-lysinium(1+)	21388																		
+CHEBI:58672	L-2-aminoadipate(1-)	L-lysinium(1+)	22864	37584	31067	12526	11993	25121	12309												
+CHEBI:16120	5-oxopentanoate	L-lysinium(1+)	14602	15680	10212																
+CHEBI:30921	glutarate(2-)	L-lysinium(1+)	14602	15680	10212	12065															
+CHEBI:18153	ethene	2-oxoglutarate(2-)	31523																		
+CHEBI:57292	succinyl-CoA(5-)	2-oxoglutarate(2-)	27786																		
+CHEBI:39150	4-oxopentanoate	2-oxoglutarate(2-)	27786	LEVR 																	
+CHEBI:32383	6-hydroxyhexanoate	2-oxoglutarate(2-)	27786	HHAR 																	
+CHEBI:17272	propionate	2-oxoglutarate(2-)	27786	22888	27666	20373															
+CHEBI:17128	adipate(2-)	2-oxoglutarate(2-)	27786	ADPR																	
+CHEBI:57706	4-oxobutanoate	2-oxoglutarate(2-)	27786	26450																	
+CHEBI:57706	4-oxobutanoate	2-oxoglutarate(2-)	10524																		
+CHEBI:16724	4-hydroxybutyrate	2-oxoglutarate(2-)	10524	23948																	
+CHEBI:58574	4-hydroxybutyryl-CoA(4-)	2-oxoglutarate(2-)	10524	23948	23131																
+CHEBI:4HBAD	4-hydroxybutyraldehyde	2-oxoglutarate(2-)	10524	23948	23131	4HBADR															
+CHEBI:14BDO	1,4-butanediol	2-oxoglutarate(2-)	10524	23948	23131	4HBADR	14BDOR														
+CHEBI:GBL	4-Butyrolactone	2-oxoglutarate(2-)	10524	23948	23131	GBLR															
+CHEBI:77761	piperidin-2-one	L-lysinium(1+)	14602	15680	ACT5	C5CYC															
+CHEBI:76282	suberate(2-)	2-oxoglutarate(2-)	27786	SUBSP																	
+CHEBI:76283	sebacate(2-)	2-oxoglutarate(2-)	27786	SEBSP																	
+CHEBI:36165	pimelate(2-)	L-lysinium(1+)	14602	15680	10212	12065	CAT1	PMSP													
+CHEBI:79112	7-hydroxyheptanoic acid	L-lysinium(1+)	14602	15680	10212	12065	CAT1	HHPTSP													
+CHEBI:HBA	beta-Hydroxy-gamma-butyrolactone	2-oxoglutarate(2-)	19630	13245	25311	HBAR															
+CHEBI:DHB23	2,3-Dihydroxybutanoate(-1)	2-oxoglutarate(2-)	19630	13245	25311	DHB23R 															
+CHEBI:16724	4-hydroxybutyrate	2-oxoglutarate(2-)	19630	13245	25311	HB4R															
+CHEBI:57427	L-leucine zwitterion	pyruvate	25250	22070	24810	21525	16293	10676	10893	25079	18321										
+CHEBI:57762	L-valine zwitterion	pyruvate	25250	22070	24810	24813															
+CHEBI:82957	3-hydroxyisovalerate	pyruvate	25250	22070	24810	21525	16293	10676	10893	25079	RE1266C_1										
+CHEBI:46645	isobutanol	pyruvate	25250	22070	24810	54357	ADHIBO														
+CHEBI:17865	4-methyl-2-oxopentanoate	pyruvate	25250	22070	24810	21525	16293	10676	10893	25079											
+CHEBI:48942	isovalerate	pyruvate	25250	22070	24810	21525	16293	10676	10893	25079	54361	ADHIVL									
+CHEBI:15837	isoamylol	pyruvate	25250	22070	24810	21525	16293	10676	10893	25079	54361	18531									
+CHEBI:63910	4-methylpentan-1-ol	pyruvate	25250	22070	24810	21525	16293	10676	10893	25079	LEUKIVD3	58438									
+CHEBI:5M2OPT	5-methyl-2-oxopentanoate	pyruvate	25250	22070	24810	21525	16293	10676	10893	25079	LEU2KIHPT										
+CHEBI:74904	isocaproate	pyruvate	25250	22070	24810	21525	16293	10676	10893	25079	LEU2KIHPT	ICPRS2									
+CHEBI:15686	(R)-acetoin	pyruvate	25250	21581																	
+CHEBI:15687	(S)-acetoin	pyruvate	25250	21581	12092																
+CHEBI:16947	citrate(3-)	oxaloacetate	16846																		
+CHEBI:16383	cis-aconitate(3-)	oxaloacetate	16846	10228																	
+CHEBI:16087	isocitrate(3-)	oxaloacetate	16846	10228	22144																
+CHEBI:36655	glyoxylate	oxaloacetate	16846	10228	22144	13245															
+CHEBI:15589	(S)-malate(2-)	oxaloacetate	16846	10228	22144	13245	18181														
+CHEBI:15589	(S)-malate(2-)	oxaloacetate	10512																		
+CHEBI:29806	fumarate(2-)	oxaloacetate	10512	12460																	
+CHEBI:29806	fumarate(2-)	oxaloacetate	16846	10228	22144	13245	18181	12460													
+CHEBI:30031	succinate(2-)	oxaloacetate	10512	12460	29188																
+CHEBI:30031	succinate(2-)	2-oxoglutarate(2-)	27786	17661																	
+CHEBI:29805	glycolate	oxaloacetate	16846	10228	22144	13245	25311														
+CHEBI:17071	glycolaldehyde	oxaloacetate	16846	10228	22144	13245	25311	20001													
+CHEBI:30742	ethylene glycol	oxaloacetate	16846	10228	22144	13245	25311	20001	27630												
+CHEBI:30623	oxalate(2-)	oxaloacetate	16846	10228	22144	13245	14837														
+CHEBI:16724	4-hydroxybutyrate	oxaloacetate	16846	10228	22144	13245	25311	HB4R													
+CHEBI:DHB23	2,3-Dihydroxybutanoate(-1)	oxaloacetate	16846	10228	22144	13245	25311	DHB23R													
+CHEBI:HBA	beta-Hydroxy-gamma-butyrolactone	oxaloacetate	16846	10228	22144	13245	25311	HBAR 													
+CHEBI:57317	(3S)-3-carboxy-3-hydroxypropanoyl-CoA(5-)	oxaloacetate	10512	26193																	
+CHEBI:MalSA	malate-semialdehyde	oxaloacetate	10512	26193	MalSAR																
+CHEBI:DHB	2,4-dihydroxybutyrate	oxaloacetate	10512	26193	MalSAR	DHBR															
+CHEBI:DHBCoA	2,4-dihydroxybutyryl-CoA(-5)	oxaloacetate	10512	26193	MalSAR	DHBR	DHBCoR														
+CHEBI:DHBA	2,4-dihydroxybutyraldehyde	oxaloacetate	10512	26193	MalSAR	DHBR	DHBCoR	DHBAR													
+CHEBI:88063	1,2,4-Butanetriol	oxaloacetate	10512	26193	MalSAR	DHBR	DHBCoR	DHBAR	BTER												
+CHEBI:16812	(S,S)-butane-2,3-diol	pyruvate	25250	21581	12092	12184															
+CHEBI:16982	(R,R)-butane-2,3-diol	pyruvate	25250	21581	24340																
+CHEBI:75460	meso-butane-2,3-diol	pyruvate	25250	21581	24340	MSBDDH1															
+CHEBI:75460	meso-butane-2,3-diol	pyruvate	25250	21581	12092	12184	MSBDDH2														
+CHEBI:28398	butan-2-one	pyruvate	25250	21581	24340	MSBDDH1	BGDH														
+CHEBI:35687	butan-2-ol	pyruvate	25250	21581	24340	MSBDDH1	BGDH	ADH2BO													
+CHEBI:16651	(S)-lactate	pyruvate	23444																		
+CHEBI:57382	lactoyl-CoA(4-)	pyruvate	23444	PPCOATF																	
+CHEBI:57367	acryloyl-CoA(4-)	pyruvate	23444	PPCOATF	21057																
+CHEBI:57392	propionyl-CoA(4-)	pyruvate	23444	PPCOATF	21057	26456															
+CHEBI:17272	propionate	pyruvate	23444	PPCOATF	21057	26456	23520														
+CHEBI:28831	propan-1-ol	pyruvate	23444	PPCOATF	21057	26456	23520	36029	50706												
+CHEBI:48944	isobutyrate	pyruvate	25250	22070	24810	13998	40800														
+CHEBI:63910	4-methylpentan-1-ol	pyruvate	25250	22070	24810	13998	ICSP	ICCCRD	58438												
+CHEBI:30362	isopentane	pyruvate	25250	22070	24810	13998	ICSP	ICCCRD	ADCNIPT												
+CHEBI:37080	acrylate	pyruvate	23444	PPCOATF	21057	ACYDG															
+CHEBI:57642	glycerone phosphate(2-)	D-glyceraldehyde 3-phosphate(2-)	18585																		
+CHEBI:17158	methylglyoxal	D-glyceraldehyde 3-phosphate(2-)	18585	17937																	
+CHEBI:17167	(R)-lactaldehyde	D-glyceraldehyde 3-phosphate(2-)	18585	17937	24531																
+CHEBI:18041	(S)-lactaldehyde	D-glyceraldehyde 3-phosphate(2-)	18585	17937	21748																
+CHEBI:28972	(R)-propane-1,2-diol	D-glyceraldehyde 3-phosphate(2-)	18585	17937	24531	23872															
+CHEBI:29002	(S)-propane-1,2-diol	D-glyceraldehyde 3-phosphate(2-)	18585	17937	21748	15933															
+CHEBI:16016	dihydroxyacetone	D-glyceraldehyde 3-phosphate(2-)	18585	18381																	
+CHEBI:57597	sn-glycerol 3-phosphate(2-)	D-glyceraldehyde 3-phosphate(2-)	18585	28751																	
+CHEBI:58359	L-glutamine zwitterion	2-oxoglutarate(2-)	11614	16170																	
+CHEBI:17754	glycerol	D-glyceraldehyde 3-phosphate(2-)	18585	18381	13769																
+CHEBI:17754	glycerol	D-glyceraldehyde 3-phosphate(2-)	18585	28751	21647																
+CHEBI:16659	D-glycerate	3-phosphonato-D-glycerate(3-)	23519																		
+CHEBI:17378	D-glyceraldehyde	3-phosphonato-D-glycerate(3-)	23519	30786																	
+CHEBI:17754	glycerol	3-phosphonato-D-glycerate(3-)	23519	30786	23595																
+CHEBI:17754	glycerol	3-phosphonato-D-glycerate(3-)	23519	30786	30030																
+CHEBI:18110	3-phosphonatooxypyruvate(3-)	3-phosphonato-D-glycerate(3-)	12644																		
+CHEBI:57524	O-phosphonato-L-serine(2-)	3-phosphonato-D-glycerate(3-)	12644	14332																	
+CHEBI:33384	L-serine zwitterion	3-phosphonato-D-glycerate(3-)	12644	14332	21211																
+CHEBI:57603	ethanolaminium(1+)	3-phosphonato-D-glycerate(3-)	12644	14332	21211	45827															
+CHEBI:57305	glycine zwitterion	3-phosphonato-D-glycerate(3-)	12644	14332	21211	15484															
+CHEBI:356416	5-ammoniolevulinate	3-phosphonato-D-glycerate(3-)	12644	14332	21211	15484	12924														
+CHEBI:58055	4,5-dioxopentanoate	3-phosphonato-D-glycerate(3-)	12644	14332	21211	15484	12924	12483													
+CHEBI:17871	3-hydroxypropanal	glycerol	19768																		
+CHEBI:16109	propane-1,3-diol	glycerol	19768	23191																	
+CHEBI:16109	propane-1,3-diol	glycerol	19768	35602																	
+CHEBI:16510	3-hydroxypropionate	glycerol	19768	HPP3																	
+CHEBI:27957	hydroxyacetone	D-glyceraldehyde 3-phosphate(2-)	18585	17937	27989																
+CHEBI:27957	hydroxyacetone	D-glyceraldehyde 3-phosphate(2-)	18585	17937	35618																
+CHEBI:16997	propane-1,2-diol	D-glyceraldehyde 3-phosphate(2-)	18585	17937	27989	PPDAC															
+CHEBI:17153	propanal	D-glyceraldehyde 3-phosphate(2-)	18585	17937	35618	PPDAC	14572														
+CHEBI:18351	4-hydroxyhexan-3-one	D-glyceraldehyde 3-phosphate(2-)	18585	17937	35618	PPDAC	14572	11103													
+CHEBI:73142	(S)-4-hydroxy-2-oxohexanoate	D-glyceraldehyde 3-phosphate(2-)	18585	17937	35618	PPDAC	14572	36006													
+CHEBI:28831	propan-1-ol	D-glyceraldehyde 3-phosphate(2-)	18585	17937	35618	PPDAC	14572	50707													
+CHEBI:57805	N(2)-acetyl-L-ornithine zwitterion	2-oxoglutarate(2-)	11614	18049																	
+CHEBI:46911	L-ornithinium(1+)	2-oxoglutarate(2-)	11614	18049	15941																
+CHEBI:326268	1,4-butanediammonium	2-oxoglutarate(2-)	11614	18049	15941	22965															
+CHEBI:58264	4-ammoniobutanal	2-oxoglutarate(2-)	11614	18049	15941	22965	18274														
+CHEBI:59888	gamma-aminobutyric acid zwitterion	2-oxoglutarate(2-)	11614	18049	15941	22965	18274	19106													
+CHEBI:57743	L-citrulline zwitterion	2-oxoglutarate(2-)	11614	18049	15941	19513															
+CHEBI:57472	(N(omega)-L-arginino)succinate(1-)	2-oxoglutarate(2-)	11614	18049	15941	19513	10933														
+CHEBI:58725	2-ammonio-2-deoxy-D-glucopyranose 6-phosphate(1-)	2-oxoglutarate(2-)	11614	16170	13237																
+CHEBI:32682	L-argininium(1+)	2-oxoglutarate(2-)	11614	18049	15941	19513	10933	24020													
+CHEBI:58074	D-nopalinate(1-)	2-oxoglutarate(2-)	11614	18049	15941	19513	10933	24020	19639												
+CHEBI:58489	5-guanidino-2-oxopentanoic acid zwitterion	2-oxoglutarate(2-)	11614	18049	15941	19513	10933	24020	13833												
+CHEBI:57520	D-octopine dizwitterion	2-oxoglutarate(2-)	11614	18049	15941	19513	10933	24020	16287												
+CHEBI:58145	agmatinium(2+)	2-oxoglutarate(2-)	11614	18049	15941	19513	10933	24020	17642												
+CHEBI:58644	p-coumaroylagmatine(1+)	2-oxoglutarate(2-)	11614	18049	15941	19513	10933	24020	17642	13406	13870	15096	24907	4CMCOAS							
+CHEBI:58318	N-carbamoylputrescinium(1+)	2-oxoglutarate(2-)	11614	18049	15941	19513	10933	24020	17642	18037											
+CHEBI:326268	1,4-butanediammonium	2-oxoglutarate(2-)	11614	18049	15941	19513	10933	24020	17642	18037	22285										
+CHEBI:58274	L-gamma-glutamyl phosphate(2-)	2-oxoglutarate(2-)	11614	14878																	
+CHEBI:58066	L-glutamic 5-semialdehyde zwitterion	2-oxoglutarate(2-)	11614	14878	19543																
+CHEBI:15893	1-pyrroline-5-carboxylate	2-oxoglutarate(2-)	11614	14878	19543	G5SADs															
+CHEBI:60039	L-proline zwitterion	2-oxoglutarate(2-)	11614	14878	19543	G5SADs	14111														
+CHEBI:39785	1-pyrroline-2-carboxylic acid zwitterion	2-oxoglutarate(2-)	11614	14878	19543	G5SADs	14111	20317													
+CHEBI:58394	7-phospho-2-dehydro-3-deoxy-D-arabino-heptonate	D-erythrose 4-phosphate(2-)	14717																		
+CHEBI:16630	3-dehydroshikimate	D-erythrose 4-phosphate(2-)	14717	21969	21096																
+CHEBI:36241	3,4-dihydroxybenzoate	D-erythrose 4-phosphate(2-)	14717	21969	21096	24849															
+CHEBI:36208	shikimate	D-erythrose 4-phosphate(2-)	14717	21969	21096	17739															
+CHEBI:29748	chorismate(2-)	D-erythrose 4-phosphate(2-)	14717	21969	21096	17739	13121	21256	21021												
+CHEBI:29934	(1s,4s)-prephenate(2-)	D-erythrose 4-phosphate(2-)	14717	21969	21096	17739	13121	21256	21021	13897											
+CHEBI:17879	4-hydroxybenzoate	D-erythrose 4-phosphate(2-)	14717	21969	21096	17739	13121	21256	21021	16506											
+CHEBI:16567	anthranilate	D-erythrose 4-phosphate(2-)	14717	21969	21096	17739	13121	21256	21021	21733											
+CHEBI:17296	aniline	D-erythrose 4-phosphate(2-)	14717	21969	21096	17739	13121	21256	21021	21733	24730										
+CHEBI:57356	4-hydroxybenzoyl-CoA(4-)	D-erythrose 4-phosphate(2-)	14717	21969	21096	17739	13121	21256	21021	16506	23117										
+CHEBI:143072	4-amino-L-phenylalanine zwitterion	D-erythrose 4-phosphate(2-)	14717	21969	21096	17739	13121	21256	21021	11672	59379	59381	59384								
+CHEBI:4APAADH	2-(4-aminophenyl)acetaldehyde	D-erythrose 4-phosphate(2-)	14717	21969	21096	17739	13121	21256	21021	11672	59379	59381	PDC4APADH								
+CHEBI:4APAA	2-(4-aminophenyl)acetic acid	D-erythrose 4-phosphate(2-)	14717	21969	21096	17739	13121	21256	21021	11672	59379	59381	PDC4APADH	ADHDH4APAA							
+CHEBI:4APETH	2-(4-aminophenyl)ethanol	D-erythrose 4-phosphate(2-)	14717	21969	21096	17739	13121	21256	21021	11672	59379	59381	PDC4APADH	ADH4AETH							
+CHEBI:4APEAM	2-(4-aminophenyl)ethylamine	D-erythrose 4-phosphate(2-)	14717	21969	21096	17739	13121	21256	21021	11672	59379	59381	59384	AAADC4AEA							
+CHEBI:4ACAA	4-aminocinnamic acid	D-erythrose 4-phosphate(2-)	14717	21969	21096	17739	13121	21256	21021	11672	59379	59381	59384	PAAL4AC							
+CHEBI:17836	4-aminobenzoate	D-erythrose 4-phosphate(2-)	14717	21969	21096	17739	13121	21256	21021	11672	16202										
+CHEBI:29780	isochorismate(2-)	D-erythrose 4-phosphate(2-)	14717	21969	21096	17739	13121	21256	21021	18985											
+CHEBI:57912	L-tryptophan zwitterion	D-erythrose 4-phosphate(2-)	14717	21969	21096	17739	13121	21256	21021	21733	11770	21541	23477	10533							
+CHEBI:58725	2-ammonio-2-deoxy-D-glucopyranose 6-phosphate(1-)	aldehydo-D-glucose 6-phosphate(2-)	11819	13238																	
+CHEBI:57513	N-acetyl-D-glucosamine 6-phosphate(2-)	aldehydo-D-glucose 6-phosphate(2-)	11819	13238	10293																
+CHEBI:506227	N-acetyl-D-glucosamine	aldehydo-D-glucose 6-phosphate(2-)	11819	13238	10293	17418															
+CHEBI:58516	alpha-D-glucosamine 1-phosphate(1-)	aldehydo-D-glucose 6-phosphate(2-)	11819	13238	23427																
+CHEBI:57776	N-acetyl-alpha-D-glucosamine 1-phosphate(2-)	aldehydo-D-glucose 6-phosphate(2-)	11819	13238	23427	13726															
+CHEBI:57705	UDP-N-acetyl-alpha-D-glucosamine(2-)	aldehydo-D-glucose 6-phosphate(2-)	11819	13238	23427	13726	13510														
+CHEBI:36242	3-(4-hydroxyphenyl)pyruvate	(1s,4s)-prephenate(2-)	13870																		
+CHEBI:15621	(4-hydroxyphenyl)acetaldehyde	(1s,4s)-prephenate(2-)	13870	18698																	
+CHEBI:48999	4-hydroxyphenylacetate	(1s,4s)-prephenate(2-)	13870	18698	17273																
+CHEBI:1879	2-(4-hydroxyphenyl)ethanol	(1s,4s)-prephenate(2-)	13870	18698	TYRO																
+CHEBI:36659	3-(4-hydroxyphenyl)lactate	(1s,4s)-prephenate(2-)	13870	23366																	
+CHEBI:18005	keto-phenylpyruvate	(1s,4s)-prephenate(2-)	21651																		
+CHEBI:11009	(R)-3-phenyllactate	(1s,4s)-prephenate(2-)	21651	38353																	
+CHEBI:58095	L-phenylalanine zwitterion	(1s,4s)-prephenate(2-)	21651	21411																	
+CHEBI:15669	trans-cinnamate	(1s,4s)-prephenate(2-)	21651	21411	21385																
+CHEBI:27452	styrene	(1s,4s)-prephenate(2-)	21651	21411	21385	46923															
+CHEBI:58315	L-tyrosine zwitterion	(1s,4s)-prephenate(2-)	13870	15096																	
+CHEBI:17756	(S)-mandelate	(1s,4s)-prephenate(2-)	21651	SMDS																	
+CHEBI:36656	phenylglyoxylate	(1s,4s)-prephenate(2-)	21651	SMDS	MDDH																
+CHEBI:36241	3,4-dihydroxybenzoate	D-erythrose 4-phosphate(2-)	14717	21969	21096	24849	24045														
+CHEBI:36241	3,4-dihydroxybenzoate	D-erythrose 4-phosphate(2-)	14717	21969	21096	24849	24045	CHMST													
+CHEBI:36241	3,4-dihydroxybenzoate	D-erythrose 4-phosphate(2-)	14717	21969	21096	24849	24045	CHMST	29588												
+CHEBI:327995	tyraminium	(1s,4s)-prephenate(2-)	13870	15096	14348																
+CHEBI:57504	L-dopa zwitterion	(1s,4s)-prephenate(2-)	13870	15096	HPAB																
+CHEBI:59905	dopaminium(1+)	(1s,4s)-prephenate(2-)	13870	15096	HPAB	12273															
+CHEBI:3HXTYR	3-hydroxytyrosol	(1s,4s)-prephenate(2-)	13870	15096	HPAB	12273	27947	ADHDPM													
+CHEBI:15882	phenol	(1s,4s)-prephenate(2-)	13870	15096	21705																
+CHEBI:18135	catechol	(1s,4s)-prephenate(2-)	13870	15096	21705	17062															
+CHEBI:32379	cis,cis-muconate	(1s,4s)-prephenate(2-)	13870	15096	21705	17062	23853														
+CHEBI:12876	trans-4-coumarate	(1s,4s)-prephenate(2-)	13870	15096	24907																
+CHEBI:57355	4-coumaroyl-CoA(4-)	(1s,4s)-prephenate(2-)	13870	15096	24907	4CMCOAS															
+CHEBI:45713	trans-resveratrol	(1s,4s)-prephenate(2-)	13870	15096	24907	4CMCOAS	11937														
+CHEBI:1883	4-hydroxystyrene	(1s,4s)-prephenate(2-)	13870	15096	24907	33228															
+CHEBI:57770	trans-caffeate	(1s,4s)-prephenate(2-)	13870	15096	24907	C3MOGN															
+CHEBI:57770	trans-caffeate	(1s,4s)-prephenate(2-)	13870	15096	HPAB	12521															
+CHEBI:29749	ferulate	(1s,4s)-prephenate(2-)	13870	15096	24907	C3MOGN	20226														
+CHEBI:16424	phenylacetaldehyde	(1s,4s)-prephenate(2-)	21651	14186																	
+CHEBI:2PETO	2-phenylethanol	(1s,4s)-prephenate(2-)	21651	14186	ALCD25yi																
+CHEBI:18401	phenylacetate	(1s,4s)-prephenate(2-)	21651	14186	21393																
+CHEBI:6PHX	6-phenylhexanoate	(1s,4s)-prephenate(2-)	21651	14186	21393	20957	PHAE6HX														
+CHEBI:75317	4-phenylbutyrate	(1s,4s)-prephenate(2-)	21651	14186	21393	20957	PHAE4PB														
+CHEBI:36592	pyrrolidin-2-one	2-oxoglutarate(2-)	11614	17786	ACT	C4CYC															
+CHEBI:60039	L-proline zwitterion	2-oxoglutarate(2-)	11614	18049	15941	25161	G5SADs	14111													
+CHEBI:57302	proclavaminic acid zwitterion	2-oxoglutarate(2-)	11614	18049	15941	19513	10933	24020	10557	23621	20022	17002									
+CHEBI:57499	2-oxoadipate(2-)	2-oxoglutarate(2-)	12929	26102	15487	11901															
+CHEBI:57826	6-aminohexanoic acid zwitterion	2-oxoglutarate(2-)	12929	26102	15487	11901	OXPSP	ACSP2OP													
+CHEBI:28579	epsilon-caprolactam	2-oxoglutarate(2-)	12929	26102	15487	11901	OXPSP	ACSP2OP	ACTC6	C6CYC											
