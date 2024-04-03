@@ -62,7 +62,7 @@ def _make_anaerobic_condition(model):
         
     for rxn_id in ['MDHm', 'MDH']:
         model.reactions.get_by_id(rxn_id).lower_bound = 0
-    for rxn_id in ['GLYCDy', 'GLUSx']:
+    for rxn_id in ['GLUSx']:
         model.reactions.get_by_id(rxn_id).upper_bound = 0
         
     return model

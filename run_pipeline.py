@@ -14,9 +14,11 @@ from baebra.generator import make_addition_table
 from baebra.generator import model_manual_curation
 from baebra.generator import model_path_construction
 from baebra.calculator import calculate_yield
-from baebra.yieldfinder import validate_target
 from baebra.yieldfinder import set_model_condition
+from baebra.yieldfinder import validate_hetero_target
 from baebra.yieldfinder import predict_heterologous_reactions
+from baebra.yieldfinder import predict_cofactor_reactions
+from baebra.yieldfinder import validate_swap_target
 
 
 logger = logging.getLogger('YieldPipeline')
@@ -122,10 +124,28 @@ if __name__ == '__main__':
     df_yield.to_csv(output_dir + '/result_yield.txt', sep='\t')
     logger.info('Calculated maximum yields are saved')
 
+    df_yield = pd.read_csv(output_dir + '/result_yield.txt', sep='\t', index_col='Unnamed: 0')
+
 
     # heterologous reaction finder
     logger.info('Finding Heterologous reaction targets ...')
     universal_model = load_json_model(universal_model_dir)
+    rm_reactions = []
+    for each_reaction in universal_model.reactions:
+        if each_reaction.check_mass_balance() != {}:
+            rm_reactions.append(each_reaction)
+            continue
+        compartments = []
+        for met in each_reaction.reactants + each_reaction.products:
+            compartments.append(met.id[-1])
+        compartments = list(set(compartments))
+        if len(compartments) == 1 and compartments[0] == 'c':
+            pass
+        else:
+            rm_reactions.append(each_reaction)
+
+    logger.info('No. of removed reactions in universal model: %d'%(len(rm_reactions)))
+    universal_model.remove_reactions(rm_reactions)
 
     result_hetero = []
     for model_name, each_model in tqdm(target_models.items()):
@@ -152,7 +172,7 @@ if __name__ == '__main__':
                 if target_identified == False:
                     continue
                 
-                valid_targets = validate_target(
+                valid_targets = validate_hetero_target(
                     target_model, universal_model, 
                     target_identified, f'EX_{c_source}_e'
                 )
@@ -181,5 +201,57 @@ if __name__ == '__main__':
 
 
 
+    # heterologous reaction finder
+    logger.info('Finding Cofactor swap targets ...')
+    result_swap = []
+    for model_name, each_model in tqdm(target_models.items()):
+        for c_source in c_sources:
+            for air in air_conditions:
 
-            
+                df_tmp = df_yield[df_yield['Model']==model_name]
+                df_tmp = df_tmp[df_tmp['Carbon_source']==c_source]
+                df_tmp = df_tmp[df_tmp['Air_condition']==air]
+                df_tmp = df_tmp[df_tmp['Yield_type']=='YT']
+                yield_original = df_tmp['Molar_yield'].iloc[0]
+
+                target_model = deepcopy(each_model)
+                target_model = set_model_condition(
+                    target_model, c_source, 
+                    prev_c_source='glc__D', air=air,
+                    maintenance=maintenance
+                )
+
+                target_identified = predict_cofactor_reactions(
+                    target_model, f'EX_{c_source}_e', None,
+                    limit_reaction_num, num_cpu, 
+                )
+
+                if target_identified == False:
+                    continue
+                
+                valid_targets = validate_swap_target(
+                    target_model, target_identified, f'EX_{c_source}_e',
+                    loopless=True, yeast=None,
+                )
+
+                for key, val in valid_targets.items():
+                    if val - yield_original > 1e-3:
+                        tmp = [
+                            model_name, c_source, air,
+                            key, val, yield_original, (val/yield_original-1)*100
+                        ]
+                        result_swap.append(tmp)
+
+
+    if len(result_swap) > 0:
+        df_swap = pd.DataFrame(result_swap,)
+        df_swap.columns = [
+            'Model', 'Carbon_source', 'Air_condition', 'Target_reactions',
+            'Improved_yield', 'Previous_yield', 'Increased_percentage'
+        ]
+        df_swap.to_csv(output_dir + '/result_swap.txt', sep='\t')
+
+        logger.info('Cofactor swap targets are saved')
+
+    else:
+        logger.info('No cofactor swap targets were predicted')
