@@ -34,7 +34,7 @@ if __name__ == '__main__':
         config = yaml.full_load(f)
     
     if options.config:
-        with open(options.config, 'r') as f:
+        with open(f'./config/{options.config}.yaml', 'r') as f:
             config_tmp = yaml.full_load(f)
         config.update(config_tmp)
 
@@ -67,6 +67,8 @@ if __name__ == '__main__':
 
     if output_dir[-1] == '/':
         output_dir = output_dir[:-1]
+
+    output_dir = output_dir + '/' + target_chem
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
