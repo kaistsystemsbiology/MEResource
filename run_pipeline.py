@@ -126,7 +126,7 @@ if __name__ == '__main__':
     df_yield.to_csv(output_dir + '/result_yield.txt', sep='\t')
     logger.info('Calculated maximum yields are saved')
 
-    df_yield = pd.read_csv(output_dir + '/result_yield.txt', sep='\t', index_col='Unnamed: 0')
+    # df_yield = pd.read_csv(output_dir + '/result_yield.txt', sep='\t', index_col='Unnamed: 0')
 
 
     # heterologous reaction finder
@@ -225,7 +225,7 @@ if __name__ == '__main__':
 
                 target_identified = predict_cofactor_reactions(
                     target_model, f'EX_{c_source}_e', None,
-                    limit_reaction_num, num_cpu, 
+                    1, num_cpu, 
                 )
 
                 if target_identified == False:
