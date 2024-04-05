@@ -225,8 +225,8 @@ def predict_heterologous_reactions(target_model, original_universal_model,
             target_reactions = result_info[each_solution]
             if len(target_reactions) > 0:
                 target_identified = True
-            target_reactions.sort()
-            identified_targets.append(target_reactions)
+                target_reactions.sort()
+                identified_targets.append(target_reactions)
 
     if target_identified:
         tmp = []
@@ -701,8 +701,8 @@ def predict_cofactor_reactions(target_model, c_source='EX_glc__D_e', yeast=None,
             target_reactions = result_info[each_solution]
             if len(target_reactions) > 0:
                 target_identified = True
-            target_reactions.sort()
-            identified_targets.append(target_reactions)
+                target_reactions.sort()
+                identified_targets.append(target_reactions)
 
     if target_identified:
         tmp = []
