@@ -14,7 +14,9 @@ from gurobipy import multidict, tuplelist, Model, quicksum, GRB
 
 from baebra.calculator import _make_anaerobic_condition
 from baebra.calculator import calculate_yield
+from cobra.flux_analysis import flux_variability_analysis
 
+logger = logging.getLogger("yieldfinder")
 
 def _recordRxnStoich(reaction):
     met_ids = [met.id for met in reaction.metabolites]
@@ -166,11 +168,11 @@ def predict_heterologous_reactions(target_model, original_universal_model,
         if each_reaction.id in original_rxns:
             rm_reactions.append(each_reaction)
 
-    logging.info('No. of removed reactions in universal model: %d'%(len(rm_reactions)))
+    logger.info('No. of removed reactions in universal model: %d'%(len(rm_reactions)))
     universal_model.remove_reactions(rm_reactions)
 
     added_reactions, remove_reactions = _filter_same_reactions(expanded_model, universal_model)
-    logging.info('No. of added reactions: %d'%(len(added_reactions)))
+    logger.info('No. of added reactions: %d'%(len(added_reactions)))
     universal_model.remove_reactions(remove_reactions)
     expanded_model.add_reactions(added_reactions)
 
@@ -187,22 +189,22 @@ def predict_heterologous_reactions(target_model, original_universal_model,
 
         if isnan(min_c) or abs(min_c) < 1e-3:
             min_c = 0
-            logging.info('Unable to uptake carbon source in the expanded model')
+            logger.info('Unable to uptake carbon source in the expanded model')
             return False
         
     theoretical_yield = abs(max_f/min_c)
     if theoretical_yield - prev_theoretical_yield < 1e-3:
-        logging.info('no yield improvement')
+        logger.info('no yield improvement')
         return False
     elif theoretical_yield < 1e-3:
-        logging.info('zero yield')
+        logger.info('zero yield')
         return False
     
-    logging.info('Improved max yield: %0.6f'%theoretical_yield)
+    logger.info('Improved max yield: %0.6f'%theoretical_yield)
 
     start_f = original_max_yield
     limit_f = original_max_yield * 1.5
-    logging.info('From %s to %s'%(start_f, limit_f))
+    logger.info('From %s to %s'%(start_f, limit_f))
     yield_list = np.linspace(start_f, limit_f, num_step)
     target_identified = False
     identified_targets = []
@@ -212,15 +214,16 @@ def predict_heterologous_reactions(target_model, original_universal_model,
     obj.set_cpu_number(num_cpu)
     obj.set_univ_model(universal_model)
 
-
-    for each_constraint in yield_list[1:]:
-        logging.info('Yield constraint : %0.3fX\t%0.6f'%(each_constraint/original_max_yield, each_constraint))
+    # for each_constraint in yield_list[1:]:
+    for each_constraint in yield_list[::-1][:-1]:
+        logger.info('Yield constraint : %0.3fX\t%0.6f'%(each_constraint/original_max_yield, each_constraint))
         obj.set_threshold(each_constraint)
         obj.set_additional_constr(identified_targets)
         result_info = obj.run_gap_filling(target_model, target_reaction)
 
         if len(result_info) == 0:
-            break
+            # break
+            continue
         for each_solution in result_info:
             target_reactions = result_info[each_solution]
             if len(target_reactions) > 0:
@@ -604,7 +607,7 @@ def predict_cofactor_reactions(target_model, c_source='EX_glc__D_e', yeast=None,
         max_f = m.slim_optimize()
         if isnan(max_f) or abs(max_f) < 1e-3:
             max_f = 0
-            logging.info('Unable to produce the target chemical')
+            logger.info('Unable to produce the target chemical')
             return False
         m.reactions.get_by_id(target_reaction).bounds = (max_f, max_f)
         m.objective = c_source
@@ -613,7 +616,7 @@ def predict_cofactor_reactions(target_model, c_source='EX_glc__D_e', yeast=None,
 
         if isnan(min_c) or abs(min_c) < 1e-3:
             min_c = 0
-            logging.info('Unable to uptake carbon source')
+            logger.info('Unable to uptake carbon source')
             return False
         
     prev_theoretical_yield = abs(max_f/min_c)
@@ -621,9 +624,9 @@ def predict_cofactor_reactions(target_model, c_source='EX_glc__D_e', yeast=None,
         
 
 
-    logging.info('Original max yield: %0.6f'%prev_theoretical_yield)
+    logger.info('Original max yield: %0.6f'%prev_theoretical_yield)
     if original_max_yield < 1e-3:
-        logging.info('Chemical not produced')
+        logger.info('Chemical not produced')
         return False
 
     if yeast:
@@ -641,7 +644,7 @@ def predict_cofactor_reactions(target_model, c_source='EX_glc__D_e', yeast=None,
         if len(set(met_lists) & set(rxn.metabolites)) == 1:
             if rxn.gene_reaction_rule:
                 cofactor_use_rxns.append(rxn)
-    logging.info('Number of cofactor using reactions (with GPR, a cofactor): %d'%(len(cofactor_use_rxns)))
+    logger.info('Number of cofactor using reactions (with GPR, a cofactor): %d'%(len(cofactor_use_rxns)))
 
     candidate_reactions = {}
     for rxn in cofactor_use_rxns:
@@ -654,7 +657,7 @@ def predict_cofactor_reactions(target_model, c_source='EX_glc__D_e', yeast=None,
         max_f = m.slim_optimize()
         if isnan(max_f) or abs(max_f) < 1e-3:
             max_f = 0
-            logging.info('Unable to produce the target chemical in the expanded model')
+            logger.info('Unable to produce the target chemical in the expanded model')
             return False
         m.reactions.get_by_id(target_reaction).bounds = (max_f, max_f)
         m.objective = c_source
@@ -663,22 +666,22 @@ def predict_cofactor_reactions(target_model, c_source='EX_glc__D_e', yeast=None,
 
         if isnan(min_c) or abs(min_c) < 1e-3:
             min_c = 0
-            logging.info('Unable to uptake carbon source in the expanded model')
+            logger.info('Unable to uptake carbon source in the expanded model')
             return False
         
     theoretical_yield = abs(max_f/min_c)
     if theoretical_yield - prev_theoretical_yield < 1e-3:
-        logging.info('no yield improvement')
+        logger.info('no yield improvement')
         return False
     elif theoretical_yield < 1e-3:
-        logging.info('zero yield')
+        logger.info('zero yield')
         return False
     
-    logging.info('Improved max yield: %0.6f'%theoretical_yield)
+    logger.info('Improved max yield: %0.6f'%theoretical_yield)
 
     start_f = original_max_yield
     limit_f = original_max_yield * 1.5
-    logging.info('From %s to %s'%(start_f, limit_f))
+    logger.info('From %s to %s'%(start_f, limit_f))
     yield_list = np.linspace(start_f, limit_f, num_step)
     target_identified = False
     identified_targets = []
@@ -690,7 +693,7 @@ def predict_cofactor_reactions(target_model, c_source='EX_glc__D_e', yeast=None,
 
 
     for each_constraint in yield_list[1:]:
-        logging.info('Yield constraint : %0.3fX\t%0.6f'%(each_constraint/original_max_yield, each_constraint))
+        logger.info('Yield constraint : %0.3fX\t%0.6f'%(each_constraint/original_max_yield, each_constraint))
         obj.set_threshold(each_constraint)
         obj.set_additional_constr(identified_targets)
         result_info = obj.run_coutilize_cofactor(target_reaction, candidate_reactions)
@@ -978,6 +981,106 @@ def validate_swap_target(target_model, target_identified, c_source, loopless=Tru
 
         temp_model.objective = target_reaction
         max_f = temp_model.slim_optimize()
+        if isnan(max_f) or abs(max_f) < 1e-3:
+            max_f = 0.0
+
+        temp_model.reactions.get_by_id(target_reaction).bounds = (max_f, max_f)
+        temp_model.objective = c_source
+        temp_model.objective_direction = 'max'
+        min_c = temp_model.slim_optimize()
+
+        if isnan(min_c) or abs(min_c) < 1e-3:
+            new_yield = 0.0
+        else:
+            new_yield = abs(max_f/min_c)
+
+        valid_targets[';'.join(reactions)] = new_yield
+
+    return valid_targets
+
+
+
+
+def validate_hetero_target_fva(target_model, universal_model, target_identified, c_source, loopless=True):
+    valid_targets = {}
+    target_chem_id = '_'.join(target_model.id.split('_')[1:])
+    target_chem_id = target_chem_id.split('_path_')[0]
+    target_reaction = f'EXT_{target_chem_id}_c'
+    for reactions in tqdm(target_identified):
+
+        added_reactions = []
+        for each_reaction in reactions:
+            obj = universal_model.reactions.get_by_id(each_reaction)
+            added_reactions.append(obj)
+
+        temp_model = copy.deepcopy(target_model)
+        temp_model.add_reactions(added_reactions)
+        
+        fva = flux_variability_analysis(
+            temp_model, reaction_list=[target_reaction],
+            loopless=loopless, fraction_of_optimum=0.0,
+            processes=1
+        )
+        max_f = fva['maximum'][0]
+        
+        if isnan(max_f) or abs(max_f) < 1e-3:
+            max_f = 0.0
+
+        temp_model.reactions.get_by_id(target_reaction).bounds = (max_f, max_f)
+        temp_model.objective = c_source
+        temp_model.objective_direction = 'max'
+        min_c = temp_model.slim_optimize()
+
+        if isnan(min_c) or abs(min_c) < 1e-3:
+            new_yield = 0.0
+        else:
+            new_yield = abs(max_f/min_c)
+
+        valid_targets[';'.join(reactions)] = new_yield
+
+    return valid_targets
+
+
+def validate_swap_target_fva(target_model, target_identified, c_source, loopless=True, yeast=False):
+    valid_targets = {}
+    target_chem_id = '_'.join(target_model.id.split('_')[1:])
+    target_chem_id = target_chem_id.split('_path_')[0]
+    target_reaction = f'EXT_{target_chem_id}_c'
+
+
+    if yeast == None:
+        if 'yeast' in target_model.id:
+            yeast = True
+        else:
+            yeast = False
+
+
+    if yeast:
+        cofactor_list = [
+            'nadh_c', 'nadh_er', 'nadh_m', 'nadh_p', 'nadh_erm', 
+            'nadph_c', 'nadph_er', 'nadph_m', 'nadph_p', 'nadph_erm',
+        ]
+    else:
+        cofactor_list = ['nadh_c','nadph_c']
+
+
+    for reactions in tqdm(target_identified):
+
+        temp_model = copy.deepcopy(target_model)
+
+        for each_reaction in reactions:
+            original_id = each_reaction.split('_swap_')[0]
+            rxn = temp_model.reactions.get_by_id(original_id)
+            _create_swap_reactions(temp_model, rxn, cofactor_list, yeast)
+            temp_model.reactions.get_by_id(original_id).bounds = (0, 0)
+
+        fva = flux_variability_analysis(
+            temp_model, reaction_list=[target_reaction],
+            loopless=loopless, fraction_of_optimum=0.0,
+            processes=1
+        )
+        max_f = fva['maximum'][0]
+        
         if isnan(max_f) or abs(max_f) < 1e-3:
             max_f = 0.0
 
