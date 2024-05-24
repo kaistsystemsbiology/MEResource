@@ -12,5 +12,7 @@ results_tmp/
 results_tmp2/
 results_*/
 out/
-resource/
+resource*/
 2024_prev
+config/*_*.yaml
+analysis_2024
