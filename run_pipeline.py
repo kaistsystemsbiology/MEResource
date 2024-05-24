@@ -15,15 +15,18 @@ from baebra.generator import model_manual_curation
 from baebra.generator import model_path_construction
 from baebra.calculator import calculate_yield
 from baebra.yieldfinder import set_model_condition
-from baebra.yieldfinder import validate_hetero_target
+from baebra.yieldfinder import validate_hetero_target_fva
 from baebra.yieldfinder import predict_heterologous_reactions
 from baebra.yieldfinder import predict_cofactor_reactions
 from baebra.yieldfinder import validate_swap_target
 
 
+logging.basicConfig(level=logging.INFO,
+                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+                    handlers=[logging.StreamHandler()]
+                    )
+
 logger = logging.getLogger('YieldPipeline')
-logger.setLevel(logging.INFO)
-formatter = logging.Formatter('%(asctime)s-%(name)s-%(levelname)s-%(message)s')
 
 
 if __name__ == '__main__':
@@ -72,9 +75,6 @@ if __name__ == '__main__':
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
-
-    stream_handler = logging.StreamHandler()
-    logger.addHandler(stream_handler)
 
     model = read_sbml_model(model_dir)
     # manual curation of target model
@@ -126,11 +126,15 @@ if __name__ == '__main__':
     df_yield.to_csv(output_dir + '/result_yield.txt', sep='\t')
     logger.info('Calculated maximum yields are saved')
 
-    # df_yield = pd.read_csv(output_dir + '/result_yield.txt', sep='\t', index_col='Unnamed: 0')
-
 
     # heterologous reaction finder
     logger.info('Finding Heterologous reaction targets ...')
+    manually_curated_rxns = [
+        'MDHy', 'HADPCOADH', 'NAD_H2',
+        'HYDFDN', 'HYDFDN2r', 'HYDFDi',
+        'FAO1', 'FAO2', 'FAO3', 'FAO4', 'FAO10', 'FAO11', 
+    ]
+
     universal_model = load_json_model(universal_model_dir)
     rm_reactions = []
     for each_reaction in universal_model.reactions:
@@ -145,6 +149,10 @@ if __name__ == '__main__':
             pass
         else:
             rm_reactions.append(each_reaction)
+
+        if each_reaction.id in manually_curated_rxns:
+            rm_reactions.append(each_reaction)
+    
 
     logger.info('No. of removed reactions in universal model: %d'%(len(rm_reactions)))
     universal_model.remove_reactions(rm_reactions)
@@ -174,7 +182,7 @@ if __name__ == '__main__':
                 if target_identified == False:
                     continue
                 
-                valid_targets = validate_hetero_target(
+                valid_targets = validate_hetero_target_fva(
                     target_model, universal_model, 
                     target_identified, f'EX_{c_source}_e'
                 )
