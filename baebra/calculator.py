@@ -5,6 +5,7 @@ import pandas as pd
 import numpy as np
 from cobra.io import read_sbml_model
 from cobra.flux_analysis.loopless import add_loopless
+from cobra.flux_analysis import flux_variability_analysis
 
 from tqdm import tqdm
 
@@ -280,8 +281,11 @@ def calculate_yield(model, c_source='glc__D', prev_c_source='glc__D', air='aerob
 
         m.objective = obj_reaction
         m.objective_direction = 'max'
+        sol = m.optimize()
+        max_f = sol.fluxes[obj_reaction]
+        min_c = sol.fluxes[c_source_rxn_id]
 
-        max_f = m.slim_optimize()
+        # max_f = m.slim_optimize()
         if isnan(max_f):
             return 0, 0, 0
         elif abs(max_f) < 1e-3:
@@ -290,8 +294,95 @@ def calculate_yield(model, c_source='glc__D', prev_c_source='glc__D', air='aerob
             m.reactions.get_by_id(obj_reaction).bounds = (max_f, max_f)
             m.objective = c_source_rxn_id
             m.objective_direction = 'max'
-            min_c = m.slim_optimize()
+            opt_c = m.slim_optimize()
+
+            if not isnan(opt_c):
+                min_c = opt_c
         
+        if isnan(min_c):
+            return 0, 0, 0
+        elif abs(min_c) < 1e-3:
+            return 0, 0, 0
+        
+        molar_yield = max_f / abs(min_c)
+        gram_yield = (max_f * target_chem_MW) / (abs(min_c) * c_source_MW)
+        molar_C_yield = molar_yield / c_source_C_num
+        
+        return molar_yield, gram_yield, molar_C_yield
+    
+
+
+def calculate_yield_fva(model, c_source='glc__D', prev_c_source='glc__D', air='aerobic', achievable=False, loopless=True):
+    target_chem_id = '_'.join(model.id.split('_')[1:])
+    target_chem_id = target_chem_id.split('_path_')[0]
+    target_chem = model.metabolites.get_by_id(target_chem_id + '_c')
+    target_chem_name = target_chem.name
+    target_chem_MW = target_chem.formula_weight
+    obj_reaction = f'EXT_{target_chem_id}_c'
+
+
+    p_C_num = re.compile('C(\d*)')
+
+    c_source_chem = model.metabolites.get_by_id(c_source+'_e')
+    c_source_MW = c_source_chem.formula_weight
+    c_source_C_num = float(p_C_num.match(c_source_chem.formula).group(1))
+    c_source_rxn_id = f'EX_{c_source}_e'
+
+
+    prev_c_source_chem = model.metabolites.get_by_id(prev_c_source+'_e')
+
+    prev_c_source_C_num = float(p_C_num.match(prev_c_source_chem.formula).group(1))
+    prev_c_source_rxn_id = f'EX_{prev_c_source}_e'
+
+    carbon_ratio = c_source_C_num / prev_c_source_C_num
+
+    for rxn in model.reactions:
+        if rxn.objective_coefficient == 1:
+            biomass_rxn = rxn.id 
+
+    with model as m:
+        if air == 'aerobic':
+            m.reactions.EX_o2_e.lower_bound = -1000
+        elif air == 'anaerobic':
+            if 'yeast' in m.id:
+                m = _make_anaerobic_condition(m)
+            m.reactions.EX_o2_e.lower_bound = 0
+        elif air == 'microaerobic':
+            if 'yeast' in m.id:
+                m = _make_anaerobic_condition(m)
+            m.reactions.EX_o2_e.lower_bound = -0.5
+        else:
+            raise Exception("Wrong air condition")
+        
+        
+        prev_c_source_rxn = m.reactions.get_by_id(prev_c_source_rxn_id)
+        prev_lb = prev_c_source_rxn.lower_bound
+        prev_c_source_rxn.lower_bound = 0
+        m.reactions.get_by_id(c_source_rxn_id).lower_bound = prev_lb / carbon_ratio
+
+        max_bio = m.slim_optimize()
+        if achievable:
+            m.reactions.get_by_id(biomass_rxn).lower_bound = max_bio * 0.1
+        else:
+            m.reactions.ATPM.knock_out()
+        
+        fva = flux_variability_analysis(
+            m, reaction_list=[obj_reaction], 
+            loopless=loopless, fraction_of_optimum=0.0,
+            processes=1
+        )
+
+        max_f = fva['maximum'][0]
+
+        if isnan(max_f):
+            return 0, 0, 0
+        elif abs(max_f) < 1e-3:
+            return 0, 0, 0
+        
+        m.reactions.get_by_id(obj_reaction).bounds = (max_f, max_f)
+        m.objective = c_source_rxn_id
+        min_c = m.slim_optimize()
+                
         if isnan(min_c):
             return 0, 0, 0
         elif abs(min_c) < 1e-3:
