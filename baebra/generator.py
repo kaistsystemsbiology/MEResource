@@ -227,25 +227,25 @@ def _make_external_rxn(met_bigg_id, target_chem_cytosol):
 
 def _curate_model(met_bigg_id, model):
     curate_dict = {
-        'ala_B': {'BALAt2pp': (-1000, 1000)},
+    #     'ala_B': {'BALAt2pp': (-1000, 1000)},
         'but': {'BUTCT': (-1000, 1000)},
-        'gam6p': {'GAM6Pt6_2pp': (-1000, 1000)},
-        'gcald': {'GCALDD': (-1000, 1000)},
-        'gln__L': {'GLNabcpp': (-1000, 1000)},
-        'pser__L': {'PSP_Lpp': (-1000, 1000)},
-        'octa': {'FACOAL80t2pp': (-1000, 1000)},
-        'skm': {'SKMt2pp': (-1000, 1000)},
+    #     'gam6p': {'GAM6Pt6_2pp': (-1000, 1000)},
+    #     'gcald': {'GCALDD': (-1000, 1000)},
+    #     'gln__L': {'GLNabcpp': (-1000, 1000)},
+    #     'pser__L': {'PSP_Lpp': (-1000, 1000)},
+    #     'octa': {'FACOAL80t2pp': (-1000, 1000)},
+    #     'skm': {'SKMt2pp': (-1000, 1000)},
         'acetone': {'ACACCT': (-1000, 1000)},
-        'met_30742': {'GCALDD': (-1000, 1000)},
+    #     'met_30742': {'GCALDD': (-1000, 1000)},
         'itacon': {'CAD': (-1000, 1000)},
         '2ppoh': {'ACACCT': (-1000, 1000)},
-        'ppa': {'PPAt4pp': (-1000, 1000)},
-        'for': {'FORtex_a': (0, 1000)},
-        'hxa': {'FACOAE60': (0, 1000)},
-        'met_37830': {'FACOAE60': (0, 1000)},
-        'asp__L': {'ASPtex_a': (0, 1000)},
-        'glyc__R': {'GLYCK': (-1000, 1000)},
-        'actn__R': {'ACTNtpp': (-1000, 1000)},
+    #     'ppa': {'PPAt4pp': (-1000, 1000)},
+    #     'for': {'FORtex_a': (0, 1000)},
+    #     'hxa': {'FACOAE60': (0, 1000)},
+    #     'met_37830': {'FACOAE60': (0, 1000)},
+    #     'asp__L': {'ASPtex_a': (0, 1000)},
+    #     'glyc__R': {'GLYCK': (-1000, 1000)},
+    #     'actn__R': {'ACTNtpp': (-1000, 1000)},
         '4hoxoh': {'HOPNTAL2': (-1000, 1000)},
     }
     
@@ -418,6 +418,7 @@ def model_manual_curation(model):
         'ACOAD1', 'ACOAD2', 'DGK1', 'MAN1PG', 'PDX5POi',
         'FACOAL140', 'DHORDi', 'AHSERL4'
     ]
+    curation_block = ['EX_hdcea_e']
     for curate_rxn in curation_reverse:
         if curate_rxn not in model_reaction_list:
             continue
@@ -431,6 +432,14 @@ def model_manual_curation(model):
         tmp_rxn = model.reactions.get_by_id(curate_rxn)
         if tmp_rxn.bounds != (0, 1000):
             tmp_rxn.bounds = (0, 1000)
+            print('%s (%s) direction curated'%(curate_rxn, tmp_rxn.name))
+    for curate_rxn in curation_block:
+        if curate_rxn not in model_reaction_list:
+            continue
+        tmp_rxn = model.reactions.get_by_id(curate_rxn)
+        tmp_
+        if tmp_rxn.bounds != (0, 0):
+            tmp_rxn.bounds = (0, 0)
             print('%s (%s) direction curated'%(curate_rxn, tmp_rxn.name))
 
     return model
