@@ -1,6 +1,4 @@
-# Baebra
-
-## Comprehensive evaluation of the capabilities of microbial cell factories
+# Comprehensive evaluation of the capabilities of microbial cell factories
 ## Procedure
 
 **Note**: 
