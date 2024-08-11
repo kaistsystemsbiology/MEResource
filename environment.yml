@@ -65,5 +65,3 @@ dependencies:
     - swiglpk==4.65.1
     - sympy==1.5.1
     - urllib3==1.25.7
-prefix: /data1/user_home/gbkim2/anaconda3/envs/baebra
-
