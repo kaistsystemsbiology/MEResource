@@ -1,0 +1,25 @@
+job_name: "structure_prediction"
+model_path: "./inputs/iML1515_rump.xml"
+output_path: "./resource/rump/eco"
+target_id: "CHEBI:16724"
+
+maintenance: "ATPM"
+cpu_number: 4
+num_hetero: 3
+univ_path: "./inputs/annotated_universal_model.json"
+
+BIGG_MET_DATA: './inputs/bigg_models_metabolites.txt'
+STOICH_DATA: './SummarizedData/ChemMap_Table - Stoichiometry.tsv'
+MET_DATA: './SummarizedData/ChemMap_Table - Metabolite_Info.tsv'
+RXN_DATA: './SummarizedData/ChemMap_Table - Reaction_Info.tsv'
+TARGET_DATA: './SummarizedData/ChemMap_Table - TargetPath.tsv'
+
+
+carbon_sources:
+  - "meoh"
+  
+air_conditions:
+  - "aerobic"
+  
+targeting_simulation:
+  - "FVSEOF"

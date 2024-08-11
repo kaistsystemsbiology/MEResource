@@ -230,7 +230,12 @@ def calculate_yield(model, c_source='glc__D', prev_c_source='glc__D', air='aerob
 
     c_source_chem = model.metabolites.get_by_id(c_source+'_e')
     c_source_MW = c_source_chem.formula_weight
-    c_source_C_num = float(p_C_num.match(c_source_chem.formula).group(1))
+    c_source_C_num = p_C_num.match(c_source_chem.formula).group(1)
+    if c_source_C_num == '':
+        c_source_C_num = 1.0
+    else:
+        c_source_C_num = float(c_source_C_num)
+    # c_source_C_num = float(p_C_num.match(c_source_chem.formula).group(1))
     c_source_rxn_id = f'EX_{c_source}_e'
 
 
@@ -325,7 +330,12 @@ def calculate_yield_fva(model, c_source='glc__D', prev_c_source='glc__D', air='a
 
     c_source_chem = model.metabolites.get_by_id(c_source+'_e')
     c_source_MW = c_source_chem.formula_weight
-    c_source_C_num = float(p_C_num.match(c_source_chem.formula).group(1))
+    c_source_C_num = p_C_num.match(c_source_chem.formula).group(1)
+    if c_source_C_num == '':
+        c_source_C_num = 1.0
+    else:
+        c_source_C_num = float(c_source_C_num)
+    # c_source_C_num = float(p_C_num.match(c_source_chem.formula).group(1))
     c_source_rxn_id = f'EX_{c_source}_e'
 
 

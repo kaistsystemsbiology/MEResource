@@ -437,7 +437,7 @@ def model_manual_curation(model):
         if curate_rxn not in model_reaction_list:
             continue
         tmp_rxn = model.reactions.get_by_id(curate_rxn)
-        tmp_
+
         if tmp_rxn.bounds != (0, 0):
             tmp_rxn.bounds = (0, 0)
             print('%s (%s) direction curated'%(curate_rxn, tmp_rxn.name))

@@ -14,5 +14,5 @@ results_*/
 out/
 resource*/
 2024_prev
-config/*_*.yaml
+config/specific_configs/*
 analysis_2024

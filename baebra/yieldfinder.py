@@ -113,7 +113,12 @@ def set_model_condition(model, c_source, prev_c_source='glc__D', air='aerobic', 
     c_source_chem = model.metabolites.get_by_id(c_source+'_e')
     prev_c_source_chem = model.metabolites.get_by_id(prev_c_source+'_e')
 
-    c_source_C_num = float(p_C_num.match(c_source_chem.formula).group(1))
+    c_source_C_num = p_C_num.match(c_source_chem.formula).group(1)
+    if c_source_C_num == '':
+        c_source_C_num = 1.0
+    else:
+        c_source_C_num = float(c_source_C_num)
+    # c_source_C_num = float(p_C_num.match(c_source_chem.formula).group(1))
     prev_c_source_C_num = float(p_C_num.match(prev_c_source_chem.formula).group(1))
 
     carbon_ratio = c_source_C_num / prev_c_source_C_num
