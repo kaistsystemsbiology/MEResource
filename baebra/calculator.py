@@ -403,3 +403,61 @@ def calculate_yield_fva(model, c_source='glc__D', prev_c_source='glc__D', air='a
         molar_C_yield = molar_yield / c_source_C_num
         
         return molar_yield, gram_yield, molar_C_yield
+
+
+
+def calculate_yield_growth(model, c_source='glc__D', air='aerobic', loopless=True):
+    p_C_num = re.compile('C(\d*)')
+    c_source_rxn_id = f'EX_{c_source}_e'
+
+    for rxn in model.reactions:
+        if rxn.objective_coefficient == 1:
+            biomass_rxn = rxn.id 
+
+    with model as m:
+        if air == 'aerobic':
+            m.reactions.EX_o2_e.lower_bound = -1000
+        elif air == 'anaerobic':
+            if 'yeast' in m.id:
+                m = _make_anaerobic_condition(m)
+            m.reactions.EX_o2_e.lower_bound = 0
+        elif air == 'microaerobic':
+            if 'yeast' in m.id:
+                m = _make_anaerobic_condition(m)
+            m.reactions.EX_o2_e.lower_bound = -0.5
+        else:
+            raise Exception("Wrong air condition")
+        
+
+        if loopless:
+            add_loopless(m)
+
+
+        m.objective = biomass_rxn
+        m.objective_direction = 'max'
+        sol = m.optimize()
+        max_f = sol.fluxes[biomass_rxn]
+        min_c = sol.fluxes[c_source_rxn_id]
+
+        # max_f = m.slim_optimize()
+        if isnan(max_f):
+            return 0, 0, 0
+        elif abs(max_f) < 1e-3:
+            return 0, 0, 0
+        else:
+            m.reactions.get_by_id(biomass_rxn).bounds = (max_f, max_f)
+            m.objective = c_source_rxn_id
+            m.objective_direction = 'max'
+            opt_c = m.slim_optimize()
+
+            if not isnan(opt_c):
+                min_c = opt_c
+        
+        if isnan(min_c):
+            return 0, 0, 0
+        elif abs(min_c) < 1e-3:
+            return 0, 0, 0
+        
+        molar_yield = max_f / abs(min_c)
+        
+        return molar_yield, molar_yield, molar_yield
