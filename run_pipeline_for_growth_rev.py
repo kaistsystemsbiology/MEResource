@@ -73,39 +73,36 @@ if __name__ == '__main__':
         os.makedirs(output_dir)
 
 
-    # target_models = {}
-    # for model_dir in glob(f'{output_dir}/*.xml'):
-    #     model_name = model_dir.split('/')[-1].split('.xml')[0]
-    #     each_model = read_sbml_model(model_dir)
-    #     target_models[model_name] = each_model
-    target_models = {'iML1515_FC8': read_sbml_model(f'{output_dir}/iML1515_FC8.xml')}
+    target_models = {}
+    for model_dir in glob(f'{output_dir}/*.xml'):
+        model_name = model_dir.split('/')[-1].split('.xml')[0]
+        each_model = read_sbml_model(model_dir)
+        target_models[model_name] = each_model
 
 
 
-    # logger.info('Calculating maximum yields ... ')
-    # result_yield = []
-    # for model_name, each_model in tqdm(target_models.items()):
-    #     for c_source in c_sources:
-    #         for air in air_conditions:
-    #             molar_yield, gram_yield, molar_C_yield = calculate_yield_growth(
-    #                 model=each_model, c_source=c_source, air=air,
-    #             )
-    #             tmp = [
-    #                 model_name, c_source, air, 
-    #                 'YT', molar_yield, gram_yield, molar_C_yield
-    #             ]
-    #             result_yield.append(tmp)
+    logger.info('Calculating maximum yields ... ')
+    result_yield = []
+    for model_name, each_model in tqdm(target_models.items()):
+        for c_source in c_sources:
+            for air in air_conditions:
+                molar_yield, gram_yield, molar_C_yield = calculate_yield_growth(
+                    model=each_model, c_source=c_source, air=air,
+                )
+                tmp = [
+                    model_name, c_source, air, 
+                    'YT', molar_yield, gram_yield, molar_C_yield
+                ]
+                result_yield.append(tmp)
 
 
-    # df_yield = pd.DataFrame(result_yield,)
-    # df_yield.columns = [
-    #     'Model', 'Carbon_source', 'Air_condition', 'Yield_type', 
-    #     'Molar_yield', 'Gram_yield', 'Molar_C_yield'
-    # ]
-    # df_yield.to_csv(output_dir + '/result_yield.txt', sep='\t')
-    # logger.info('Calculated maximum yields are saved')
-    df_yield = pd.read_csv(output_dir + '/result_yield.txt', sep='\t', index_col='Unnamed: 0')
-
+    df_yield = pd.DataFrame(result_yield,)
+    df_yield.columns = [
+        'Model', 'Carbon_source', 'Air_condition', 'Yield_type', 
+        'Molar_yield', 'Gram_yield', 'Molar_C_yield'
+    ]
+    df_yield.to_csv(output_dir + '/result_yield.txt', sep='\t')
+    logger.info('Calculated maximum yields are saved')
 
     # heterologous reaction finder
     logger.info('Finding Heterologous reaction targets ...')
