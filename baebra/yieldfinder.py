@@ -684,10 +684,14 @@ def validate_hetero_target_growth(target_model, universal_model, target_identifi
 
         temp_model = copy.deepcopy(target_model)
         temp_model.add_reactions(added_reactions)
-        # add_loopless(temp_model)
 
-        temp_model.objective = target_reaction
-        max_f = temp_model.slim_optimize()
+        fva = flux_variability_analysis(
+            temp_model, reaction_list=[target_reaction],
+            loopless=loopless, fraction_of_optimum=0.0,
+            processes=1
+        )
+        max_f = fva['maximum'][0]
+
         if isnan(max_f) or abs(max_f) < 1e-3:
             max_f = 0.0
 
