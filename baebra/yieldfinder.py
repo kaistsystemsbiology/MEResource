@@ -118,8 +118,12 @@ def set_model_condition(model, c_source, prev_c_source='glc__D', air='aerobic', 
         c_source_C_num = 1.0
     else:
         c_source_C_num = float(c_source_C_num)
-    # c_source_C_num = float(p_C_num.match(c_source_chem.formula).group(1))
-    prev_c_source_C_num = float(p_C_num.match(prev_c_source_chem.formula).group(1))
+
+    prev_c_source_C_num = p_C_num.match(c_source_chem.formula).group(1)
+    if prev_c_source_C_num == '':
+        prev_c_source_C_num = 1.0
+    else:
+        prev_c_source_C_num = float(prev_c_source_C_num)
 
     carbon_ratio = c_source_C_num / prev_c_source_C_num
 
@@ -249,13 +253,134 @@ def predict_heterologous_reactions(target_model, original_universal_model,
         return target_deduplicated
     else:
         return target_identified
+
+
+# Growth improvement targets
+
+def predict_heterologous_reactions_growth(
+        target_model, original_universal_model, 
+        c_source='EX_glc__D_e',
+        limit_reaction_num=1, num_cpu=1, num_step=51
+    ):
+    
+    for rxn in target_model.reactions:
+        if rxn.objective_coefficient == 1:
+            target_reaction = rxn.id 
+
+    expanded_model = copy.deepcopy(target_model)
+    original_rxns = [rxn.id for rxn in target_model.reactions]
+
+    with target_model as m:
+        m.objective = target_reaction
+        max_f = m.slim_optimize()
+        if isnan(max_f) or abs(max_f) < 1e-3:
+            max_f = 0
+            return False
+        m.reactions.get_by_id(target_reaction).bounds = (max_f, max_f)
+        m.objective = c_source
+        m.objective_direction = 'max'
+        min_c = m.slim_optimize()
+
+        if isnan(min_c) or abs(min_c) < 1e-3:
+            min_c = 0
+            print('Unable to uptake carbon source')
+            return False
+
+    prev_theoretical_yield = abs(max_f/min_c)
+    #
+    original_max_yield = max_f
+        
+    universal_model = copy.deepcopy(original_universal_model)
+    rm_reactions = []
+    for each_reaction in universal_model.reactions:
+        if each_reaction.id in original_rxns:
+            rm_reactions.append(each_reaction)
+            
+
+    logger.info('No. of removed reactions in universal model: %d'%(len(rm_reactions)))
+    universal_model.remove_reactions(rm_reactions)
+
+    added_reactions, remove_reactions = _filter_same_reactions(expanded_model, universal_model)
+    logger.info('No. of added reactions: %d'%(len(added_reactions)))
+    universal_model.remove_reactions(remove_reactions)
+    expanded_model.add_reactions(added_reactions)
+
+
+    with expanded_model as m:
+        m.objective = target_reaction
+        max_f = m.slim_optimize()
+        if isnan(max_f) or abs(max_f) < 1e-3:
+            max_f = 0
+            return False
+        m.reactions.get_by_id(target_reaction).bounds = (max_f, max_f)
+        m.objective = c_source
+        m.objective_direction = 'max'
+        min_c = m.slim_optimize()
+
+        if isnan(min_c) or abs(min_c) < 1e-3:
+            min_c = 0
+            logger.info('Unable to uptake carbon source in the expanded model')
+            return False
+        
+    theoretical_yield = abs(max_f/min_c)
+    if theoretical_yield - prev_theoretical_yield < 1e-4: # 1e-3 --> 1e-4
+        logger.info('no yield improvement')
+        return False
+    elif theoretical_yield < 1e-4:
+        logger.info('zero yield')
+        return False
+    
+    logger.info('Improved max yield: %0.6f'%theoretical_yield)
+
+    start_f = original_max_yield
+    limit_f = original_max_yield * 1.2 # 1.5 --> 1.2
+    logger.info('From %s to %s'%(start_f, limit_f))
+    yield_list = np.linspace(start_f, limit_f, num_step)
+    target_identified = False
+    identified_targets = []
+
+    obj = GapFilling()
+    obj.set_limit_number(limit_reaction_num)
+    obj.set_cpu_number(num_cpu)
+    obj.set_univ_model(universal_model)
+
+    # for each_constraint in yield_list[1:]:
+    for each_constraint in yield_list[::-1][:-1]:
+        logger.info('Yield constraint : %0.3fX\t%0.6f'%(each_constraint/original_max_yield, each_constraint))
+        obj.set_threshold(each_constraint)
+        obj.set_additional_constr(identified_targets)
+        result_info = obj.run_gap_filling(target_model, target_reaction)
+
+        if len(result_info) == 0:
+            # break
+            continue
+        for each_solution in result_info:
+            target_reactions = result_info[each_solution]
+            if len(target_reactions) > 0:
+                target_identified = True
+                target_reactions.sort()
+                identified_targets.append(target_reactions)
+
+    if target_identified:
+        tmp = []
+        for target_reactions in identified_targets:
+            tmp.append(';'.join(target_reactions))
+        tmp = set(tmp)
+        target_deduplicated = []
+        for targets in tmp:
+            targets = targets.split(';')
+            targets.sort()
+            target_deduplicated.append(targets)
+        return target_deduplicated
+    else:
+        return target_identified
     
 
 
 class GapFilling(object):
     def __init__(self):
         self.threshold = 0.0001
-        self.limit_num = 5
+        self.limit_number = 5
         self.num_cpu = 1
         self.identified_targets = []
         self.universal_model = None
@@ -299,6 +424,9 @@ class GapFilling(object):
         fminus = {}
         b_bool = {}
 
+        z1 = {}
+        z2 = {}
+
         for each_reaction in model_reactions:
             v[each_reaction] = m.addVar(lb=lower_boundary_constraints[each_reaction],
                                         ub=upper_boundary_constraints[each_reaction], 
@@ -310,6 +438,9 @@ class GapFilling(object):
         for each_reaction in universal_reactions:
             b_bool[each_reaction] = m.addVar(vtype=GRB.BINARY, name=each_reaction)
 
+            z1[each_reaction] = m.addVar(vtype=GRB.BINARY, name=each_reaction+'__z1')
+            z2[each_reaction] = m.addVar(vtype=GRB.BINARY, name=each_reaction+'__z2')
+
         m.update()
 
         for each_reaction in model_reactions:
@@ -317,36 +448,38 @@ class GapFilling(object):
 
         for each_reaction in model_reactions:
             m.addConstr(
-                (fplus[each_reaction] - fminus[each_reaction]) \
-                      >= lower_boundary_constraints[each_reaction]
+                v[each_reaction] >= lower_boundary_constraints[each_reaction]
             )
             m.addConstr(
-                (fplus[each_reaction] - fminus[each_reaction]) \
-                    <= upper_boundary_constraints[each_reaction]
+                v[each_reaction] <= upper_boundary_constraints[each_reaction]
             )
 
         for each_reaction in universal_reactions:
             m.addConstr(
-                (fplus[each_reaction] - fminus[each_reaction]) \
-                    <= 1000.0 * b_bool[each_reaction]
+                v[each_reaction] <= 1000.0 * b_bool[each_reaction]
             )
             m.addConstr(
-                (fplus[each_reaction] - fminus[each_reaction]) \
-                    >= -1000.0 * b_bool[each_reaction]
+                v[each_reaction] >= -1000.0 * b_bool[each_reaction]
             )
-            m.addConstr(
-                (fplus[each_reaction] - fminus[each_reaction]) \
-                    + 1000.0 * (1 - b_bool[each_reaction]) >= epsilon
-            )
+            # m.addConstr(
+            #     (fplus[each_reaction] - fminus[each_reaction]) \
+            #         + 1000.0 * (1 - b_bool[each_reaction]) >= epsilon
+            # )
+
+            m.addConstr(b_bool[each_reaction] == z1[each_reaction] + z2[each_reaction])
+            m.addConstr(fplus[each_reaction] <= 1000.0 * z1[each_reaction])
+            m.addConstr(fminus[each_reaction] <= 1000.0 * z2[each_reaction])
+
+            m.addConstr(fplus[each_reaction] >= epsilon * z1[each_reaction])
+            m.addConstr(fminus[each_reaction] >= epsilon * z2[each_reaction])
+
 
         m.addConstr(
             quicksum((b_bool[each_reaction]) for each_reaction in universal_reactions)\
                   <= self.limit_number
         )
 
-        m.addConstr((fplus[target_reaction] - fminus[target_reaction]) 
-                    >= self.threshold
-        )
+        m.addConstr((v[target_reaction]) >= self.threshold)
 
         m.update()
 
@@ -515,6 +648,43 @@ def validate_hetero_target(target_model, universal_model, target_identified, c_s
         temp_model = copy.deepcopy(target_model)
         temp_model.add_reactions(added_reactions)
         add_loopless(temp_model)
+
+        temp_model.objective = target_reaction
+        max_f = temp_model.slim_optimize()
+        if isnan(max_f) or abs(max_f) < 1e-3:
+            max_f = 0.0
+
+        temp_model.reactions.get_by_id(target_reaction).bounds = (max_f, max_f)
+        temp_model.objective = c_source
+        temp_model.objective_direction = 'max'
+        min_c = temp_model.slim_optimize()
+
+        if isnan(min_c) or abs(min_c) < 1e-3:
+            new_yield = 0.0
+        else:
+            new_yield = abs(max_f/min_c)
+
+        valid_targets[';'.join(reactions)] = new_yield
+
+    return valid_targets
+
+
+def validate_hetero_target_growth(target_model, universal_model, target_identified, c_source, loopless=True):
+    valid_targets = {}
+
+    for rxn in target_model.reactions:
+        if rxn.objective_coefficient == 1:
+            target_reaction = rxn.id 
+
+    for reactions in tqdm(target_identified):
+        added_reactions = []
+        for each_reaction in reactions:
+            obj = universal_model.reactions.get_by_id(each_reaction)
+            added_reactions.append(obj)
+
+        temp_model = copy.deepcopy(target_model)
+        temp_model.add_reactions(added_reactions)
+        # add_loopless(temp_model)
 
         temp_model.objective = target_reaction
         max_f = temp_model.slim_optimize()
@@ -731,7 +901,7 @@ def predict_cofactor_reactions(target_model, c_source='EX_glc__D_e', yeast=None,
 class CoCofactor(object):
     def __init__(self):
         self.threshold = 0.0001
-        self.limit_num = 5
+        self.limit_number = 5
         self.num_cpu = 1
         
 
