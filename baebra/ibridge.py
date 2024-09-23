@@ -1,4 +1,5 @@
 import os
+from math import isnan
 
 import numpy as np
 import pandas as pd
@@ -234,6 +235,21 @@ def predict_ibridge_targets(model, exclude_met_dir, num_step=10):
         if rxn.objective_coefficient == 1:
             biomass_rxn = rxn.id
 
+    with model as m:
+        max_bio = m.slim_optimize()
+
+        if isnan(max_bio):
+            return []
+        elif max_bio < 1e-6:
+            return []
+        
+        m.objective = target_rxn
+        max_prod = m.slim_optimize()
+
+        if isnan(max_prod):
+            return []
+        elif max_prod < 1e-6:
+            return []
     
     model_reactions = [rxn.id for rxn in model.reactions]
     dict_reactant, dict_product = match_met_direction_innate(model)
