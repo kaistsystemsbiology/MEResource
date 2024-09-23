@@ -119,7 +119,7 @@ def set_model_condition(model, c_source, prev_c_source='glc__D', air='aerobic', 
     else:
         c_source_C_num = float(c_source_C_num)
 
-    prev_c_source_C_num = p_C_num.match(c_source_chem.formula).group(1)
+    prev_c_source_C_num = p_C_num.match(prev_c_source_chem.formula).group(1)
     if prev_c_source_C_num == '':
         prev_c_source_C_num = 1.0
     else:
